@@ -67,6 +67,16 @@ export default function TechnologySection() {
   const [current, setCurrent] = useState(0);
   const [direction, setDirection] = useState(1);
 
+  React.useEffect(() => {
+    const handler = (e) => {
+      const next = e.detail.slide;
+      setDirection(next > current ? 1 : -1);
+      setCurrent(next);
+    };
+    window.addEventListener("technology:slide", handler);
+    return () => window.removeEventListener("technology:slide", handler);
+  }, [current]);
+
   const go = (next) => {
     setDirection(next > current ? 1 : -1);
     setCurrent(next);
