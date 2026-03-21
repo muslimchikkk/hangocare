@@ -22,14 +22,14 @@ const solutions = [
     step: "3",
     name: "REJUVE+",
     description: "The final step of treatment promotes skin elasticity by inducing collagen and elastin regeneration and improving the inhibition of moisture loss by improving water retention.",
-    color: "bg-pink-50 border-pink-200",
+    color: "bg-fuchsia-50 border-fuchsia-200",
     tag: "Step 3",
   },
   {
     step: "C",
     name: "CLEANSYS",
     description: "To provide a convenient cleaning agent specifically made for the needs of the system, CLEANSYS assists in easy maintenance of AQUAPURE.",
-    color: "bg-blue-50 border-blue-200",
+    color: "bg-orange-50 border-orange-200",
     tag: "Maintenance",
   },
 ];
