@@ -164,18 +164,20 @@ export default function HeroSection() {
                 transition={{ duration: 3.5, repeat: Infinity, ease: "linear", repeatDelay: 2 }}
               />
 
-              {/* Device badge */}
+              {/* Brand badge */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 0.5 }}
                 className="absolute -bottom-6 -left-6 bg-card shadow-xl rounded-2xl p-3 border border-border/50 flex items-center gap-3"
               >
-                <img src={HERO_DEVICE} alt="AQUAPURE device" className="w-14 h-14 rounded-xl object-cover" />
+                <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                  <span className="font-display text-lg font-bold text-primary leading-none text-center">4<br/><span className="text-xs font-body font-normal">Devices</span></span>
+                </div>
                 <div>
                   <p className="text-xs font-body text-muted-foreground">By Cluederm</p>
-                  <p className="text-sm font-display font-bold text-foreground">HanG.O <span className="font-script text-lg text-primary">Care</span></p>
-                  <p className="text-xs font-body text-primary">8-in-1 Technology</p>
+                  <p className="text-sm font-display font-bold text-foreground">Complete <span className="font-script text-lg text-primary">Care</span></p>
+                  <p className="text-xs font-body text-primary">Full Aesthetic Portfolio</p>
                 </div>
               </motion.div>
             </div>
