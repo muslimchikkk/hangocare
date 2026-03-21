@@ -54,11 +54,19 @@ export default function Footer() {
 
           <div>
             <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Contact</h4>
-            <ul className="space-y-2 font-body text-sm">
-              <li><a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a></li>
-              <li><a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a></li>
-              <li className="text-background/70">HanG.O Care s.r.o.</li>
-              <li className="text-background/70">K Hajum 2606/2b<br />15500 Česko</li>
+            <ul className="space-y-3 font-body text-sm">
+              <li>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Telephone</span>
+                <a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a>
+              </li>
+              <li>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Email</span>
+                <a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a>
+              </li>
+              <li>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Address</span>
+                <span className="text-background/70">HanG.O Care s.r.o.<br />K Hajum 2606/2b<br />15500 Česko</span>
+              </li>
             </ul>
           </div>
         </div>
