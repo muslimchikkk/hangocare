@@ -35,18 +35,29 @@ export default function CtaSection() {
           </Button>
 
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-8 text-sm font-body text-muted-foreground">
-            <a href="tel:+420222224315" className="flex items-center gap-2 hover:text-foreground transition-colors">
-              <Phone className="w-4 h-4 text-primary" />
-              +420 222 224 315
+            <a href="tel:+420222224315" className="flex items-start gap-2 hover:text-foreground transition-colors">
+              <Phone className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+              <div>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Telephone</span>
+                +420 222 224 315
+              </div>
             </a>
-            <a href="mailto:sales@hangocare.eu" className="flex items-center gap-2 hover:text-foreground transition-colors">
-              <Mail className="w-4 h-4 text-primary" />
-              sales@hangocare.eu
+            <a href="mailto:sales@hangocare.eu" className="flex items-start gap-2 hover:text-foreground transition-colors">
+              <Mail className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+              <div>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Email</span>
+                sales@hangocare.eu
+              </div>
             </a>
-            <a href="https://hangocare.eu" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
-              <Globe className="w-4 h-4 text-primary" />
-              hangocare.eu
-            </a>
+            <div className="flex items-start gap-2">
+              <Globe className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+              <div>
+                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Address</span>
+                HanG.O Care s.r.o.<br />
+                K Hajum 2606/2b<br />
+                15500 Česko
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
