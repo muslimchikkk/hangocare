@@ -1,5 +1,5 @@
 import React from "react";
-import { Droplets } from "lucide-react";
+import { Droplets, Phone, Mail, MapPin } from "lucide-react";
 
 const techLinks = [
   { label: "AQUAPURE II", slide: 0 },
