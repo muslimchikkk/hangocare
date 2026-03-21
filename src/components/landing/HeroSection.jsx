@@ -21,7 +21,7 @@ const PETALS = [
   { x: "55%", y: "35%", size: 10, delay: 1.6, duration: 8.3, shape: "flower" },
   { x: "10%", y: "40%", size: 10.5, delay: 2.3, duration: 6.9, shape: "leaf" },
   { x: "75%", y: "28%", size: 9, delay: 0.4, duration: 7.6, shape: "flower" },
-  { x: "48%", y: "72%", size: 7, delay: 1.1, duration: 7.3, shape: "leaf" },
+  { x: "48%", y: "72%", size: 10.5, delay: 1.1, duration: 7.3, shape: "leaf" },
   { x: "22%", y: "22%", size: 11, delay: 2.4, duration: 8, shape: "flower" },
   { x: "80%", y: "45%", size: 8, delay: 0.7, duration: 7.5, shape: "leaf" },
   { x: "38%", y: "8%", size: 9, delay: 1.9, duration: 8.1, shape: "flower" },
