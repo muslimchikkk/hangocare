@@ -17,7 +17,7 @@ export default function SocialProofBar() {
     <div className="relative" style={{ filter: "drop-shadow(0 8px 24px rgba(100,20,40,0.35))" }}>
       {/* Top wave */}
       <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: FILL, marginBottom: "-1px" }}>
-        <path d="M0,60 L0,40 C360,0 720,80 1080,40 C1260,20 1380,30 1440,40 L1440,60 Z" />
+        <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z" />
       </svg>
 
       {/* Main bar */}
@@ -52,7 +52,7 @@ export default function SocialProofBar() {
 
       {/* Bottom wave */}
       <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: FILL, marginTop: "-1px" }}>
-        <path d="M0,0 L0,20 C360,60 720,-20 1080,20 C1260,40 1380,30 1440,20 L1440,0 Z" />
+        <path d="M0,30 C360,0 720,60 1080,30 C1260,15 1380,40 1440,30 L1440,0 L0,0 Z" />
       </svg>
     </div>
   );
