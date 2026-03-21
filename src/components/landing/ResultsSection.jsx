@@ -2,21 +2,20 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const SOLUTIONS_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b60bab0be_generated_image.png";
-const _OLD_SOLUTIONS_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/87f2a7fde_generated_image.png";
 
 const solutions = [
   {
     step: "1",
     name: "PEEL+",
     description: "The first step of treatment is the process of non-irritating skin scaling which facilitates accelerated exfoliation, the removal of dead skin cells and other impurities.",
-    color: "bg-green-50 border-green-200",
+    color: "bg-rose-50 border-rose-200",
     tag: "Step 1",
   },
   {
     step: "2",
     name: "SEBO+",
     description: "The second step of treatment is for sebum dissolution, treatment of blackheads, and effective pore control. This assists the skin to balance between oily and moisture textures.",
-    color: "bg-yellow-50 border-yellow-200",
+    color: "bg-pink-50 border-pink-200",
     tag: "Step 2",
   },
   {
