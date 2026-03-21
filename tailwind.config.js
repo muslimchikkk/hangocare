@@ -13,6 +13,7 @@ module.exports = {
   		fontFamily: {
   			display: ['var(--font-display)'],
   			body: ['var(--font-body)'],
+  			script: ['var(--font-script)'],
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
