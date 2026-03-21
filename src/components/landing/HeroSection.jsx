@@ -87,13 +87,56 @@ export default function HeroSection() {
             className="order-1 lg:order-2 flex justify-center relative"
           >
             <div className="relative w-full max-w-lg">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/30 rounded-3xl blur-2xl scale-105" />
-              <img
+              {/* Animated glow blobs */}
+              <motion.div
+                animate={{ scale: [1, 1.12, 1], opacity: [0.5, 0.8, 0.5] }}
+                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/40 rounded-3xl blur-2xl scale-105"
+              />
+              <motion.div
+                animate={{ scale: [1.05, 1, 1.05], opacity: [0.3, 0.6, 0.3] }}
+                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                className="absolute -top-6 -right-6 w-48 h-48 bg-primary/15 rounded-full blur-2xl"
+              />
+
+              {/* Floating particles */}
+              {[
+                { top: "15%", left: "8%", delay: 0 },
+                { top: "70%", left: "5%", delay: 1 },
+                { top: "30%", right: "6%", delay: 0.5 },
+                { top: "80%", right: "10%", delay: 1.5 },
+                { top: "50%", left: "50%", delay: 2 },
+              ].map((pos, i) => (
+                <motion.div
+                  key={i}
+                  style={{ position: "absolute", ...pos, width: 8, height: 8 }}
+                  animate={{ y: [0, -14, 0], opacity: [0.4, 1, 0.4] }}
+                  transition={{ duration: 3 + i * 0.4, repeat: Infinity, ease: "easeInOut", delay: pos.delay }}
+                  className="rounded-full bg-primary/40"
+                />
+              ))}
+
+              {/* Main image with subtle float */}
+              <motion.img
                 src={HERO_WOMEN}
                 alt="AQUAPURE — radiant skin results"
                 className="relative w-full rounded-3xl shadow-2xl"
                 loading="eager"
+                animate={{ y: [0, -10, 0] }}
+                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               />
+
+              {/* Shimmer overlay */}
+              <motion.div
+                className="absolute inset-0 rounded-3xl pointer-events-none"
+                style={{
+                  background: "linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.12) 50%, transparent 70%)",
+                  backgroundSize: "200% 100%",
+                }}
+                animate={{ backgroundPosition: ["200% 0", "-200% 0"] }}
+                transition={{ duration: 3.5, repeat: Infinity, ease: "linear", repeatDelay: 2 }}
+              />
+
               {/* Device badge */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
