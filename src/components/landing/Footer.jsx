@@ -55,17 +55,26 @@ export default function Footer() {
           <div>
             <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Contact</h4>
             <ul className="space-y-3 font-body text-sm">
-              <li>
-                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Telephone</span>
-                <a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a>
+              <li className="flex items-start gap-2">
+                <Phone className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Telephone</span>
+                  <a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a>
+                </div>
               </li>
-              <li>
-                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Email</span>
-                <a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a>
+              <li className="flex items-start gap-2">
+                <Mail className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Email</span>
+                  <a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a>
+                </div>
               </li>
-              <li>
-                <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Address</span>
-                <span className="text-background/70">HanG.O Care s.r.o.<br />K Hajum 2606/2b<br />15500 Česko</span>
+              <li className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Address</span>
+                  <span className="text-background/70">HanG.O Care s.r.o.<br />K Hajum 2606/2b<br />15500 Česko</span>
+                </div>
               </li>
             </ul>
           </div>
