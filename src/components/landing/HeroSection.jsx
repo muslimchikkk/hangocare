@@ -31,16 +31,52 @@ export default function HeroSection() {
       <div className="absolute top-20 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-0 w-72 h-72 bg-accent/60 rounded-full blur-3xl" />
 
-      {/* Floating petals */}
-      {PETALS.map((p, i) => (
-        <motion.div
-          key={i}
-          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size, borderRadius: "60% 40% 50% 50% / 60% 50% 40% 50%" }}
-          animate={{ y: [0, -18, 0], x: [0, 6, -4, 0], rotate: [0, 30, -20, 0], opacity: [0.35, 0.75, 0.35] }}
-          transition={{ duration: p.duration, repeat: Infinity, ease: "easeInOut", delay: p.delay }}
-          className="bg-primary/30 pointer-events-none"
-        />
-      ))}
+      {/* Floating flowers & leaves */}
+      {PETALS.map((p, i) => {
+        const isFlower = p.shape === "flower";
+        return (
+          <motion.div
+            key={i}
+            style={{ position: "absolute", left: p.x, top: p.y }}
+            animate={{ 
+              y: [0, -22, 0], 
+              x: [0, isFlower ? 8 : -6, isFlower ? -5 : 4, 0], 
+              rotate: [0, isFlower ? 360 : -45, isFlower ? 180 : 90, 0], 
+              opacity: [0.25, 0.8, 0.25] 
+            }}
+            transition={{ duration: p.duration, repeat: Infinity, ease: "easeInOut", delay: p.delay }}
+            className="pointer-events-none"
+          >
+            {isFlower ? (
+              // Flower shape
+              <svg width={p.size} height={p.size} viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="4" fill="currentColor" className="text-primary/50" />
+                {[0, 72, 144, 216, 288].map((angle) => {
+                  const rad = (angle * Math.PI) / 180;
+                  const x = 12 + 8 * Math.cos(rad);
+                  const y = 12 + 8 * Math.sin(rad);
+                  return (
+                    <ellipse key={angle} cx={x} cy={y} rx="3" ry="5" fill="currentColor" className="text-primary/60" transform={`rotate(${angle} ${x} ${y})`} />
+                  );
+                })}
+              </svg>
+            ) : (
+              // Leaf shape
+              <svg width={p.size} height={p.size} viewBox="0 0 24 24" fill="none">
+                <path 
+                  d="M12 2C12 2 6 8 6 14C6 18.4183 8.68629 22 12 22C15.3137 22 18 18.4183 18 14C18 8 12 2 12 2Z" 
+                  fill="currentColor" 
+                  className="text-primary/50"
+                  stroke="currentColor"
+                  strokeWidth="0.5"
+                  className="text-primary/70"
+                />
+                <line x1="12" y1="4" x2="12" y2="18" stroke="currentColor" strokeWidth="0.5" className="text-primary/40" />
+              </svg>
+            )}
+          </motion.div>
+        );
+      })}
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-16 lg:pt-32 lg:pb-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
