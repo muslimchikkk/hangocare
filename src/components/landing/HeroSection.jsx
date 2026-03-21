@@ -27,6 +27,18 @@ export default function HeroSection() {
       <div className="absolute top-20 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-0 w-72 h-72 bg-accent/60 rounded-full blur-3xl" />
 
+      {/* Floating petals */}
+      {PETALS.map((p, i) => (
+        <motion.div
+          key={i}
+          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size }}
+          animate={{ y: [0, -18, 0], x: [0, 6, -4, 0], rotate: [0, 30, -20, 0], opacity: [0.35, 0.75, 0.35] }}
+          transition={{ duration: p.duration, repeat: Infinity, ease: "easeInOut", delay: p.delay }}
+          className="rounded-full bg-primary/30 pointer-events-none"
+          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size, borderRadius: "60% 40% 50% 50% / 60% 50% 40% 50%" }}
+        />
+      ))}
+
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-16 lg:pt-32 lg:pb-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text */}
