@@ -16,7 +16,7 @@ export default function SocialProofBar() {
       {/* Top wave */}
       <div className="w-full overflow-hidden leading-none">
         <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: "hsl(346 60% 32%)" }}>
-          <path d="M0,24 C240,48 480,0 720,24 C960,48 1200,0 1440,24 L1440,0 L0,0 Z" />
+          <path d="M0,24 C240,48 480,0 720,24 C960,48 1200,0 1440,24 L1440,48 L0,48 Z" />
         </svg>
       </div>
 
@@ -52,7 +52,7 @@ export default function SocialProofBar() {
       {/* Bottom wave */}
       <div className="w-full overflow-hidden leading-none">
         <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: "hsl(346 60% 32%)" }}>
-          <path d="M0,24 C240,0 480,48 720,24 C960,0 1200,48 1440,24 L1440,48 L0,48 Z" />
+          <path d="M0,24 C240,0 480,48 720,24 C960,0 1200,48 1440,24 L1440,0 L0,0 Z" />
         </svg>
       </div>
     </div>
