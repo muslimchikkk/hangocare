@@ -7,16 +7,16 @@ const DEVICE_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e
 const devices = [
   {
     tag: "The Device",
-    heading: "Engineered for",
-    headingItalic: "Precision",
+    heading: "AQUAPURE II —",
+    headingItalic: "8 Functions in 1",
     description:
-      "AQUAPURE combines cutting-edge dermabrasion science with an intuitive, user-focused design — empowering clinicians to deliver consistent, professional-grade results.",
-    image: DEVICE_IMG,
+      "A complete face & body treatment system combining 8 advanced modalities in a single clinical-grade device — delivering visible results from the very first session.",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0d6ab5707_generated_image.png",
     features: [
-      { title: "Smart Auto-Reaction Interface", description: "Detects and enables automatic recognition to all activated handpieces for a seamless workflow." },
-      { title: "Uniform Spray Control", description: "The AQUAPEEL spray control knob delivers equal distribution at a range of 10 levels — customizable per skin type." },
-      { title: "Subtle & Stable Electroporation", description: "Precision handpiece transfers controlled stimulation to skin without signs of irritation." },
-      { title: "Head-to-Toe Coverage", description: "Specialized scalp and body tips extend treatment to hair follicles, broader body areas, and hard-to-reach regions." },
+      { title: "Skin Rejuvenation & Skin Boost", description: "Restores vitality and radiance with deep nourishment and cellular renewal." },
+      { title: "Deep Exfoliation, Extraction & Skin Texture", description: "Removes dead cells, clears pores, and refines overall skin texture for a smoother, cleaner surface." },
+      { title: "Transdermal Delivery & Skin Whitening", description: "Delivers active ingredients deep into skin layers while reducing pigmentation and brightening tone." },
+      { title: "Acne & Anti-Bacteria + Skin Relaxation", description: "Eliminates acne-causing bacteria and soothes skin with cooling and calming technology." },
     ],
   },
   {
