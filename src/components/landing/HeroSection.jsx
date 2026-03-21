@@ -3,16 +3,20 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun } from "lucide-react";
 
-// Floating petal/particle config
+// Floating petal/particle config with flowers & leaves
 const PETALS = [
-  { x: "12%", y: "18%", size: 10, delay: 0, duration: 6 },
-  { x: "80%", y: "10%", size: 7, delay: 1.2, duration: 7 },
-  { x: "65%", y: "75%", size: 9, delay: 0.5, duration: 8 },
-  { x: "22%", y: "82%", size: 6, delay: 2, duration: 6.5 },
-  { x: "90%", y: "55%", size: 8, delay: 0.8, duration: 7.5 },
-  { x: "45%", y: "5%", size: 5, delay: 1.5, duration: 9 },
-  { x: "5%", y: "50%", size: 7, delay: 2.5, duration: 6 },
-  { x: "75%", y: "90%", size: 6, delay: 0.3, duration: 8.5 },
+  { x: "8%", y: "12%", size: 12, delay: 0, duration: 7, shape: "flower" },
+  { x: "85%", y: "8%", size: 8, delay: 1.2, duration: 6.5, shape: "leaf" },
+  { x: "70%", y: "78%", size: 11, delay: 0.5, duration: 8.5, shape: "flower" },
+  { x: "18%", y: "85%", size: 7, delay: 2, duration: 7.2, shape: "leaf" },
+  { x: "92%", y: "52%", size: 9, delay: 0.8, duration: 7.8, shape: "flower" },
+  { x: "42%", y: "2%", size: 6, delay: 1.5, duration: 6.8, shape: "leaf" },
+  { x: "2%", y: "48%", size: 10, delay: 2.5, duration: 8.2, shape: "flower" },
+  { x: "78%", y: "88%", size: 7, delay: 0.3, duration: 6.5, shape: "leaf" },
+  { x: "25%", y: "30%", size: 8, delay: 1.8, duration: 7.5, shape: "flower" },
+  { x: "65%", y: "15%", size: 6, delay: 2.2, duration: 6.8, shape: "leaf" },
+  { x: "15%", y: "65%", size: 9, delay: 0.6, duration: 8, shape: "flower" },
+  { x: "88%", y: "72%", size: 7, delay: 1.4, duration: 7.2, shape: "leaf" },
 ];
 
 const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2742fe782_generated_image.png";
