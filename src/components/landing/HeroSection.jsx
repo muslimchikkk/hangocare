@@ -42,7 +42,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="mt-6 text-lg lg:text-xl font-body font-light text-muted-foreground leading-relaxed max-w-lg">
-              AQUAPURE is a non-invasive, multifunctional facial care device that treats a variety of skin conditions in patients with diverse skin profiles — delivering immediate, visible results.
+              AQUAPURE II is a non-invasive, multifunctional face & body treatment system delivering deep exfoliation, skin rejuvenation, transdermal delivery, whitening, acne control, and full-body relaxation — visible results from the very first session.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
