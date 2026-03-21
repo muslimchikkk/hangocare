@@ -15,7 +15,7 @@ const PETALS = [
   { x: "75%", y: "90%", size: 6, delay: 0.3, duration: 8.5 },
 ];
 
-const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b6ee4e4f3_generated_image.png";
+const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/90d0e8209_generated_image.png";
 
 export default function HeroSection() {
   const scrollToCta = () => {
