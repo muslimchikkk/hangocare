@@ -10,23 +10,24 @@ const badges = [
   { icon: Leaf, label: "Skin-Safe Formula" },
 ];
 
+const FILL = "hsl(346, 60%, 32%)";
+
 export default function SocialProofBar() {
   return (
-    <div className="relative">
+    <div className="relative" style={{ filter: "drop-shadow(0 8px 24px rgba(100,20,40,0.35))" }}>
       {/* Top wave */}
-      <div className="w-full overflow-hidden leading-none">
-        <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: "hsl(346 60% 32%)" }}>
-          <path d="M0,24 C240,48 480,0 720,24 C960,48 1200,0 1440,24 L1440,48 L0,48 Z" />
-        </svg>
-      </div>
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: FILL, marginBottom: "-1px" }}>
+        <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,60 L0,60 Z" />
+      </svg>
 
-      <section className="py-8" style={{ backgroundColor: "hsl(346 60% 32%)" }}>
+      {/* Main bar */}
+      <section className="py-7" style={{ backgroundColor: FILL }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="flex flex-wrap justify-center items-center gap-6 lg:gap-12"
+            className="flex flex-wrap justify-center items-center gap-8 lg:gap-14"
           >
             {badges.map(({ icon: Icon, label }, i) => (
               <motion.div
@@ -35,12 +36,12 @@ export default function SocialProofBar() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.08 }}
-                className="flex items-center gap-2.5 group"
+                className="flex items-center gap-3 group"
               >
-                <div className="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center group-hover:bg-white/25 transition-colors">
+                <div className="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center group-hover:bg-white/25 transition-colors">
                   <Icon className="w-4 h-4 text-white" />
                 </div>
-                <span className="font-body text-sm font-medium text-white/80 tracking-wide">
+                <span className="font-body text-base font-semibold text-white/90 tracking-wide">
                   {label}
                 </span>
               </motion.div>
@@ -50,11 +51,9 @@ export default function SocialProofBar() {
       </section>
 
       {/* Bottom wave */}
-      <div className="w-full overflow-hidden leading-none">
-        <svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: "hsl(346 60% 32%)" }}>
-          <path d="M0,24 C240,0 480,48 720,24 C960,0 1200,48 1440,24 L1440,0 L0,0 Z" />
-        </svg>
-      </div>
+      <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" className="w-full block" style={{ fill: FILL, marginTop: "-1px" }}>
+        <path d="M0,30 C360,0 720,60 1080,30 C1260,15 1380,40 1440,30 L1440,0 L0,0 Z" />
+      </svg>
     </div>
   );
 }
