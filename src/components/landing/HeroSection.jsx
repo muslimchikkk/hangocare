@@ -6,7 +6,7 @@ import { ArrowRight, Droplets, Sparkles, Sun } from "lucide-react";
 // Floating petal/particle config with flowers & leaves
 const PETALS = [
   { x: "8%", y: "12%", size: 12, delay: 0, duration: 7, shape: "flower" },
-  { x: "85%", y: "8%", size: 8, delay: 1.2, duration: 6.5, shape: "leaf" },
+  { x: "85%", y: "8%", size: 12, delay: 1.2, duration: 6.5, shape: "leaf" },
   { x: "70%", y: "78%", size: 11, delay: 0.5, duration: 8.5, shape: "flower" },
   { x: "18%", y: "85%", size: 7, delay: 2, duration: 7.2, shape: "leaf" },
   { x: "92%", y: "52%", size: 9, delay: 0.8, duration: 7.8, shape: "flower" },
