@@ -33,8 +33,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="font-display text-xl lg:text-2xl font-semibold tracking-tight text-foreground">
-            AQUAPURE
+          <a href="#" className="flex items-center gap-1 select-none">
+            <span className="font-display text-xl lg:text-2xl font-bold tracking-tight text-foreground">HanG.O</span>
+            <span className="font-body text-xl lg:text-2xl font-light tracking-widest text-primary ml-1">Care</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

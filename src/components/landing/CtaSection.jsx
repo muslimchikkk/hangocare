@@ -19,11 +19,11 @@ export default function CtaSection() {
             Get Started
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-            Bring AQUAPURE to{" "}
+            Bring <span className="text-foreground">HanG.O</span> <span className="text-primary font-light tracking-wider">Care</span> to{" "}
             <span className="italic text-primary">Your Clinic</span>
           </h2>
           <p className="mt-5 text-lg font-body font-light text-muted-foreground max-w-xl mx-auto">
-            Join clinics and aesthetic professionals worldwide who trust AQUAPURE for non-invasive, multifunctional dermal treatments. Request your personalized demo today.
+            Join clinics and aesthetic professionals worldwide who trust HanG.O Care for non-invasive, multifunctional dermal treatments. Request your personalized demo today.
           </p>
 
           <Button

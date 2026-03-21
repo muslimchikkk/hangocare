@@ -7,7 +7,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="font-display text-xl font-semibold text-background mb-2">AQUAPURE</h3>
+            <div className="flex items-baseline gap-1 mb-1">
+              <span className="font-display text-xl font-bold text-background">HanG.O</span>
+              <span className="font-body text-xl font-light tracking-widest text-primary ml-1">Care</span>
+            </div>
             <p className="font-body text-xs text-background/50 mb-4">by Cluederm · Beauty Solution</p>
             <p className="font-body text-sm leading-relaxed">
               The Ultimate Face & Body Experience. Non-invasive, multifunctional, immediate results.

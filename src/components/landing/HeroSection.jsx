@@ -35,14 +35,18 @@ export default function HeroSection() {
               Hydrate · Exfoliate · Radiate
             </motion.div>
 
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-foreground">
+            <div className="flex items-baseline gap-2 mb-4">
+              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground leading-none">HanG.O</span>
+              <span className="font-body text-3xl sm:text-4xl lg:text-5xl font-light tracking-[0.2em] text-primary leading-none">Care</span>
+            </div>
+            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-foreground">
               The Ultimate{" "}
               <span className="text-primary italic">Face & Body</span>{" "}
               Experience
             </h1>
 
             <p className="mt-6 text-lg lg:text-xl font-body font-light text-muted-foreground leading-relaxed max-w-lg">
-              AQUAPURE II is a non-invasive, multifunctional face & body treatment system delivering deep exfoliation, skin rejuvenation, transdermal delivery, whitening, acne control, and full-body relaxation — visible results from the very first session.
+              HanG.O Care is a non-invasive, multifunctional face & body treatment system delivering deep exfoliation, skin rejuvenation, transdermal delivery, whitening, acne control, and full-body relaxation — visible results from the very first session.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -147,8 +151,8 @@ export default function HeroSection() {
                 <img src={HERO_DEVICE} alt="AQUAPURE device" className="w-14 h-14 rounded-xl object-cover" />
                 <div>
                   <p className="text-xs font-body text-muted-foreground">By Cluederm</p>
-                  <p className="text-sm font-display font-bold text-foreground">AQUAPURE</p>
-                  <p className="text-xs font-body text-primary">4-in-1 Technology</p>
+                  <p className="text-sm font-display font-bold text-foreground">HanG.O <span className="font-light text-primary">Care</span></p>
+                  <p className="text-xs font-body text-primary">8-in-1 Technology</p>
                 </div>
               </motion.div>
             </div>
