@@ -20,17 +20,17 @@ const devices = [
     ],
   },
   {
-    tag: "The Handpieces",
+    tag: "SECRET DUO",
     heading: "Designed for",
     headingItalic: "Every Skin",
     description:
-      "Four specialized handpieces work in synergy to deliver a fully customized treatment experience — targeting deep cleansing, nourishment, lifting, and soothing in a single session.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f4caddd96_generated_image.png",
+      "SECRET DUO offers dual non-ablative fractional technologies — micro-needle RF and 1540nm erbium glass laser — in a single device. These two technologies work individually or in combination, delivering optimal treatment flexibility with significantly reduced downtime.",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5175c08d7_generated_image.png",
     features: [
-      { title: "AQUAPEEL Handpiece", description: "Removes dead skin cells and impurities via non-irritating hydro-dermabrasion." },
-      { title: "Electroporation Handpiece", description: "Nourishes and brightens skin with precision-controlled stimulation." },
-      { title: "Micro-Current Handpiece", description: "Lifts jowls and eyebrows, stimulates collagen and elastin regeneration." },
-      { title: "Cooling / Heating Handpiece", description: "Soothes, desensitizes, firms and tones for complete skin relaxation." },
+      { title: "Micro-Needle RF", description: "Fractional radiofrequency delivered via ultra-fine needles for deep dermal remodeling and collagen induction." },
+      { title: "1540nm Erbium Glass Laser", description: "Non-ablative fractional laser targeting water in the skin for resurfacing, texture refinement and pigment correction." },
+      { title: "Combination Treatment", description: "Both technologies can be used individually or together for a fully customized, synergistic treatment protocol." },
+      { title: "Reduced Downtime", description: "Gentler non-ablative fractional process means significantly less recovery time compared to conventional ablative lasers." },
     ],
   },
   {
