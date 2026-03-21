@@ -35,17 +35,17 @@ export default function CtaSection() {
           </Button>
 
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-8 text-sm font-body text-muted-foreground">
-            <a href="tel:+82-2-517-2114" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="tel:+420222224315" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Phone className="w-4 h-4 text-primary" />
-              +82-2-517-2114
+              +420 222 224 315
             </a>
-            <a href="mailto:info@cluederm.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="mailto:sales@hangocare.eu" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Mail className="w-4 h-4 text-primary" />
-              info@cluederm.com
+              sales@hangocare.eu
             </a>
-            <a href="https://cluederm.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href="https://hangocare.eu" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Globe className="w-4 h-4 text-primary" />
-              cluederm.com
+              hangocare.eu
             </a>
           </div>
         </motion.div>
