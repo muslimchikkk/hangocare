@@ -70,9 +70,9 @@ export default function HeroSection() {
                 { icon: Droplets, label: "AQUAPEEL" },
                 { icon: Sparkles, label: "ELECTROPORATION" },
                 { icon: Sun, label: "MICRO-CURRENT" },
-              ].map(({ icon: Icon, label }) => (
+              ].map(({ icon: IconComp, label }) => (
                 <div key={label} className="flex items-center gap-2 text-sm font-body text-muted-foreground">
-                  <Icon className="w-4 h-4 text-primary" />
+                  <IconComp className="w-4 h-4 text-primary" />
                   {label}
                 </div>
               ))}
