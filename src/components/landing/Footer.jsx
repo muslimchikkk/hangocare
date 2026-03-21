@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-baseline gap-1 mb-1">
               <span className="font-display text-xl font-bold text-background">HanG.O</span>
-              <span className="font-body text-xl font-light tracking-widest text-primary ml-1">Care</span>
+              <span className="font-script text-3xl text-primary ml-1">Care</span>
             </div>
             <p className="font-body text-xs text-background/50 mb-4">by Cluederm · Beauty Solution</p>
             <p className="font-body text-sm leading-relaxed">

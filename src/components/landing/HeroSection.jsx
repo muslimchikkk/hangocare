@@ -37,7 +37,7 @@ export default function HeroSection() {
 
             <div className="flex items-baseline gap-2 mb-4">
               <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground leading-none">HanG.O</span>
-              <span className="font-body text-3xl sm:text-4xl lg:text-5xl font-light tracking-[0.2em] text-primary leading-none">Care</span>
+              <span className="font-script text-5xl sm:text-6xl lg:text-7xl text-primary leading-none">Care</span>
             </div>
             <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-semibold leading-tight text-foreground">
               The Ultimate{" "}
@@ -151,7 +151,7 @@ export default function HeroSection() {
                 <img src={HERO_DEVICE} alt="AQUAPURE device" className="w-14 h-14 rounded-xl object-cover" />
                 <div>
                   <p className="text-xs font-body text-muted-foreground">By Cluederm</p>
-                  <p className="text-sm font-display font-bold text-foreground">HanG.O <span className="font-light text-primary">Care</span></p>
+                  <p className="text-sm font-display font-bold text-foreground">HanG.O <span className="font-script text-lg text-primary">Care</span></p>
                   <p className="text-xs font-body text-primary">8-in-1 Technology</p>
                 </div>
               </motion.div>

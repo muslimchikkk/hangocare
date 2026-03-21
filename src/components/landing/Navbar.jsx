@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#" className="flex items-center gap-1 select-none">
             <span className="font-display text-xl lg:text-2xl font-bold tracking-tight text-foreground">HanG.O</span>
-            <span className="font-body text-xl lg:text-2xl font-light tracking-widest text-primary ml-1">Care</span>
+            <span className="font-script text-3xl lg:text-4xl text-primary ml-1">Care</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">
