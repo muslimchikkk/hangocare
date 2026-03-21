@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const DEVICE_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2357edd06_generated_image.png";
+const DEVICE_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/73ba438d0_generated_image.png";
 
 const features = [
   { title: "Smart Auto-Reaction Interface", description: "Detects and enables automatic recognition to all activated handpieces for a seamless workflow." },

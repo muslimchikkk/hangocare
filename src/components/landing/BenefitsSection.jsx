@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Droplets, Zap, Activity, Thermometer } from "lucide-react";
 
-const TREATMENT_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/112bbe1ba_generated_image.png";
+const TREATMENT_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f4caddd96_generated_image.png";
 
 const handpieces = [
   {

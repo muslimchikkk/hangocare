@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const SOLUTIONS_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/87f2a7fde_generated_image.png";
+const SOLUTIONS_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b60bab0be_generated_image.png";
+const _OLD_SOLUTIONS_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/87f2a7fde_generated_image.png";
 
 const solutions = [
   {

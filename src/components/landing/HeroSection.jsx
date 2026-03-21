@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun } from "lucide-react";
 
-const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/66f359616_generated_image.png";
-const HERO_DEVICE = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2357edd06_generated_image.png";
+const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2c9ef94a5_generated_image.png";
+const HERO_DEVICE = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/73ba438d0_generated_image.png";
 
 export default function HeroSection() {
   const scrollToCta = () => {
