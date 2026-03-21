@@ -48,17 +48,17 @@ const devices = [
     ],
   },
   {
-    tag: "The Solutions",
+    tag: "SCIZER",
     heading: "Science-Grade",
-    headingItalic: "Formulas",
+    headingItalic: "Size Reduction",
     description:
-      "AQUASOLUTION products are formulated with Hyaluronic Acid, Peptide Complex, Seaweed Complex, Propolis Extract, and Centella Asiatica TECA to complement and amplify every treatment step.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b60bab0be_generated_image.png",
+      "SCIZER emits powerful HIFU ultrasound energy that melts away stubborn fat on your body. It's the non-surgical solution for a younger and slimmer body line — treating multiple areas with convenience, comfort, and effective results.",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f86d0c7d6_generated_image.png",
     features: [
-      { title: "PEEL+", description: "Accelerates exfoliation and removes dead skin cells and impurities in the first treatment step." },
-      { title: "SEBO+", description: "Dissolves sebum, treats blackheads, and balances oily and moisture skin textures." },
-      { title: "REJUVE+", description: "Promotes elasticity by inducing collagen and elastin regeneration and improving water retention." },
-      { title: "CLEANSYS", description: "A specialized cleaning agent for easy and effective AQUAPURE device maintenance." },
+      { title: "Non-Invasive Body Contouring", description: "Eliminates stubborn fat bulges in multiple body areas that exercising and dieting alone can't achieve." },
+      { title: "Slim D13 Handpiece", description: "Small and compact cartridge targeting 13.0mm deep subcutaneous fat — improved usability with reduced patient pain." },
+      { title: "Dual Cooling & Heating", description: "Integrated cooling system combined with HIFU heating permanently destroys fat cells while tightening overlying skin." },
+      { title: "Multi-Area Treatment", description: "Effectively treats abdomen, lower abdomen, flanks, and love handles in a single versatile session." },
     ],
   },
 ];
