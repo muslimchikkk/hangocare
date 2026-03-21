@@ -9,28 +9,28 @@ import {
 
 const faqs = [
   {
-    q: "How soon will I see results?",
-    a: "Most users notice a visible glow and smoother skin texture within 14 days of consistent daily use. Full results, including reduced fine lines and improved firmness, are typically seen after 6–8 weeks.",
+    q: "What is AQUAPURE and how does it work?",
+    a: "AQUAPURE is a non-invasive, multifunctional facial care device by Cluederm. It uses four specialized handpieces — AQUAPEEL, ELECTROPORATION, MICRO-CURRENT, and COOLING/HEATING — to treat a variety of skin conditions across diverse skin profiles, delivering immediate visible results.",
   },
   {
-    q: "Is it safe for sensitive skin?",
-    a: "Absolutely. Lumière was developed alongside board-certified dermatologists and has been tested on all skin types, including sensitive and acne-prone skin. It's completely non-invasive and pain-free.",
+    q: "What skin conditions does AQUAPURE treat?",
+    a: "AQUAPURE effectively treats acne-prone skin, sensitive skin, anti-aging concerns, pigmentation, excess sebum, blackheads, and more. Its multi-program system is customizable to each patient's specific skin type and condition.",
   },
   {
-    q: "How does the 90-day guarantee work?",
-    a: "If you don't love your results within 90 days, simply contact our support team for a full refund — no questions asked. We'll even cover return shipping.",
+    q: "Is it safe for all skin types?",
+    a: "Yes. AQUAPURE is designed for patients with diverse skin profiles. The ELECTROPORATION handpiece transfers controlled stimulation without signs of irritation, and the COOLING/HEATING mode desensitizes and soothes skin during and after treatment.",
   },
   {
-    q: "What's included in the box?",
-    a: "Your Lumière kit includes the device, a USB-C charging cable, a premium travel pouch, a quick-start guide, and a complimentary 30-day supply of our Activation Serum.",
+    q: "What are the AQUASOLUTION products?",
+    a: "AQUASOLUTION includes PEEL+ for exfoliation, SEBO+ for sebum and pore control, REJUVE+ for collagen/elastin regeneration and hydration, and CLEANSYS for device maintenance. Each solution uses Hyaluronic Acid, Peptide Complex, Seaweed Complex, Propolis Extract, and Centella Asiatica TECA.",
   },
   {
-    q: "Can I use it with my existing skincare products?",
-    a: "Yes! Lumière works beautifully with your favorite serums and moisturizers. In fact, our sonic massage mode helps your products absorb up to 4x more effectively.",
+    q: "Can AQUAPURE be used on the body and scalp?",
+    a: "Absolutely. AQUAPURE offers head-to-toe treatment. The scalp application promotes hair growth and scalp health, while body treatment exfoliates skin, removes impurities, and helps control acne and pigmentation using specialized wider and balance tips.",
   },
   {
-    q: "How long does the battery last?",
-    a: "A full charge lasts approximately 30 days of daily 5-minute sessions. The device charges in under 2 hours via USB-C.",
+    q: "How soon do patients see results?",
+    a: "Many patients see visible improvement immediately post-treatment. For anti-aging programs, measurable skin firming and fine line reduction are typically observed after 4 sessions of consistent treatment.",
   },
 ];
 
@@ -42,14 +42,14 @@ export default function FaqSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
           <span className="text-sm font-body font-semibold text-primary uppercase tracking-widest">
             FAQ
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Questions? <span className="italic text-primary">Answered.</span>
+            Questions?{" "}
+            <span className="italic text-primary">Answered.</span>
           </h2>
         </motion.div>
 
@@ -57,7 +57,7 @@ export default function FaqSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ delay: 0.2 }}
         >
           <Accordion type="single" collapsible className="space-y-3">
             {faqs.map((faq, i) => (

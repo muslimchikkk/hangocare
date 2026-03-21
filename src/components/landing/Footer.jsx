@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart } from "lucide-react";
+import { Droplets } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,49 +7,50 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="font-display text-xl font-semibold text-background mb-4">Lumière</h3>
+            <h3 className="font-display text-xl font-semibold text-background mb-2">AQUAPURE</h3>
+            <p className="font-body text-xs text-background/50 mb-4">by Cluederm · Beauty Solution</p>
             <p className="font-body text-sm leading-relaxed">
-              Empowering women with clinically-proven beauty technology. Because you deserve to glow.
+              The Ultimate Face & Body Experience. Non-invasive, multifunctional, immediate results.
             </p>
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Shop</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Technology</h4>
             <ul className="space-y-2 font-body text-sm">
-              <li><a href="#" className="hover:text-background transition-colors">The Device</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Activation Serum</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Bundles</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Gift Cards</a></li>
+              <li><a href="#handpieces" className="hover:text-background transition-colors">AQUAPEEL</a></li>
+              <li><a href="#handpieces" className="hover:text-background transition-colors">ELECTROPORATION</a></li>
+              <li><a href="#handpieces" className="hover:text-background transition-colors">MICRO-CURRENT</a></li>
+              <li><a href="#handpieces" className="hover:text-background transition-colors">COOLING / HEATING</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Support</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Solutions</h4>
             <ul className="space-y-2 font-body text-sm">
-              <li><a href="#" className="hover:text-background transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Shipping & Returns</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Warranty</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">FAQ</a></li>
+              <li><a href="#solutions" className="hover:text-background transition-colors">PEEL+</a></li>
+              <li><a href="#solutions" className="hover:text-background transition-colors">SEBO+</a></li>
+              <li><a href="#solutions" className="hover:text-background transition-colors">REJUVE+</a></li>
+              <li><a href="#solutions" className="hover:text-background transition-colors">CLEANSYS</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Connect</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Contact</h4>
             <ul className="space-y-2 font-body text-sm">
-              <li><a href="#" className="hover:text-background transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">TikTok</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">YouTube</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Pinterest</a></li>
+              <li><a href="tel:+82-2-517-2114" className="hover:text-background transition-colors">+82-2-517-2114</a></li>
+              <li><a href="mailto:info@cluederm.com" className="hover:text-background transition-colors">info@cluederm.com</a></li>
+              <li><a href="https://cluederm.com" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">cluederm.com</a></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-14 pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-body text-xs text-background/50">
-            © 2026 Lumière Beauty. All rights reserved.
+            © 2026 Cluederm. All Rights Reserved. Export Only.
           </p>
-          <div className="flex items-center gap-1 font-body text-xs text-background/50">
-            Made with <Heart className="w-3 h-3 fill-primary text-primary mx-1" /> for women everywhere
+          <div className="flex items-center gap-2 font-body text-xs text-background/50">
+            <Droplets className="w-3 h-3 text-primary" />
+            Hydrate · Exfoliate · Radiate
           </div>
         </div>
       </div>

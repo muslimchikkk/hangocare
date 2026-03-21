@@ -1,91 +1,111 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Sparkles, Clock, ShieldCheck, Heart, Leaf, Waves } from "lucide-react";
+import { Droplets, Zap, Activity, Thermometer } from "lucide-react";
 
-const benefits = [
+const TREATMENT_IMG = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/112bbe1ba_generated_image.png";
+
+const handpieces = [
   {
-    icon: Sparkles,
-    title: "Visible Results in 14 Days",
-    description: "Clinically proven micro-current technology stimulates collagen production for firmer, more youthful skin.",
+    icon: Droplets,
+    name: "AQUAPEEL",
+    subtitle: "PEELING",
+    color: "bg-blue-50 text-blue-600",
+    iconBg: "bg-blue-100",
+    benefits: ["Removes dead skin cells and other impurities", "Deep cleansing", "AQUAPURE System Cleaning"],
   },
   {
-    icon: Clock,
-    title: "5-Minute Routine",
-    description: "Effortlessly fits into your morning or evening ritual. No appointments, no downtime, no hassle.",
+    icon: Zap,
+    name: "ELECTROPORATION",
+    subtitle: "WHITENING",
+    color: "bg-sky-50 text-sky-600",
+    iconBg: "bg-sky-100",
+    benefits: ["Nourishes skin", "Boosts circulation", "Brightens skin"],
   },
   {
-    icon: ShieldCheck,
-    title: "Dermatologist Approved",
-    description: "Developed with leading dermatologists and tested across all skin types for safe, effective results.",
+    icon: Activity,
+    name: "MICRO-CURRENT",
+    subtitle: "FACIAL LIFTING",
+    color: "bg-cyan-50 text-cyan-600",
+    iconBg: "bg-cyan-100",
+    benefits: ["Tightens skin", "Lifts jowls and eyebrows", "Elastin and collagen regeneration", "Stimulates blood circulation"],
   },
   {
-    icon: Heart,
-    title: "Pain-Free Technology",
-    description: "Gentle sonic pulses and LED therapy work below the surface without any discomfort or irritation.",
-  },
-  {
-    icon: Leaf,
-    title: "Clean & Sustainable",
-    description: "Cruelty-free, vegan-friendly materials with recyclable packaging. Beauty that cares for the planet.",
-  },
-  {
-    icon: Waves,
-    title: "3-in-1 Treatment",
-    description: "Combines micro-current, red LED therapy, and sonic massage in one elegant, portable device.",
+    icon: Thermometer,
+    name: "COOLING / HEATING",
+    subtitle: "SKIN RELAXATION",
+    color: "bg-teal-50 text-teal-600",
+    iconBg: "bg-teal-100",
+    benefits: ["Cooling: Reduces fine lines and wrinkles, enhances skin repair", "Heating: Desensitizes skin, firms and tones"],
   },
 ];
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: (i) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.1, duration: 0.5, ease: "easeOut" },
-  }),
-};
-
 export default function BenefitsSection() {
   return (
-    <section id="benefits" className="py-24 lg:py-32 bg-background">
+    <section id="handpieces" className="py-24 lg:py-32 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="text-sm font-body font-semibold text-primary uppercase tracking-widest">
-            Why Lumière
+            Multi-Functional Handpieces
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Science Meets <span className="italic text-primary">Self-Care</span>
+            Optimized Technology for{" "}
+            <span className="italic text-primary">Dermal Treatments</span>
           </h2>
           <p className="mt-4 text-lg font-body font-light text-muted-foreground">
-            Everything you need for a professional-grade skincare experience, designed for the modern woman.
+            Each AQUAPURE Handpiece works to promote skin tightness and rejuvenation with skin-nourishing solutions that deliver immediate results.
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {benefits.map((benefit, i) => (
+        <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+          <motion.img
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            src={TREATMENT_IMG}
+            alt="AQUAPURE treatment in clinic"
+            className="rounded-3xl shadow-xl w-full"
+          />
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="space-y-4"
+          >
+            <h3 className="font-display text-2xl font-bold text-foreground">User-Focused Smart Technology</h3>
+            <p className="font-body text-muted-foreground">The Smart Auto-Reaction Interface detects and enables automatic recognition to all activated handpieces.</p>
+            <p className="font-body text-muted-foreground">The AQUAPEEL spray control knob delivers equal distribution of applied solutions at a range of 10 levels — customizable for each patient and skin type to maximize treatment efficiency.</p>
+            <p className="font-body text-muted-foreground">The Precision Electroporation Handpiece transfers controlled stimulation to skin without signs of irritation.</p>
+          </motion.div>
+        </div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {handpieces.map((h, i) => (
             <motion.div
-              key={benefit.title}
-              custom={i}
-              initial="hidden"
-              whileInView="visible"
+              key={h.name}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              variants={cardVariants}
-              className="group relative bg-card border border-border/60 rounded-2xl p-8 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-500"
+              transition={{ delay: i * 0.1 }}
+              className="bg-card border border-border/60 rounded-2xl p-6 hover:shadow-lg hover:border-primary/30 transition-all duration-500"
             >
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/15 transition-colors">
-                <benefit.icon className="w-6 h-6 text-primary" />
+              <div className={`w-11 h-11 rounded-xl ${h.iconBg} flex items-center justify-center mb-4`}>
+                <h.icon className={`w-5 h-5 ${h.color.split(" ")[1]}`} />
               </div>
-              <h3 className="font-display text-xl font-semibold text-foreground mb-2">
-                {benefit.title}
-              </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                {benefit.description}
-              </p>
+              <p className="font-display text-lg font-semibold text-foreground">{h.name}</p>
+              <p className="text-xs font-body font-semibold text-primary uppercase tracking-wider mb-3">{h.subtitle}</p>
+              <ul className="space-y-1.5">
+                {h.benefits.map((b) => (
+                  <li key={b} className="text-xs font-body text-muted-foreground flex gap-2">
+                    <span className="text-primary mt-0.5">·</span>
+                    {b}
+                  </li>
+                ))}
+              </ul>
             </motion.div>
           ))}
         </div>

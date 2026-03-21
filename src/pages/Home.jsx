@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/landing/Navbar";
 import HeroSection from "../components/landing/HeroSection";
 import SocialProofBar from "../components/landing/SocialProofBar";
+import TechnologySection from "../components/landing/TechnologySection";
 import BenefitsSection from "../components/landing/BenefitsSection";
 import ResultsSection from "../components/landing/ResultsSection";
 import TestimonialsSection from "../components/landing/TestimonialsSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <SocialProofBar />
+      <TechnologySection />
       <BenefitsSection />
       <ResultsSection />
       <TestimonialsSection />

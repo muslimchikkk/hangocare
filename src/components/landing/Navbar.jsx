@@ -13,7 +13,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const links = ["Benefits", "Results", "Reviews", "FAQ"];
+  const links = ["Technology", "Handpieces", "Solutions", "Results"];
 
   const scrollTo = (id) => {
     document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#" className="font-display text-xl lg:text-2xl font-semibold tracking-tight text-foreground">
-            Lumière
+            AQUAPURE
           </a>
 
           <div className="hidden md:flex items-center gap-8">
@@ -56,7 +56,7 @@ export default function Navbar() {
               className="hidden md:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground font-body font-medium rounded-full px-6"
             >
               <ShoppingBag className="w-4 h-4 mr-2" />
-              Shop Now
+              Request a Demo
             </Button>
             <button
               className="md:hidden text-foreground"
@@ -90,7 +90,7 @@ export default function Navbar() {
                 onClick={() => scrollTo("cta")}
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-body rounded-full mt-2"
               >
-                Shop Now — 40% Off
+                Request a Demo
               </Button>
             </div>
           </motion.div>
