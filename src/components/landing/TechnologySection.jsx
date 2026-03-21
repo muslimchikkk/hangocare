@@ -34,6 +34,20 @@ const devices = [
     ],
   },
   {
+    tag: "VOLNEWMER",
+    heading: "Safe & Powerful",
+    headingItalic: "Skin Tightening",
+    description:
+      "VOLNEWMER is the safest non-invasive monopolar radiofrequency device for skin tightening and lifting. It combines RF energy and cutting-edge technology, giving you an overall skin treatment experience.",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4732d373f_generated_image.png",
+    features: [
+      { title: "Hidden Edge Tip", description: "Maximized clinical results using side-effect suppression technology and safe Radiofrequency energy." },
+      { title: "Curved Surface", description: "Stable and most safe radial RF energy provided by the curved surface and rounded edge tip." },
+      { title: "Radial RF Energy", description: "Radial RF energy delivers a high level of treatment for effective skin tightening and lifting." },
+      { title: "Continuous Water Cooling", description: "Continuous water cooling prevents epidermal burns and enables delivery of high level RF energy safely." },
+    ],
+  },
+  {
     tag: "The Solutions",
     heading: "Science-Grade",
     headingItalic: "Formulas",
