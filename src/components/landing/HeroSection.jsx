@@ -31,11 +31,10 @@ export default function HeroSection() {
       {PETALS.map((p, i) => (
         <motion.div
           key={i}
-          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size }}
+          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size, borderRadius: "60% 40% 50% 50% / 60% 50% 40% 50%" }}
           animate={{ y: [0, -18, 0], x: [0, 6, -4, 0], rotate: [0, 30, -20, 0], opacity: [0.35, 0.75, 0.35] }}
           transition={{ duration: p.duration, repeat: Infinity, ease: "easeInOut", delay: p.delay }}
-          className="rounded-full bg-primary/30 pointer-events-none"
-          style={{ position: "absolute", left: p.x, top: p.y, width: p.size, height: p.size, borderRadius: "60% 40% 50% 50% / 60% 50% 40% 50%" }}
+          className="bg-primary/30 pointer-events-none"
         />
       ))}
 
