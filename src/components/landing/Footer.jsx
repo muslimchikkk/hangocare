@@ -32,10 +32,13 @@ export default function Footer() {
           <div>
             <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Technology</h4>
             <ul className="space-y-2 font-body text-sm">
-              <li><a href="#handpieces" className="hover:text-background transition-colors">AQUAPEEL</a></li>
-              <li><a href="#handpieces" className="hover:text-background transition-colors">ELECTROPORATION</a></li>
-              <li><a href="#handpieces" className="hover:text-background transition-colors">MICRO-CURRENT</a></li>
-              <li><a href="#handpieces" className="hover:text-background transition-colors">COOLING / HEATING</a></li>
+              {techLinks.map(({ label, slide }) => (
+                <li key={label}>
+                  <button onClick={() => goToSlide(slide)} className="hover:text-background transition-colors text-left">
+                    {label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -52,9 +55,10 @@ export default function Footer() {
           <div>
             <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Contact</h4>
             <ul className="space-y-2 font-body text-sm">
-              <li><a href="tel:+82-2-517-2114" className="hover:text-background transition-colors">+82-2-517-2114</a></li>
-              <li><a href="mailto:info@cluederm.com" className="hover:text-background transition-colors">info@cluederm.com</a></li>
-              <li><a href="https://cluederm.com" target="_blank" rel="noopener noreferrer" className="hover:text-background transition-colors">cluederm.com</a></li>
+              <li><a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a></li>
+              <li><a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a></li>
+              <li className="text-background/70">HanG.O Care s.r.o.</li>
+              <li className="text-background/70">K Hajum 2606/2b<br />15500 Česko</li>
             </ul>
           </div>
         </div>
