@@ -3,6 +3,18 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun } from "lucide-react";
 
+// Floating petal/particle config
+const PETALS = [
+  { x: "12%", y: "18%", size: 10, delay: 0, duration: 6 },
+  { x: "80%", y: "10%", size: 7, delay: 1.2, duration: 7 },
+  { x: "65%", y: "75%", size: 9, delay: 0.5, duration: 8 },
+  { x: "22%", y: "82%", size: 6, delay: 2, duration: 6.5 },
+  { x: "90%", y: "55%", size: 8, delay: 0.8, duration: 7.5 },
+  { x: "45%", y: "5%", size: 5, delay: 1.5, duration: 9 },
+  { x: "5%", y: "50%", size: 7, delay: 2.5, duration: 6 },
+  { x: "75%", y: "90%", size: 6, delay: 0.3, duration: 8.5 },
+];
+
 const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/af863d221_generated_image.png";
 const HERO_DEVICE = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/73ba438d0_generated_image.png";
 
