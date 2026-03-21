@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Shield, Zap } from "lucide-react";
 
-const HERO_IMAGE = "/__generating__/img_76dfe83c57c0.png";
+const HERO_IMAGE = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/920193d4e_generated_a4ab4b35.png";
 
 export default function HeroSection() {
   const scrollToCta = () => {

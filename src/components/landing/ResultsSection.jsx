@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const LIFESTYLE_IMAGE = "/__generating__/img_05814f1f35a0.png";
+const LIFESTYLE_IMAGE = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/520729505_generated_3510f495.png";
 
 const stats = [
   { value: "97%", label: "Saw firmer skin" },
