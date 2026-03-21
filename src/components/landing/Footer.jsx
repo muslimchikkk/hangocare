@@ -1,6 +1,18 @@
 import React from "react";
 import { Droplets } from "lucide-react";
 
+const techLinks = [
+  { label: "AQUAPURE II", slide: 0 },
+  { label: "SECRET DUO", slide: 1 },
+  { label: "VOLNEWMER", slide: 2 },
+  { label: "SCIZER", slide: 3 },
+];
+
+const goToSlide = (slide) => {
+  window.dispatchEvent(new CustomEvent("technology:slide", { detail: { slide } }));
+  document.getElementById("technology")?.scrollIntoView({ behavior: "smooth" });
+};
+
 export default function Footer() {
   return (
     <footer className="bg-foreground text-background/70 py-16">
