@@ -17,7 +17,7 @@ const clinicalResults = [
     program: "Acne Skin",
     outcome: "Immediately post-treatment — significant pore reduction and sebum control.",
     tag: "Acne Program",
-    color: "bg-sky-50 border-sky-200",
+    color: "bg-rose-50 border-rose-200",
   },
   {
     gender: "Female",
@@ -25,7 +25,7 @@ const clinicalResults = [
     program: "Sensitive Skin",
     outcome: "Immediately post-treatment — calmer, more even skin tone with no irritation.",
     tag: "Sensitive Skin Program",
-    color: "bg-green-50 border-green-200",
+    color: "bg-fuchsia-50 border-fuchsia-200",
   },
 ];
 
