@@ -9,7 +9,7 @@ const clinicalResults = [
     program: "Anti-aging",
     outcome: "After 4 treatments — visible reduction in fine lines and improved skin firmness.",
     tag: "Anti-aging Program",
-    color: "bg-pink-50 border-pink-200",
+    color: "bg-sky-50 border-sky-200",
   },
   {
     gender: "Male",
@@ -17,7 +17,7 @@ const clinicalResults = [
     program: "Acne Skin",
     outcome: "Immediately post-treatment — significant pore reduction and sebum control.",
     tag: "Acne Program",
-    color: "bg-rose-50 border-rose-200",
+    color: "bg-cyan-50 border-cyan-200",
   },
   {
     gender: "Female",
@@ -25,7 +25,7 @@ const clinicalResults = [
     program: "Sensitive Skin",
     outcome: "Immediately post-treatment — calmer, more even skin tone with no irritation.",
     tag: "Sensitive Skin Program",
-    color: "bg-fuchsia-50 border-fuchsia-200",
+    color: "bg-blue-50 border-blue-200",
   },
 ];
 

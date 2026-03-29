@@ -11,7 +11,7 @@ const devices = [
     headingItalic: "8 Functions in 1",
     description:
       "A complete face & body treatment system combining 8 advanced modalities in a single clinical-grade device — delivering visible results from the very first session.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0d6ab5707_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d632426b4_generated_image.png",
     features: [
       { title: "Skin Rejuvenation & Skin Boost", description: "Restores vitality and radiance with deep nourishment and cellular renewal." },
       { title: "Deep Exfoliation, Extraction & Skin Texture", description: "Removes dead cells, clears pores, and refines overall skin texture for a smoother, cleaner surface." },
@@ -25,7 +25,7 @@ const devices = [
     headingItalic: "Every Skin",
     description:
       "SECRET DUO offers dual non-ablative fractional technologies — micro-needle RF and 1540nm erbium glass laser — in a single device. These two technologies work individually or in combination, delivering optimal treatment flexibility with significantly reduced downtime.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5175c08d7_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c4e01f212_generated_image.png",
     features: [
       { title: "Micro-Needle RF", description: "Fractional radiofrequency delivered via ultra-fine needles for deep dermal remodeling and collagen induction." },
       { title: "1540nm Erbium Glass Laser", description: "Non-ablative fractional laser targeting water in the skin for resurfacing, texture refinement and pigment correction." },
@@ -39,7 +39,7 @@ const devices = [
     headingItalic: "Skin Tightening",
     description:
       "VOLNEWMER is the safest non-invasive monopolar radiofrequency device for skin tightening and lifting. It combines RF energy and cutting-edge technology, giving you an overall skin treatment experience.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4732d373f_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e78c755ab_generated_image.png",
     features: [
       { title: "Hidden Edge Tip", description: "Maximized clinical results using side-effect suppression technology and safe Radiofrequency energy." },
       { title: "Curved Surface", description: "Stable and most safe radial RF energy provided by the curved surface and rounded edge tip." },
@@ -53,7 +53,7 @@ const devices = [
     headingItalic: "Size Reduction",
     description:
       "SCIZER emits powerful HIFU ultrasound energy that melts away stubborn fat on your body. It's the non-surgical solution for a younger and slimmer body line — treating multiple areas with convenience, comfort, and effective results.",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f86d0c7d6_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/91f4c2ff6_generated_image.png",
     features: [
       { title: "Non-Invasive Body Contouring", description: "Eliminates stubborn fat bulges in multiple body areas that exercising and dieting alone can't achieve." },
       { title: "Slim D13 Handpiece", description: "Small and compact cartridge targeting 13.0mm deep subcutaneous fat — improved usability with reduced patient pain." },
