@@ -7,8 +7,8 @@ const devices = [
     icon: Droplets,
     name: "HanG.O Care",
     subtitle: "FACE & BODY SYSTEM",
-    color: "bg-rose-50 text-rose-500",
-    iconBg: "bg-rose-100",
+    color: "bg-sky-50 text-sky-500",
+    iconBg: "bg-sky-100",
     benefits: [
       "Deep hydro-exfoliation & pore extraction",
       "Transdermal delivery & skin whitening",
@@ -20,8 +20,8 @@ const devices = [
     icon: Layers,
     name: "SECRET DUO",
     subtitle: "FRACTIONAL LASER + RF",
-    color: "bg-pink-50 text-pink-500",
-    iconBg: "bg-pink-100",
+    color: "bg-cyan-50 text-cyan-500",
+    iconBg: "bg-cyan-100",
     benefits: [
       "Micro-needle fractional RF",
       "1540nm erbium glass laser",
@@ -33,8 +33,8 @@ const devices = [
     icon: Radio,
     name: "VOLNEWMER",
     subtitle: "MONOPOLAR RF LIFTING",
-    color: "bg-fuchsia-50 text-fuchsia-500",
-    iconBg: "bg-fuchsia-100",
+    color: "bg-blue-50 text-blue-500",
+    iconBg: "bg-blue-100",
     benefits: [
       "Safest non-invasive skin tightening",
       "Radial RF energy with curved surface tip",
@@ -46,8 +46,8 @@ const devices = [
     icon: Zap,
     name: "SCIZER",
     subtitle: "HIFU BODY CONTOURING",
-    color: "bg-orange-50 text-orange-400",
-    iconBg: "bg-orange-100",
+    color: "bg-teal-50 text-teal-400",
+    iconBg: "bg-teal-100",
     benefits: [
       "Powerful HIFU fat reduction",
       "Slim D13 handpiece — 13mm depth",

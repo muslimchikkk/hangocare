@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Award, ShieldCheck, Microscope, Sparkles, Leaf } from "lucide-react";
+import { Award, ShieldCheck, Microscope, Activity, FlaskConical } from "lucide-react";
 
 const badges = [
   { icon: Award, label: "By Cluederm" },
-  { icon: ShieldCheck, label: "Medical Grade" },
-  { icon: Microscope, label: "Clinically Proven" },
-  { icon: Sparkles, label: "Non-Invasive" },
-  { icon: Leaf, label: "Skin-Safe Formula" },
+  { icon: ShieldCheck, label: "CE Certified" },
+  { icon: Microscope, label: "Clinically Validated" },
+  { icon: Activity, label: "Non-Invasive Protocol" },
+  { icon: FlaskConical, label: "Evidence-Based" },
 ];
 
 export default function SocialProofBar() {
@@ -15,8 +15,8 @@ export default function SocialProofBar() {
     <section
       className="py-8"
       style={{
-        backgroundColor: "hsl(346, 60%, 32%)",
-        boxShadow: "0 8px 32px rgba(100,20,40,0.28), 0 -4px 16px rgba(100,20,40,0.15)",
+        backgroundColor: "hsl(199, 80%, 22%)",
+        boxShadow: "0 8px 32px rgba(0,80,120,0.35), 0 -4px 16px rgba(0,80,120,0.18)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">

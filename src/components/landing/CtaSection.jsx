@@ -15,15 +15,15 @@ export default function CtaSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <span className="text-sm font-body font-semibold text-primary uppercase tracking-widest">
-            Get Started
+          <span className="text-xs font-body font-semibold text-primary uppercase tracking-widest border border-primary/30 px-3 py-1 rounded-sm">
+            For Clinics & Medical Professionals
           </span>
-          <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-            Bring <span className="text-foreground">HanG.O</span> <span className="font-script text-5xl text-primary">Care</span> to{" "}
-            <span className="italic text-primary">Your Clinic</span>
+          <h2 className="mt-6 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+            Bring <span className="text-primary">HanG.O Care</span> to{" "}
+            <span className="italic">Your Practice</span>
           </h2>
           <p className="mt-5 text-lg font-body font-light text-muted-foreground max-w-xl mx-auto">
-            Join clinics and aesthetic professionals worldwide who trust HanG.O Care for non-invasive, multifunctional dermal treatments. Request your personalized demo today.
+            Join medical aesthetic clinics and certified professionals worldwide who rely on HanG.O Care's evidence-based, non-invasive protocols. Request a clinical demonstration today.
           </p>
 
           <Button

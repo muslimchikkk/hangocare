@@ -3,10 +3,10 @@ module.exports = {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   safelist: [
-    "bg-rose-50", "bg-rose-100", "text-rose-500", "border-rose-200",
-    "bg-pink-50", "bg-pink-100", "text-pink-500", "border-pink-200",
-    "bg-fuchsia-50", "bg-fuchsia-100", "text-fuchsia-500", "border-fuchsia-200",
-    "bg-orange-50", "bg-orange-100", "text-orange-400", "border-orange-200",
+    "bg-sky-50", "bg-sky-100", "text-sky-500", "border-sky-200",
+    "bg-cyan-50", "bg-cyan-100", "text-cyan-500", "border-cyan-200",
+    "bg-blue-50", "bg-blue-100", "text-blue-500", "border-blue-200",
+    "bg-teal-50", "bg-teal-100", "text-teal-400", "border-teal-200",
   ],
   theme: {
   	extend: {
@@ -14,6 +14,7 @@ module.exports = {
   			display: ['var(--font-display)'],
   			body: ['var(--font-body)'],
   			script: ['var(--font-script)'],
+  			grotesk: ['var(--font-script)'],
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
