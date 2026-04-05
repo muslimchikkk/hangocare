@@ -110,7 +110,7 @@ const devices = [
     category: "Deep Skin Care System",
     tag: "Hydradermabrasion",
     color: "bg-blue-50 border-blue-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c106cbca7_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png",
     shortDesc: "Multifunctional device combining wet and dry exfoliation, micro-focused microneedling and LED therapy for comprehensive skin care.",
     highlights: ["AD Peeling", "MF Microneedling", "LightPure LED"],
   },

@@ -355,7 +355,7 @@ const deviceData = {
     name: "AQUAPURE II",
     subtitle: "Deep Skin Care System",
     tag: "Hydradermabrasion",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c106cbca7_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png",
     overview: "AQUAPURE II is a multifunctional device for comprehensive skin care of face and body, combining wet and dry exfoliation, micro-focused microneedling and LED therapy — all in one innovative system.",
     modalities: [
       "Step 1 — Diamond Peeling: removes dead skin cells, improves tone and texture",
