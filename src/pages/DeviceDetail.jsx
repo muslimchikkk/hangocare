@@ -395,7 +395,7 @@ const deviceData = {
     name: "SECRET DUO",
     subtitle: "Er-Glass 1540nm + Microneedle RF + Cannula RF",
     tag: "Dual Fractional",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c4823f55e_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png",
     overview: "Secret DUO combines two advanced non-ablative technologies in one device. Microneedle RF technology allows precise coagulation, protein denaturation and deep layer heating — with minimal revalidation time and fast regeneration. Erbium Glass Laser 1540 nm provides fractional non-ablative rejuvenation of skin and improves skin structure, scars and collagen stimulation.",
     modalities: [
       "1540nm Erbium Glass Laser — non-ablative fractional photothermolysis",
@@ -419,6 +419,28 @@ const deviceData = {
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "The 1540nm laser scanning handpiece provides individualised energy according to skin type and condition. The non-ablative fractional laser beam is transferred to the dermis in the form of multiple columns and targeted primarily at water content in the dermal layer. This stimulates collagen heating and remodeling of dermis, causing any ablative effect on the epidermis to be avoided. Compared to ablative lasers it provides faster skin regeneration and fewer side effects after treatment. The combination of both technologies provides extraordinarily effective yet gentle skin rejuvenation with minimal downtime.",
+    handpieces: [
+      {
+        title: "Microneedle RF Handpiece — MTR Cartridges",
+        description: "Advanced bipolar microneedle RF technology delivers precisely controlled RF energy to selectively set depths (0.5 mm to 3.5 mm) via highest-quality medical needles to enhance efficacy of photo-rejuvenation and scar treatment on face and body.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e8adb83c0_generated_image.png",
+        specs: [
+          { label: "MTR-AC-C25", value: "25-needle semi-isolated cartridge · 10×10 mm area · max 25 W · thermal effect decreasing from deeper layers toward surface" },
+          { label: "MTR-AC-C64", value: "64-needle semi-isolated cartridge · 17.5×17.5 mm area · max 70 W · high thermal effect in deep skin layers" },
+          { label: "Dimensions", value: "140 × Ø40 mm · 205 g" },
+        ],
+      },
+      {
+        title: "SmartCure — Thermal Coagulation Technology (optional)",
+        description: "SmartCure — intelligent electroporation pen that in combination with a single electrolysis needle and various Nokor needles enables use of various thermocoagulation techniques for a broad spectrum of treatments including fine capillaries, acne, wrinkles and scars.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5bdbf554e_generated_image.png",
+        specs: [
+          { label: "K3i", value: "Isolated electrolysis needle (0.075 mm) with K3i technology — transfers heat only to the target vessel without damaging epidermis or surrounding tissue, enabling precise treatment of fine capillaries" },
+          { label: "AC-01", value: "Isolated single-use needle — gently penetrates skin, stimulates collagen formation and remodelling, reducing wrinkles and improving skin texture" },
+          { label: "19G/28G Cannula", value: "In combination with RF energy at the cannula tip — inserted sub-dermally parallel to epidermis, moves forward and backward between dermis and subcutaneous glands, providing long-lasting tightening and lipolytic effect" },
+        ],
+      },
+    ],
     references: [
       "Hruza G et al. (2009). Fractional photothermolysis and RF combination. Lasers Surg Med.",
       "Kim JE et al. (2017). Microneedle RF for acne scar treatment: a split-face study. Dermatol Surg.",
