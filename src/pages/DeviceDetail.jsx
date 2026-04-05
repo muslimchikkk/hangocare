@@ -195,7 +195,7 @@ const deviceData = {
     name: "VOLNEWMER",
     subtitle: "Face Reformer — Monopolar RF",
     tag: "RF Lifting",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/032b93b67_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4e3af0373_volnewmer_cut05_.png",
     overview: "Radiofrequency energy stimulates collagen renewal in the dermis through thermal effect. Volnewmer is the most non-invasive aesthetic device that combines lifting and skin tightening, offering safe, innovative and effective treatment with maximum comfort.",
     modalities: [
       "Monopolar RF — Long Pass Radiofrequency, high and safe RF range",
@@ -203,7 +203,7 @@ const deviceData = {
       "Hidden edge tip — side-effect suppression technology",
       "Impedance detection system — real-time contact monitoring",
       "Continuous cooling system — prevents epidermal burns",
-      "4 cartridge options — F, V, S, O TIPs for face and body",
+      "4 cartridge options — I, F, V, S TIPs for face and body",
     ],
     indications: [
       "Skin tightening and lifting", "Face modelling", "Pore reduction",
@@ -212,13 +212,35 @@ const deviceData = {
     ],
     specs: [
       { label: "Technology", value: "Monopolar Long Pass RF" },
-      { label: "Cartridges", value: "4 types: F TIP 0.25 / P TIP 3.0 / V TIP 4.0 / S TIP 16.0" },
+      { label: "Cartridges", value: "I TIP 0.25 / F TIP 3.0 / V TIP 4.0 / S TIP 16.0" },
       { label: "Target Areas", value: "Face and body" },
       { label: "Safety Features", value: "Real-time impedance detection, auto energy shutoff" },
       { label: "Cooling", value: "Continuous integrated cooling" },
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "Volnewmer uses monopolar RF energy that targets collagen layers and allows controlled and safe energy penetration to deeper skin layers. It ensures balancing of skin tone, tightening, improvement of elasticity and volumetric lifting. This thermal effect resembles collagen restructuring of existing collagen and stimulates formation of new collagen. Volnewmer, designed for effective treatment results for face and body, ensures stable energy transfer and, thanks to the continuous cooling system, provides maximum effect and at the same time higher patient comfort. The oval surface applicator design ensures even distribution of thermal energy across the entire applicator surface.",
+    clinicalFeatures: [
+      {
+        title: "Long Pass Radiofrequency — Oval Surface",
+        description: "Volnewmer uses monopolar RF energy targeting collagen-rich layers for controlled, safe deep penetration. The oval applicator surface ensures even thermal energy distribution across the dermis — balancing skin tone, tightening, improving elasticity and volumetric lifting.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/682d339c7_generated_image.png",
+      },
+      {
+        title: "Hidden Edge Tip — Side-Effect Suppression",
+        description: "Unlike flat-surface competitors that concentrate energy at edges causing overheating, Volnewmer's inward-curving edges reduce overheating and minimise side effects. The oval contact design ensures uniform thermal energy distribution in the dermis.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0f3ea8a20_generated_image.png",
+      },
+      {
+        title: "4 Cartridge Options",
+        description: "I TIP 0.25 (eye area) · F TIP 3.0 (face) · V TIP 4.0 (face & body) · S TIP 16.0 (body). Each cartridge type is designed to enable personalised treatment of the face and body according to individual needs.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5f3fa9a2b_generated_image.png",
+      },
+      {
+        title: "RF Thermal Energy Transfer to Dermal Layer",
+        description: "Maintains low pain levels even at high energies. Provides uniform RF energy distribution on the surface, eliminating negative effects on the epidermis. FLIR thermal imaging confirms consistent and expanding heat zones over 15–60 second treatment intervals.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b672e3000_generated_image.png",
+      },
+    ],
     references: [
       "Zelickson BD et al. (2004). Histological and ultrastructural evaluation of monopolar RF. Arch Dermatol.",
       "Sadick NS, Makino Y (2004). Selective electro-thermolysis in aesthetic medicine. Lasers Surg Med.",
