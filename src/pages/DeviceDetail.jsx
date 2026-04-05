@@ -137,6 +137,38 @@ const deviceData = {
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "The powerful fractional CO² laser scanner with 30 W output provides, thanks to short impulse, a uniform and high-quality laser beam. Its ablative-thermal effect supports epidermis regeneration and dermis regeneration. Optimal beam spot of 100 micrometres minimises healing time and risk of post-inflammatory hyperpigmentation (PIH). The microneedle RF module transfers bipolar RF energy via ultra-fine medical steel needles, increasing the efficacy of photo-rejuvenation and scar treatment on face and body. The combination of these two technologies provides an extraordinarily effective yet gentle skin rejuvenation with minimal downtime.",
+    handpieces: [
+      {
+        title: "Microneedle RF Handpiece",
+        description: "Advanced bipolar microneedle RF technology transfers RF energy via high-quality medical needles at precise depths (0.5–3.5 mm), enhancing photo-rejuvenation and scar treatment efficacy on face and body.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9189daab1_generated_image.png",
+        specs: [
+          { label: "MTR-AC-C25", value: "25 semi-isolated needles · 10×10 mm · max 25 W · thermal effect decreasing from deeper to surface layers" },
+          { label: "MTR-AC-C64", value: "64 semi-isolated needles · 17.5×17.5 mm · max 70 W · high thermal effect in deep skin layers" },
+          { label: "Dimensions", value: "140 × Ø40 mm · 205 g" },
+        ],
+      },
+      {
+        title: "Surgical Handpiece",
+        description: "Spot size adjustable from 0.2 to 1.3 mm, enabling fast, clean and precise incisions and tissue coagulation for treatment of superficial lesions and warts.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a79f03270_generated_image.png",
+        specs: [
+          { label: "Spot 0.2–0.5 mm", value: "Incision procedures" },
+          { label: "Spot 0.7–0.9 mm", value: "Deep peeling procedures, ablation" },
+          { label: "Spot 0.9–1.3 mm", value: "Surface peeling procedures, ablation" },
+        ],
+      },
+      {
+        title: "Gynaecological Handpiece (optional)",
+        description: "Fractional CO² laser for fast, safe and minimally invasive gynaecological procedures. The 90° reflective handpiece directs the CO² beam (8×8 grid) perpendicular to the vaginal wall for collagen remodelling and vaginal tissue reshaping without damage to surrounding tissue.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f7ff870f4_generated_image.png",
+        specs: [
+          { label: "Rotating Probe", value: "Manually rotatable to 8 positions, enabling 360° full rotation" },
+          { label: "Unique Air-Flow", value: "Reduces smoke above laser beam, ensuring more precise and safer application" },
+          { label: "i-slide", value: "Single-use measuring attachment — probe rotates 90° for precise depth measurement, prevents adhesion to internal tissue" },
+        ],
+      },
+    ],
     clinicalFeatures: [
       {
         title: "CO² Fractional Laser Scanner",
@@ -592,6 +624,40 @@ export default function DeviceDetail() {
                       </div>
                     </div>
                   )}
+                </motion.div>
+              )}
+
+              {device.handpieces && (
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
+                    Handpiece Options
+                  </h2>
+                  <div className="space-y-6">
+                    {device.handpieces.map((h, i) => (
+                      <div key={i} className="bg-secondary/60 rounded-2xl overflow-hidden border border-border/40">
+                        <div className="grid sm:grid-cols-3 gap-0">
+                          <div className="bg-white flex items-center justify-center p-6 sm:rounded-l-2xl">
+                            <img src={h.image} alt={h.title} className="h-36 w-full object-contain" />
+                          </div>
+                          <div className="sm:col-span-2 p-6">
+                            <div className="flex items-center gap-3 mb-2">
+                              <span className="w-7 h-7 rounded-full bg-primary/15 text-primary font-display font-bold text-xs flex items-center justify-center shrink-0">{i + 1}</span>
+                              <p className="font-display text-base font-bold text-foreground">{h.title}</p>
+                            </div>
+                            <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 pl-10">{h.description}</p>
+                            <div className="space-y-2 pl-10">
+                              {h.specs.map((s) => (
+                                <div key={s.label} className="text-sm">
+                                  <span className="font-semibold text-primary">{s.label}: </span>
+                                  <span className="text-foreground/70">{s.value}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </motion.div>
               )}
 
