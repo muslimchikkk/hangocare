@@ -47,7 +47,7 @@ const deviceData = {
     name: "ULTRAFORMER MPT",
     subtitle: "Bidirectional Circular & Linear Pulse Technology",
     tag: "MMFU / HIFU",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e955e31aa_Screenshot2026-04-05at92203.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4ba7dd4bc_generated_image.png",
     overview: "Creating the right quality TCP determines the performance of MMFU technology. The new ULTRAFORMER MPT breaks down the TCP creation process into micro-units, ensuring higher safety, extraordinary precision and maximum MMFU technology efficiency — going beyond standard technological standards.",
     modalities: [
       "MMFU — Macro and micro focused ultrasound energy",
@@ -80,7 +80,7 @@ const deviceData = {
     name: "FRAXIS DUO",
     subtitle: "Fractional CO² Laser + Microneedle RF",
     tag: "Fractional Laser + RF",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/27dbcc210_Screenshot2026-04-05at92215.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/07ae8c3fd_generated_image.png",
     overview: "Fraxis Duo can be used to treat a wide range of indications using fractional CO² laser, microneedles and optional surgical and gynaecological handpieces. The ideal combination of fractional CO² laser and microneedle RF technology provides a broader spectrum of aesthetic applications for face and body.",
     modalities: [
       "Fractional CO² Laser — 30W output, short impulse for uniform high-quality beam",
@@ -117,7 +117,7 @@ const deviceData = {
     name: "VOLNEWMER",
     subtitle: "Face Reformer — Monopolar RF",
     tag: "RF Lifting",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4b66a1730_Screenshot2026-04-05at92228.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/032b93b67_generated_image.png",
     overview: "Radiofrequency energy stimulates collagen renewal in the dermis through thermal effect. Volnewmer is the most non-invasive aesthetic device that combines lifting and skin tightening, offering safe, innovative and effective treatment with maximum comfort.",
     modalities: [
       "Monopolar RF — Long Pass Radiofrequency, high and safe RF range",
@@ -150,7 +150,7 @@ const deviceData = {
     name: "CURAS",
     subtitle: "Q-Switched Nd:YAG Laser",
     tag: "Laser / Pigment",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/824c03d86_Screenshot2026-04-05at92242.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/497700046_generated_image.png",
     overview: "The new Curas is a new generation Q-switched Nd:YAG laser system that, thanks to improved wavelength performance of 532 nm and 1064 nm, can transfer energy stably and in a controlled manner from the skin surface to its deepest layers.",
     modalities: [
       "1064 nm Q-Switched Nd:YAG — deep tissue targeting",
@@ -185,7 +185,7 @@ const deviceData = {
     name: "SECRET RF",
     subtitle: "Fractional Microneedle + Cannula RF",
     tag: "Fractional RF",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a00adaafa_Screenshot2026-04-05at92255.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/02e6d52f3_generated_image.png",
     overview: "Secret RF uses microneedle radiofrequency technology that ensures coagulation, protein denaturation and volumetric heating of deep skin layers. Advanced bipolar RF technology with microneedles from medical steel increases the efficacy of photo-rejuvenation treatment and scar treatment on face and body.",
     modalities: [
       "Fractional RF — 2 MHz bipolar precise RF technology",
@@ -220,7 +220,7 @@ const deviceData = {
     name: "SECRET DUO",
     subtitle: "Er-Glass 1540nm + Microneedle RF + Cannula RF",
     tag: "Dual Fractional",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2da528414_Screenshot2026-04-05at92317.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c4823f55e_generated_image.png",
     overview: "Secret DUO combines two advanced non-ablative technologies in one device. Microneedle RF technology allows precise coagulation, protein denaturation and deep layer heating — with minimal revalidation time and fast regeneration. Erbium Glass Laser 1540 nm provides fractional non-ablative rejuvenation of skin and improves skin structure, scars and collagen stimulation.",
     modalities: [
       "1540nm Erbium Glass Laser — non-ablative fractional photothermolysis",
@@ -253,7 +253,7 @@ const deviceData = {
     name: "ULTRAFORMER III",
     subtitle: "Macro & Micro Focused Ultrasound",
     tag: "HIFU",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5adbe59fe_Screenshot2026-04-05at92328.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3774e8b6f_generated_image.png",
     overview: "HIFU (High-Intensity Focused Ultrasound) device uses precision pulse modes that apply thermal energy to precisely defined skin depths. It is designed to achieve non-invasive lifting and body contouring with optimal results.",
     modalities: [
       "Macro Focused Ultrasound — higher density energy, deeper penetration",
@@ -287,7 +287,7 @@ const deviceData = {
     name: "PENTO",
     subtitle: "755nm Alexandrite + 1064nm Nd:YAG Laser",
     tag: "Dual Wavelength Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dd1036589_Screenshot2026-04-05at92342.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/41a13b890_generated_image.png",
     overview: "Pento is a highly effective system for permanent epilation and treatment of vascular lesions. It delivers higher energy levels at short pulse times and at various spot diameters, thus ensuring energy transfer to deep skin layers and increasing treatment efficacy.",
     modalities: [
       "755nm Alexandrite Laser — 3ms, 50 J at 2 Hz for epilation",
@@ -322,7 +322,7 @@ const deviceData = {
     name: "N.CORE 3D",
     subtitle: "Triple Wavelength Diode Laser",
     tag: "Diode Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/48a634f51_Screenshot2026-04-05at92406.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6a19139ec_generated_image.png",
     overview: "Simultaneously emits laser energy at wavelengths 755 nm, 808 nm and 1064 nm to three different skin depths, thereby providing greater efficacy and enabling faster and more effective epilation. The device is designed to achieve the most effective results and uses the newest and most modern technology.",
     modalities: [
       "755 nm Alexandrite — superficial hair follicles",
@@ -355,7 +355,7 @@ const deviceData = {
     name: "AQUAPURE II",
     subtitle: "Deep Skin Care System",
     tag: "Hydradermabrasion",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2030d9b21_Screenshot2026-04-05at92417.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c106cbca7_generated_image.png",
     overview: "AQUAPURE II is a multifunctional device for comprehensive skin care of face and body, combining wet and dry exfoliation, micro-focused microneedling and LED therapy — all in one innovative system.",
     modalities: [
       "Step 1 — Diamond Peeling: removes dead skin cells, improves tone and texture",
@@ -387,7 +387,7 @@ const deviceData = {
     name: "CLATUU ALPHA",
     subtitle: "Cryolipolysis",
     tag: "Fat Freezing",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ec1c2c778_Screenshot2026-04-05at92429.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1393ca4bc_generated_image.png",
     overview: "Clatuu Alpha is a fat reduction and body shaping device that is trusted worldwide. It uses cryolipolysis technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it.",
     modalities: [
       "ARC-T — chin and other small body areas",
