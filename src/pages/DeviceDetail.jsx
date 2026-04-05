@@ -479,12 +479,12 @@ const deviceData = {
       {
         title: "Mikro Fokus",
         description: "Cartridge s vysoce koncentrovanými ultrazukovými paprsky přenášeji energii přesně a cílené do definované hloubky ošetřované oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/689fe6ec6_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/94aa8db69_generated_image.png",
       },
       {
         title: "Makro Fokus",
         description: "Cartridge s nižší frekvencí, ale vyšší hustotou energie, umožňují hlubší průnik a působení v cílové oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/689fe6ec6_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/94aa8db69_generated_image.png",
       },
     ],
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/19790de5d_generated_image.png",
