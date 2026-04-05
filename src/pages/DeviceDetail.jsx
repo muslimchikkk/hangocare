@@ -450,7 +450,7 @@ const deviceData = {
     name: "ULTRAFORMER III",
     subtitle: "Macro & Micro Focused Ultrasound",
     tag: "HIFU",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9d180d25b_Screenshot2026-04-05at125607.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3774e8b6f_generated_image.png",
     overview: "HIFU (High-Intensity Focused Ultrasound) device uses precision pulse modes that apply thermal energy to precisely defined skin depths. It is designed to achieve non-invasive lifting and body contouring with optimal results.",
     modalities: [
       "Macro Focused Ultrasound — higher density energy, deeper penetration",
@@ -475,19 +475,6 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "HIFU technology transfers ultrasound energy evenly to various skin layers without damaging its surface. Ultraformer III focuses energy on forming tiny coagulation points where it maintains stable temperature 65–75°C. This thermal energy activates formation of new collagen, ensures skin tightening and supports forming of facial and body contours. Collagen renewal in the face triggered by HIFU technology took place by heating dermal and surface aponeurotic layers (SMAS). These layers pass through several phases — blood coagulation (haemostasis), skin contraction and gradual formation of new collagen.",
-    clinicalFeatures: [
-      {
-        title: "Mikro Fokus",
-        description: "Cartridge s vysoce koncentrovanými ultrazukovými paprsky přenáší energii přesně a cílené do definované hloubky ošetřované oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/45f1c0851_Screenshot2026-04-05at125623.png",
-      },
-      {
-        title: "Makro Fokus",
-        description: "Cartridge s nižší frekvencí, ale vyšší hustotou energie, umožňují hlubší průnik a působení v cílové oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/45f1c0851_Screenshot2026-04-05at125623.png",
-      },
-    ],
-    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/45f1c0851_Screenshot2026-04-05at125623.png",
     references: [
       "Suh DH et al. (2015). Intense focused ultrasound tightening in Asian skin. J Cosmet Laser Ther.",
       "Fabi SG (2015). Noninvasive skin tightening: focus on new ultrasound techniques. Clin Cosmet Investig Dermatol.",
