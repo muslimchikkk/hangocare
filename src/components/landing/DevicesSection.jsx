@@ -161,12 +161,13 @@ export default function DevicesSection() {
                 to={`/devices/${d.id}`}
                 className={`group flex flex-col h-full border rounded-2xl overflow-hidden hover:shadow-lg hover:border-primary/40 transition-all duration-300 cursor-pointer ${d.color}`}
               >
-                {/* Device image */}
-                <div className="w-full h-44 bg-white/60 overflow-hidden">
+                {/* Device image — cropped to top-left device */}
+                <div className="w-full h-44 bg-white overflow-hidden relative">
                   <img
                     src={d.image}
                     alt={d.name}
-                    className="w-full h-full object-cover object-left-top group-hover:scale-105 transition-transform duration-500"
+                    className="absolute top-0 left-0 w-[200%] h-[200%] object-cover object-left-top group-hover:scale-105 transition-transform duration-500"
+                    style={{ maxWidth: "none" }}
                   />
                 </div>
 
