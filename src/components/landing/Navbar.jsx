@@ -13,10 +13,11 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const links = ["Technology", "Handpieces", "Solutions", "Results"];
+  const links = ["Devices", "Solutions", "Results"];
 
   const scrollTo = (id) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
+    const sectionId = id === "Devices" ? "devices" : id.toLowerCase();
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
     setMobileOpen(false);
   };
 

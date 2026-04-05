@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun, ShieldCheck, Activity } from "lucide-react";
 
-const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c6a928ea8_generated_image.png";
+const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/55c097447_generated_image.png";
 
 // Subtle animated data-point nodes for a clinical/technical feel
 const DATA_NODES = [
@@ -83,13 +83,13 @@ export default function HeroSection() {
             </div>
 
             <h1 className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-foreground/90">
-              Advanced{" "}
-              <span className="text-primary">Face & Body</span>{" "}
-              Treatment System
+              Clinical-Grade{" "}
+              <span className="text-primary">Aesthetic Devices</span>{" "}
+              for Medical Professionals
             </h1>
 
             <p className="mt-6 text-base lg:text-lg font-body font-light text-foreground/60 leading-relaxed max-w-lg">
-              A non-invasive, multifunctional clinical platform delivering deep exfoliation, skin rejuvenation, transdermal delivery, whitening, acne control, and full-body relaxation — with measurable, evidence-based results from the first session.
+              A portfolio of four clinically validated, CE-certified aesthetic platforms — covering skin rejuvenation, fractional resurfacing, RF lifting, and HIFU body contouring. Backed by peer-reviewed evidence and designed for dermatologists and aesthetic physicians.
             </p>
 
             {/* Clinical stats */}
@@ -118,10 +118,10 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => document.getElementById("technology")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={() => document.getElementById("devices")?.scrollIntoView({ behavior: "smooth" })}
                 className="font-body font-medium rounded-sm px-8 h-14 text-base border-foreground/20 text-foreground/70 hover:bg-foreground/5 hover:text-foreground bg-transparent"
               >
-                Explore Technology
+                View Device Portfolio
               </Button>
             </div>
 
