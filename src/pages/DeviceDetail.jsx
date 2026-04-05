@@ -38,6 +38,7 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "The IPDL technology combines intense pulsed light with broadband light up to 1400 nm, making VELOCE the best choice for treating a broader spectrum of skin problems compared to standard IPL systems. The dual xenon lamp technology ensures stable energy delivery and maximum precision. Even at ultra-fast pulse mode, the device provides stable laser beams and precisely targeted laser spots — thus achieving maximum efficiency and optimal treatment results. The Smart Adapter and spot blocks allow precise treatment without damage to surrounding tissue.",
+    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6cf65161f_Screenshot2026-04-05at100514.png",
     references: [
       "Babilas P et al. (2010). Intense pulsed light (IPL): A review. Lasers Surg Med.",
       "Wat H et al. (2014). Application of intense pulsed light in the treatment of dermatologic disease. J Cutan Med Surg.",
@@ -510,6 +511,21 @@ export default function DeviceDetail() {
                   {device.mechanism}
                 </p>
               </motion.div>
+
+              {device.clinicalGraphics && (
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
+                    Clinical Performance Diagrams
+                  </h2>
+                  <div className="rounded-2xl overflow-hidden border border-border/40 bg-white">
+                    <img
+                      src={device.clinicalGraphics}
+                      alt="Clinical performance diagrams"
+                      className="w-full object-contain"
+                    />
+                  </div>
+                </motion.div>
+              )}
 
               {device.modalities && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
