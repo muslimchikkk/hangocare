@@ -109,19 +109,19 @@ export default function HeroSection() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                onClick={scrollToCta}
-                className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-14 text-base group"
+                onClick={() => document.getElementById("devices")?.scrollIntoView({ behavior: "smooth" })}
+                className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-14 text-base"
               >
-                Request a Demo
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                View Device Portfolio
+                <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => document.getElementById("devices")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={scrollToCta}
                 className="font-body font-medium rounded-sm px-8 h-14 text-base border-foreground/20 text-foreground/70 hover:bg-foreground/5 hover:text-foreground bg-transparent"
               >
-                View Device Portfolio
+                Contact Us
               </Button>
             </div>
 
