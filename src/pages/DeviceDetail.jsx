@@ -250,7 +250,7 @@ const deviceData = {
     name: "CURAS",
     subtitle: "Q-Switched Nd:YAG Laser",
     tag: "Laser / Pigment",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/8c1bfe216_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/482980470_generated_image.png",
     overview: "The new Curas is a new generation Q-switched Nd:YAG laser system that, thanks to improved wavelength performance of 532 nm and 1064 nm, can transfer energy stably and in a controlled manner from the skin surface to its deepest layers.",
     modalities: [
       "1064 nm Q-Switched Nd:YAG — deep tissue targeting",
