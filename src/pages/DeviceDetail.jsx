@@ -679,12 +679,13 @@ export default function DeviceDetail() {
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="relative flex items-end justify-center"
+              className="relative h-[420px] flex items-end justify-center"
             >
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-full rounded-t-3xl object-contain max-h-[420px] object-bottom"
+                className="max-h-[420px] w-full object-contain object-bottom"
+                style={{ objectPosition: "bottom center" }}
               />
             </motion.div>
           </div>
