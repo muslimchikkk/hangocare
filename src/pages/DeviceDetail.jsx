@@ -256,14 +256,14 @@ const deviceData = {
       "1064 nm Q-Switched Nd:YAG — deep tissue targeting",
       "532 nm Q-Switched Nd:YAG — superficial pigment correction",
       "DOE Handpiece 5×5 — treatment in 5×5 mm grid with 48 microbeams",
-      "Zoom-Collimation Handpiece — nastavitelné intervaly 1 mm, pulsy 2–10 mm",
+      "Zoom-Collimation Handpiece — adjustable intervals 1 mm, pulses 2–10 mm",
       "Zoom-MLA Handpiece — 85 stable point impulses, multi-level energy",
       "A6 / K6 mode — new modes for regular pulse transfer during treatment",
     ],
     indications: [
       "Tattoo removal", "Pigmented lesions", "Melasma", "Soft Peeling",
       "Lash thickening", "Nail fungus", "Sun and age spots", "Skin toning",
-      "Epidermis lesions", "Dermal lesions", "Carbon peeling", "Karbonový peeling",
+      "Epidermis lesions", "Dermal lesions", "Carbon peeling",
       "Skin rejuvenation", "Becker's Nevus", "Freckle removal",
     ],
     specs: [
@@ -276,6 +276,46 @@ const deviceData = {
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "The device provides high energy stability and, as the only Q-switched Nd:YAG platform, allows removal of all pigmented lesions and tattoo colours simultaneously at wavelengths 1064/532 nm with energy up to 1.3 J. The laser emits short, high-performance energy pulses focused on the treated area. Using Q-switched pulses, it increases efficacy while minimising undesirable effects such as PIH (post-inflammatory hyperpigmentation) or skin overheating. The Zoom-MLA lens produces 85 stable point impulses; intensity can be adjusted from deep dermis (L15), middle dermis (L25) to surface dermis (L35), minimising thermal effect on the skin.",
+    clinicalFeatures: [
+      {
+        title: "Dual Wavelength Penetration Depth — 1064nm vs 532nm",
+        description: "1064 nm penetrates deep into the dermis for deep pigmented lesions and tattoos. 532 nm (K6 enhanced mode, 30 µs) targets superficial pigmentation with 6 energy waves for more stable and uniform treatment.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d21d5db44_generated_image.png",
+      },
+    ],
+    handpieces: [
+      {
+        title: "DOE Handpiece 5×5",
+        description: "5×5 DOE handpiece allows treatment with minimal skin damage and creates 48 microbeams in an area of 5×5 mm². Ideal for skin rejuvenation, pore treatment, skin firming, superficial wrinkles, and melasma.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c62f251d6_generated_image.png",
+        specs: [
+          { label: "Grid", value: "5×5 mm², 48 microbeams" },
+          { label: "Lens Type", value: "DOE Lens — uniform energy distribution" },
+          { label: "Indications", value: "Skin rejuvenation, pore treatment, skin firming, superficial wrinkles, melasma" },
+        ],
+      },
+      {
+        title: "Zoom-Collimation Handpiece",
+        description: "Handpiece with adjustable intervals of 1 mm and precise pulses with focus in the range of 2–10 mm. Suitable for epidermal pigmentation, tattoo removal, hair removal, carbon peeling, lentigo, and freckles.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b3f926bac_generated_image.png",
+        specs: [
+          { label: "Focus Range", value: "2–10 mm" },
+          { label: "Interval", value: "Adjustable in 1 mm steps" },
+          { label: "Indications", value: "Epidermal pigmentation, tattoo removal, hair removal, carbon peeling, lentigo, freckles" },
+        ],
+      },
+      {
+        title: "Zoom-MLA Handpiece",
+        description: "Collimated micro-light array arrangement produces 85 stable point impulses. Intensity adjusts from deep dermis (L15) to middle dermis (L25) to surface dermis (L35), minimising thermal effect on skin.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3a10b7c1_generated_image.png",
+        specs: [
+          { label: "L15", value: "Deep dermis" },
+          { label: "L25", value: "Middle dermis" },
+          { label: "L35", value: "Surface dermis" },
+          { label: "Indications", value: "Skin rejuvenation, melasma treatment, skin tone improvement" },
+        ],
+      },
+    ],
     references: [
       "Ho SG et al. (2017). Q-switched laser treatment for pigmented lesions and tattoos. Clin Cosmet Investig Dermatol.",
       "Goldberg DJ (2010). Lasers and Light Sources for the Removal of Unwanted Hair. Dermatol Clin.",
