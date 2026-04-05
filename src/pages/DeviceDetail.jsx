@@ -803,19 +803,7 @@ export default function DeviceDetail() {
                 </div>
               </motion.div>
 
-              <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                  Selected Clinical References
-                </h2>
-                <ol className="space-y-3">
-                  {device.references.map((ref, i) => (
-                    <li key={i} className="flex gap-3 items-start">
-                      <span className="text-xs font-body font-bold text-primary shrink-0 mt-0.5">[{i + 1}]</span>
-                      <span className="font-body text-sm text-muted-foreground leading-relaxed italic">{ref}</span>
-                    </li>
-                  ))}
-                </ol>
-              </motion.div>
+
             </div>
 
             {/* Right: Specs */}
