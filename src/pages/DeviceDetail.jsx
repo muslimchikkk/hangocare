@@ -679,12 +679,12 @@ export default function DeviceDetail() {
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="relative"
+              className="relative flex items-end justify-center"
             >
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-full rounded-t-3xl object-contain max-h-[420px]"
+                className="w-full rounded-t-3xl object-contain max-h-[420px] object-bottom"
               />
             </motion.div>
           </div>
