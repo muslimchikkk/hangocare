@@ -395,7 +395,7 @@ const deviceData = {
     name: "SECRET DUO",
     subtitle: "Er-Glass 1540nm + Microneedle RF + Cannula RF",
     tag: "Dual Fractional",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e1323ae57_generated_image.png",
     overview: "Secret DUO combines two advanced non-ablative technologies in one device. Microneedle RF technology allows precise coagulation, protein denaturation and deep layer heating — with minimal revalidation time and fast regeneration. Erbium Glass Laser 1540 nm provides fractional non-ablative rejuvenation of skin and improves skin structure, scars and collagen stimulation.",
     modalities: [
       "1540nm Erbium Glass Laser — non-ablative fractional photothermolysis",
@@ -679,13 +679,13 @@ export default function DeviceDetail() {
               initial={{ opacity: 0, scale: 0.97 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="relative h-[420px] flex items-end justify-center"
+              className="relative h-[420px] flex items-end justify-center overflow-hidden"
             >
               <img
                 src={device.image}
                 alt={device.name}
-                className="max-h-[420px] w-full object-contain object-bottom"
-                style={{ objectPosition: "bottom center" }}
+                className="w-full object-contain"
+                style={{ maxHeight: "420px", objectFit: "contain", objectPosition: "bottom center", height: "100%" }}
               />
             </motion.div>
           </div>

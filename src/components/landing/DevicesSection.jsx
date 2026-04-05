@@ -70,7 +70,7 @@ const devices = [
     category: "Er-Glass + Microneedle RF + Cannula RF",
     tag: "Dual Fractional",
     color: "bg-blue-50 border-blue-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e1323ae57_generated_image.png",
     shortDesc: "Combines 1540nm Erbium Glass laser with microneedle RF in one device for synergistic non-ablative skin resurfacing and remodeling.",
     highlights: ["1540nm Er:Glass", "Microneedle RF", "FDA Approved"],
   },
