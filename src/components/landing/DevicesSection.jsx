@@ -167,6 +167,7 @@ export default function DevicesSection() {
                     src={d.image}
                     alt={d.name}
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 p-2"
+                    style={{ mixBlendMode: "multiply" }}
                   />
                 </div>
 
