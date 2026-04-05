@@ -378,7 +378,7 @@ const deviceData = {
       {
         title: "Mono-Polar RF — Non-Invasive RF Technology",
         description: "Mono-Polar RF is a non-invasive therapeutic mode utilising 2 MHz RF energy. Used for treatment of wrinkles around the eye area and on the forehead, or to support absorption of products into the skin — for example during application of mesotherapy or PRP.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d3f41e48f_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5bdbf554e_generated_image.png",
         specs: [
           { label: "Frequency", value: "2 MHz monopolar RF" },
           { label: "Indications", value: "Periorbital wrinkles, forehead lines, product absorption support (mesotherapy, PRP)" },
