@@ -10,7 +10,7 @@ const devices = [
     category: "Broadband Light Technology",
     tag: "IPL / Broadband Light",
     color: "bg-sky-50 border-sky-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/237bef671_Screenshot2026-04-05at92138.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf26ed841_Screenshot2026-04-05at93758.png",
     shortDesc: "Dual xenon lamp broadband light system penetrating deep skin layers at low energy, effective for a wide range of skin conditions.",
     highlights: ["IPDL Technology", "Dual Xenon", "Multi-filter"],
   },
@@ -161,21 +161,12 @@ export default function DevicesSection() {
                 to={`/devices/${d.id}`}
                 className={`group flex flex-col h-full border rounded-2xl overflow-hidden hover:shadow-lg hover:border-primary/40 transition-all duration-300 cursor-pointer ${d.color}`}
               >
-                {/* Device image — zoomed to isolate device unit */}
-                <div className="w-full h-44 bg-white overflow-hidden relative">
+                {/* Device image */}
+                <div className="w-full h-44 bg-white overflow-hidden flex items-center justify-center">
                   <img
                     src={d.image}
                     alt={d.name}
-                    className="absolute group-hover:scale-105 transition-transform duration-500"
-                    style={{
-                      maxWidth: "none",
-                      width: "280%",
-                      height: "280%",
-                      top: "-10%",
-                      left: "-5%",
-                      objectFit: "cover",
-                      objectPosition: "left top",
-                    }}
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 p-2"
                   />
                 </div>
 
