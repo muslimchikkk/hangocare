@@ -487,7 +487,7 @@ const deviceData = {
         image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/94aa8db69_generated_image.png",
       },
     ],
-    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/19790de5d_generated_image.png",
+    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f626e7a13_generated_image.png",
     references: [
       "Suh DH et al. (2015). Intense focused ultrasound tightening in Asian skin. J Cosmet Laser Ther.",
       "Fabi SG (2015). Noninvasive skin tightening: focus on new ultrasound techniques. Clin Cosmet Investig Dermatol.",
