@@ -6,153 +6,416 @@ import { Button } from "@/components/ui/button";
 import Navbar from "../components/landing/Navbar";
 import Footer from "../components/landing/Footer";
 
-// Device data — extensive clinical/scientific content per device
 const deviceData = {
-  "aquapure-ii": {
-    name: "AQUAPURE II",
-    subtitle: "Multi-Functional Hydro-Dermabrasion System",
-    tag: "Skin Rejuvenation Platform",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d632426b4_generated_image.png",
-    overview: "AQUAPURE II is a comprehensive, multi-modal facial and body treatment platform incorporating eight synergistic modalities into a single clinical-grade system. Designed for dermatologists and aesthetic physicians, it delivers measurable, evidence-based outcomes from the first treatment session.",
+  "veloce-4800": {
+    name: "VELOCE 4800",
+    subtitle: "Broadband Light Technology",
+    tag: "IPL / Broadband Light",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/237bef671_Screenshot2026-04-05at92138.png",
+    overview: "VELOCE 4800 uses dual xenon lamp broadband light technology to reach deep skin layers at low energy. Thanks to various filters with different wavelengths, this technology is effectively used for a wide range of skin problems. The system emits intensive and precisely targeted light pulses, making treatment faster, safer and more effective.",
     modalities: [
-      "AQUAPEEL — Hydro-dermabrasion with simultaneous serum infusion",
-      "ELECTROPORATION — Non-needle transdermal active delivery",
-      "MICROCURRENT — Facial neuromuscular stimulation & lifting",
-      "ULTRASOUND — Deep tissue penetration for ingredient absorption",
-      "LED PHOTOTHERAPY — 3-wavelength skin rejuvenation",
-      "COOLING / HEATING — Peltier-effect thermal skin conditioning",
-      "EMS — Electrical muscle stimulation for body",
-      "SKIN WHITENING — Iontophoresis-assisted pigment correction",
+      "IPDL (Intense Pulse Dual Light) — broadband light up to 1400 nm",
+      "Interchangeable filters — wide spectrum of wavelengths",
+      "PW500 — special filter transmitting light 500–600 nm for haemoglobin",
+      "NT800 — deep-penetrating filter 800–1400 nm for deeper dermal layers",
+      "Efficient cooling control — sapphire applicator keeps skin comfortable",
+      "Fast pulse function — 45×15 mm applicator, energy up to 1,080 J/s",
     ],
-    mechanism: "The AQUAPEEL handpiece generates a controlled vortex of solution that simultaneously exfoliates the stratum corneum, extracts follicular debris, and infuses treatment serums. Negative pressure (100–600 mmHg) is applied cyclically to maximize pore extraction efficacy while maintaining epidermal integrity. Electroporation creates transient aqueous pores in the lipid bilayer of the stratum corneum, enabling macromolecules (Hyaluronic Acid, peptides, growth factors) to penetrate to viable epidermis without mechanical disruption.",
     indications: [
-      "Photoaged skin with surface irregularity",
-      "Active comedonal and inflammatory acne",
-      "Hyperpigmentation and melasma (adjunctive)",
-      "Dehydrated / barrier-compromised skin",
-      "Pre- and post-procedural skin conditioning",
-      "Seborrhoeic skin with enlarged pores",
+      "Pigmented lesions", "Lentigo", "Melasma", "Vascular lesions", "Telangiectasia",
+      "Poikiloderma", "Skin rejuvenation", "Tightening of pores", "Acne and post-acne",
+      "Active acne", "Rosacea", "Erythema", "Epilation", "Photodynamic therapy",
+      "Port Wine Stain", "Demodex treatment",
     ],
     specs: [
-      { label: "Modalities", value: "8 simultaneous" },
-      { label: "Vacuum Pressure", value: "100 – 600 mmHg" },
-      { label: "RF Frequency", value: "1 MHz" },
-      { label: "Microcurrent Output", value: "0 – 600 µA" },
-      { label: "LED Wavelengths", value: "630 nm / 830 nm / 415 nm" },
-      { label: "Power Supply", value: "100–240 V AC, 50/60 Hz" },
-      { label: "Certification", value: "CE Mark, ISO 13485" },
-      { label: "Handpieces", value: "4 dedicated treatment heads" },
+      { label: "Technology", value: "IPDL — Intense Pulse Dual Light" },
+      { label: "Light Source", value: "Dual Xenon Lamp" },
+      { label: "Wavelength Range", value: "500–1400 nm (filter-dependent)" },
+      { label: "PW500 Filter", value: "500–600 nm (haemoglobin absorption)" },
+      { label: "NT800 Filter", value: "800–1400 nm (deep dermal)" },
+      { label: "Applicator Size", value: "45 × 15 mm" },
+      { label: "Max Energy", value: "1,080 J/s" },
+      { label: "Certification", value: "CE Mark" },
     ],
+    mechanism: "The IPDL technology combines intense pulsed light with broadband light up to 1400 nm, making VELOCE the best choice for treating a broader spectrum of skin problems compared to standard IPL systems. The dual xenon lamp technology ensures stable energy delivery and maximum precision. Even at ultra-fast pulse mode, the device provides stable laser beams and precisely targeted laser spots — thus achieving maximum efficiency and optimal treatment results. The Smart Adapter and spot blocks allow precise treatment without damage to surrounding tissue.",
     references: [
-      "Gold MH et al. (2020). Hydradermabrasion: an innovative approach to skin rejuvenation. J Clin Aesthet Dermatol.",
-      "Ryu HS et al. (2018). Efficacy of electroporation-assisted drug delivery in skin lightening. Dermatol Surg.",
-      "Alster TS, Graham PM (2018). Microcurrent stimulation: systematic review of the evidence. Aesthet Surg J.",
+      "Babilas P et al. (2010). Intense pulsed light (IPL): A review. Lasers Surg Med.",
+      "Wat H et al. (2014). Application of intense pulsed light in the treatment of dermatologic disease. J Cutan Med Surg.",
     ],
   },
-  "secret-duo": {
-    name: "SECRET DUO",
-    subtitle: "Dual Non-Ablative Fractional Platform",
-    tag: "Fractional RF + 1540nm Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c4e01f212_generated_image.png",
-    overview: "SECRET DUO integrates two clinically proven non-ablative fractional modalities — microneedle fractional RF and 1540nm erbium glass laser — into one system. The dual-technology approach enables physicians to address a broad spectrum of dermatological indications with synergistic protocols and reduced overall downtime.",
+  "ultraformer-mpt": {
+    name: "ULTRAFORMER MPT",
+    subtitle: "Bidirectional Circular & Linear Pulse Technology",
+    tag: "MMFU / HIFU",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e955e31aa_Screenshot2026-04-05at92203.png",
+    overview: "Creating the right quality TCP determines the performance of MMFU technology. The new ULTRAFORMER MPT breaks down the TCP creation process into micro-units, ensuring higher safety, extraordinary precision and maximum MMFU technology efficiency — going beyond standard technological standards.",
     modalities: [
-      "Fractional Microneedle RF — Controlled thermal coagulation zones in the dermis",
-      "1540nm Erbium Glass Laser — Non-ablative fractional photothermolysis",
-      "Sequential or simultaneous combination protocol",
+      "MMFU — Macro and micro focused ultrasound energy",
+      "Bidirectional circular and linear point pulse",
+      "Ultra-Booster handpiece with optimised transducer",
+      "3 handpieces and 10 interchangeable cartridges",
+      "Normal, Micro-pulse, Circular, Micro-circular modes",
     ],
-    mechanism: "The microneedle RF module delivers bipolar radiofrequency energy through an array of gold-coated insulated needles (0.6–3.5 mm depth) creating discrete micro-thermal zones (MTZs) in the dermis while preserving the epidermis. The 1540nm Er:Glass laser generates non-ablative photothermolysis targeting intracellular water, creating a columnar pattern of thermal injury that stimulates fibroblast activation and neocollagenesis. Combined use yields a broader thermal damage spectrum — superficial to mid-dermal — maximizing collagen remodeling without ablative risk.",
     indications: [
-      "Acne scars (ice-pick, boxcar, rolling)",
-      "Enlarged pores and sebaceous gland hyperplasia",
-      "Rhytids and periorbital lines",
-      "Skin laxity (face and neck)",
-      "Striae distensae",
-      "Post-inflammatory hyperpigmentation",
+      "Facelifting", "Skin tightening", "Eyebrow lifting", "Wrinkle reduction",
+      "Volume reduction in the cheek area", "Jowl reduction and tightening",
+      "Eye area rejuvenation", "Nasolabial folds",
     ],
     specs: [
-      { label: "RF Needle Depth", value: "0.6 – 3.5 mm (adjustable)" },
-      { label: "Laser Wavelength", value: "1540 nm (Er:Glass)" },
-      { label: "RF Frequency", value: "1 MHz bipolar" },
-      { label: "Pulse Duration", value: "5 – 300 ms" },
-      { label: "Spot Size (Laser)", value: "15 mm diameter" },
-      { label: "Needle Array", value: "25 / 64 pin configurations" },
-      { label: "Energy Range (RF)", value: "10 – 50 W" },
-      { label: "Certification", value: "CE Mark, FDA 510(k)" },
+      { label: "Technology", value: "MMFU — Macro & Micro Focused Ultrasound" },
+      { label: "Pulse Modes", value: "Circular, Linear, Point, Micro-circular" },
+      { label: "Handpieces", value: "3 (incl. Ultra-Booster)" },
+      { label: "Cartridges", value: "10 interchangeable" },
+      { label: "Treatment Speed", value: "2.5× faster than standard" },
+      { label: "Application Area", value: "Face & Body" },
+      { label: "Certification", value: "CE Mark" },
     ],
+    mechanism: "MMFU technology through micro pulse technology makes TCP 25× finer, transfers additional energy to the treatment area and enables intensive treatment. The Ultra-Booster applicator encompasses the most modern MMFU energy generation technology. The Ultraformer MPT can perform both point and bidirectional linear point pulses, which shortens treatment time and at the same time maximises its quality. Converters are 2.5× faster than standard and eliminate return time — ensuring maximum patient comfort and optimal clinical results.",
+    references: [
+      "Suh DH et al. (2015). Intense focused ultrasound tightening in Asian skin. J Cosmet Laser Ther.",
+      "Fabi SG (2015). Noninvasive skin tightening: focus on new ultrasound techniques. Clin Cosmet Investig Dermatol.",
+    ],
+  },
+  "fraxis-duo": {
+    name: "FRAXIS DUO",
+    subtitle: "Fractional CO² Laser + Microneedle RF",
+    tag: "Fractional Laser + RF",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/27dbcc210_Screenshot2026-04-05at92215.png",
+    overview: "Fraxis Duo can be used to treat a wide range of indications using fractional CO² laser, microneedles and optional surgical and gynaecological handpieces. The ideal combination of fractional CO² laser and microneedle RF technology provides a broader spectrum of aesthetic applications for face and body.",
+    modalities: [
+      "Fractional CO² Laser — 30W output, short impulse for uniform high-quality beam",
+      "Microneedle RF — bipolar RF via high-quality medical needles at 0.5–3.5 mm",
+      "Surgical handpiece — spot size 0.2–1.3 mm for precise incisions",
+      "Gynaecological handpiece (optional) — 8×8 CO² grid at 90° to vaginal wall",
+      "6 different scanning modes — dot, circle, oval, square, triangle, hexagon",
+      "I-Stack function — deeper fractional ablation at lower energy",
+    ],
+    indications: [
+      "Toning and texture", "Skin firming", "Acne and post-acne scars", "Skin rejuvenation",
+      "Face and neck firming", "Superficial pigmentation", "Skin regeneration",
+      "Fine wrinkles", "Lifting and tightening", "Xanthelasma",
+      "Eyelid treatment", "Surgical cuts", "Vaginal rejuvenation",
+      "Urinary incontinence", "Striae", "Bradavice",
+    ],
+    specs: [
+      { label: "CO² Laser Power", value: "30 W" },
+      { label: "Scan Sizes", value: "1×1 to 20×20 mm" },
+      { label: "Body Distance", value: "0.1 to 2.0 mm" },
+      { label: "Needle Depth (RF)", value: "0.5 – 3.5 mm" },
+      { label: "Surgical Spot Size", value: "0.2 – 1.3 mm" },
+      { label: "Device Size", value: "340 × 840 mm" },
+      { label: "Weight", value: "208 g (handpiece)" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
+    ],
+    mechanism: "The powerful fractional CO² laser scanner with 30 W output provides, thanks to short impulse, a uniform and high-quality laser beam. Its ablative-thermal effect supports epidermis regeneration and dermis regeneration. Optimal beam spot of 100 micrometres minimises healing time and risk of post-inflammatory hyperpigmentation (PIH). The microneedle RF module transfers bipolar RF energy via ultra-fine medical steel needles, increasing the efficacy of photo-rejuvenation and scar treatment on face and body. The combination of these two technologies provides an extraordinarily effective yet gentle skin rejuvenation with minimal downtime.",
     references: [
       "Alexiades-Armenakas M et al. (2008). Fractional laser skin resurfacing. J Drugs Dermatol.",
-      "Hruza G et al. (2009). Fractional photothermolysis and RF combination outcomes. Lasers Surg Med.",
-      "Kim JE et al. (2017). Microneedle RF for acne scar treatment: a split-face study. Dermatol Surg.",
+      "Hruza G et al. (2009). Fractional photothermolysis and RF combination. Lasers Surg Med.",
     ],
   },
   "volnewmer": {
     name: "VOLNEWMER",
-    subtitle: "Monopolar Radiofrequency Lifting System",
-    tag: "Non-Invasive RF Tightening",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e78c755ab_generated_image.png",
-    overview: "VOLNEWMER is a monopolar radiofrequency device engineered for deep dermal and subdermal heating, producing measurable tissue contraction and neocollagenesis. Its patented curved-surface electrode with integrated continuous water cooling system allows delivery of high-fluence RF energy with a superior safety profile.",
+    subtitle: "Face Reformer — Monopolar RF",
+    tag: "RF Lifting",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4b66a1730_Screenshot2026-04-05at92228.png",
+    overview: "Radiofrequency energy stimulates collagen renewal in the dermis through thermal effect. Volnewmer is the most non-invasive aesthetic device that combines lifting and skin tightening, offering safe, innovative and effective treatment with maximum comfort.",
     modalities: [
-      "Monopolar RF — Deep volumetric heating to 3–5 mm depth",
-      "Continuous water cooling — Epidermal temperature control",
-      "Radial RF emission — Uniform energy distribution",
+      "Monopolar RF — Long Pass Radiofrequency, high and safe RF range",
+      "Oval surface — stable energy via curved surface applicator",
+      "Hidden edge tip — side-effect suppression technology",
+      "Impedance detection system — real-time contact monitoring",
+      "Continuous cooling system — prevents epidermal burns",
+      "4 cartridge options — F, V, S, O TIPs for face and body",
     ],
-    mechanism: "Monopolar RF energy (448 kHz) penetrates to the reticular dermis and superficial SMAS layer, raising tissue temperature to 65–70°C within the treatment zone. This thermally induces immediate collagen fibril contraction (type I and III) and triggers a wound-healing cascade activating fibroblasts to produce new collagen over 3–6 months. The hidden edge tip geometry concentrates energy at the skin surface periphery to suppress edge-effect artefacts. Continuous water cooling via the Peltier module maintains epidermal surface temperature below 42°C throughout treatment, eliminating the risk of epidermal thermal injury.",
     indications: [
-      "Facial skin laxity and jowl definition",
-      "Neck and submental laxity",
-      "Periorbital and brow ptosis (adjunctive)",
-      "Body skin tightening (abdomen, arms, inner thighs)",
-      "Post-liposuction skin contraction",
+      "Skin tightening and lifting", "Face modelling", "Pore reduction",
+      "Wrinkle reduction", "Skin surface treatment", "Chin reduction",
+      "Fine wrinkle smoothing",
     ],
     specs: [
-      { label: "RF Frequency", value: "448 kHz monopolar" },
-      { label: "Target Tissue Temp.", value: "65 – 70°C" },
-      { label: "Epidermal Cooling", value: "Continuous Peltier water cooling" },
-      { label: "Max Power Output", value: "120 W" },
-      { label: "Treatment Depth", value: "3 – 5 mm (dermis / SMAS)" },
-      { label: "Tip Types", value: "Face / Body curved surface tips" },
-      { label: "Display", value: "Real-time temperature monitoring" },
-      { label: "Certification", value: "CE Mark, ISO 13485" },
+      { label: "Technology", value: "Monopolar Long Pass RF" },
+      { label: "Cartridges", value: "4 types: F TIP 0.25 / P TIP 3.0 / V TIP 4.0 / S TIP 16.0" },
+      { label: "Target Areas", value: "Face and body" },
+      { label: "Safety Features", value: "Real-time impedance detection, auto energy shutoff" },
+      { label: "Cooling", value: "Continuous integrated cooling" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
+    mechanism: "Volnewmer uses monopolar RF energy that targets collagen layers and allows controlled and safe energy penetration to deeper skin layers. It ensures balancing of skin tone, tightening, improvement of elasticity and volumetric lifting. This thermal effect resembles collagen restructuring of existing collagen and stimulates formation of new collagen. Volnewmer, designed for effective treatment results for face and body, ensures stable energy transfer and, thanks to the continuous cooling system, provides maximum effect and at the same time higher patient comfort. The oval surface applicator design ensures even distribution of thermal energy across the entire applicator surface.",
     references: [
       "Zelickson BD et al. (2004). Histological and ultrastructural evaluation of monopolar RF. Arch Dermatol.",
-      "Bassichis BA et al. (2004). Non-ablative RF for skin tightening: early results. Facial Plast Surg.",
       "Sadick NS, Makino Y (2004). Selective electro-thermolysis in aesthetic medicine. Lasers Surg Med.",
     ],
   },
-  "scizer": {
-    name: "SCIZER",
-    subtitle: "High-Intensity Focused Ultrasound Body System",
-    tag: "HIFU Fat Reduction & Body Contouring",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/91f4c2ff6_generated_image.png",
-    overview: "SCIZER delivers high-intensity focused ultrasound (HIFU) energy to the subcutaneous adipose layer, producing permanent, non-surgical fat cell destruction through controlled thermal necrosis. Purpose-designed for body contouring applications, the system features the Slim D13 handpiece for precise targeting of deep adipose tissue.",
+  "curas": {
+    name: "CURAS",
+    subtitle: "Q-Switched Nd:YAG Laser",
+    tag: "Laser / Pigment",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/824c03d86_Screenshot2026-04-05at92242.png",
+    overview: "The new Curas is a new generation Q-switched Nd:YAG laser system that, thanks to improved wavelength performance of 532 nm and 1064 nm, can transfer energy stably and in a controlled manner from the skin surface to its deepest layers.",
     modalities: [
-      "HIFU — High-Intensity Focused Ultrasound at 2 MHz",
-      "Slim D13 cartridge — 13mm focal depth for subcutaneous fat",
-      "Dual thermal conditioning — Simultaneous surface cooling",
+      "1064 nm Q-Switched Nd:YAG — deep tissue targeting",
+      "532 nm Q-Switched Nd:YAG — superficial pigment correction",
+      "DOE Handpiece 5×5 — treatment in 5×5 mm grid with 48 microbeams",
+      "Zoom-Collimation Handpiece — nastavitelné intervaly 1 mm, pulsy 2–10 mm",
+      "Zoom-MLA Handpiece — 85 stable point impulses, multi-level energy",
+      "A6 / K6 mode — new modes for regular pulse transfer during treatment",
     ],
-    mechanism: "SCIZER focuses ultrasound energy to a small focal point within the subcutaneous fat layer at a depth of 13mm. At the focal zone, rapid tissue temperature elevation (≥65°C) occurs within milliseconds, inducing non-selective coagulative necrosis of adipocytes. The surrounding tissue, skin, and superficial structures are unaffected due to the focused nature of the ultrasound beam. Necrotic adipocytes undergo apoptosis and are cleared via the lymphatic system over 8–12 weeks. The overlying dermis simultaneously receives subtherapeutic ultrasound energy, stimulating fibroblast activity and mild collagen remodeling, producing a concurrent mild skin tightening effect.",
     indications: [
-      "Subcutaneous adiposity of the abdomen",
-      "Flank and love handle reduction",
-      "Inner and outer thigh contouring",
-      "Submental fat (in combination with face HIFU)",
-      "Post-weight-loss body refinement",
+      "Tattoo removal", "Pigmented lesions", "Melasma", "Soft Peeling",
+      "Lash thickening", "Nail fungus", "Sun and age spots", "Skin toning",
+      "Epidermis lesions", "Dermal lesions", "Carbon peeling", "Karbonový peeling",
+      "Skin rejuvenation", "Becker's Nevus", "Freckle removal",
     ],
     specs: [
-      { label: "Technology", value: "High-Intensity Focused Ultrasound" },
-      { label: "Frequency", value: "2 MHz" },
-      { label: "Focal Depth", value: "13 mm (SC fat layer)" },
-      { label: "Pulse Energy", value: "Up to 120 J/cm²" },
-      { label: "Cartridge Type", value: "Slim D13 (interchangeable)" },
-      { label: "Cooling System", value: "Integrated contact cooling" },
-      { label: "Treatment Areas", value: "Abdomen, flanks, thighs" },
-      { label: "Certification", value: "CE Mark, KFDA" },
+      { label: "Wavelengths", value: "1064 nm / 532 nm" },
+      { label: "Technology", value: "Q-Switched Nd:YAG" },
+      { label: "Max Energy", value: "1.3 J" },
+      { label: "Handpieces", value: "DOE 5×5, Zoom-Collimation, Zoom-MLA" },
+      { label: "Pulse Mode", value: "A6 / K6" },
+      { label: "Lenses", value: "DOE Lens, MLA Lens" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
+    mechanism: "The device provides high energy stability and, as the only Q-switched Nd:YAG platform, allows removal of all pigmented lesions and tattoo colours simultaneously at wavelengths 1064/532 nm with energy up to 1.3 J. The laser emits short, high-performance energy pulses focused on the treated area. Using Q-switched pulses, it increases efficacy while minimising undesirable effects such as PIH (post-inflammatory hyperpigmentation) or skin overheating. The Zoom-MLA lens produces 85 stable point impulses; intensity can be adjusted from deep dermis (L15), middle dermis (L25) to surface dermis (L35), minimising thermal effect on the skin.",
+    references: [
+      "Ho SG et al. (2017). Q-switched laser treatment for pigmented lesions and tattoos. Clin Cosmet Investig Dermatol.",
+      "Goldberg DJ (2010). Lasers and Light Sources for the Removal of Unwanted Hair. Dermatol Clin.",
+    ],
+  },
+  "secret-rf": {
+    name: "SECRET RF",
+    subtitle: "Fractional Microneedle + Cannula RF",
+    tag: "Fractional RF",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a00adaafa_Screenshot2026-04-05at92255.png",
+    overview: "Secret RF uses microneedle radiofrequency technology that ensures coagulation, protein denaturation and volumetric heating of deep skin layers. Advanced bipolar RF technology with microneedles from medical steel increases the efficacy of photo-rejuvenation treatment and scar treatment on face and body.",
+    modalities: [
+      "Fractional RF — 2 MHz bipolar precise RF technology",
+      "MTR-AC-C25 — 25-needle semi-isolated cartridge, max 25 W",
+      "MTR-AC-C64 — 64-needle semi-isolated cartridge, max 70 W",
+      "SmartCure (optional) — thermal coagulation electroporation",
+      "Mono-Polar RF — non-invasive 2 MHz RF for wrinkles and eye area",
+      "K3I — isolated electrolysis needle for precise capillary treatment",
+      "AC-01 — single-use isolated needle for collagen remodeling",
+    ],
+    indications: [
+      "Skin rejuvenation", "Skin tightening", "Wrinkle reduction", "Pore reduction",
+      "Superficial vascular lesions", "Face lifting", "Acne", "Post-trauma scars",
+      "Striae", "Žíhy",
+    ],
+    specs: [
+      { label: "RF Technology", value: "2 MHz bipolar fractional" },
+      { label: "MTR-AC-C25", value: "25 needles, 10×10 mm, max 25 W" },
+      { label: "MTR-AC-C64", value: "64 needles, 17.5×17.5 mm, max 70 W" },
+      { label: "Needle Depth", value: "0.5 – 3.5 mm" },
+      { label: "Device Size", value: "140 × Ø40 mm" },
+      { label: "Weight", value: "205 g (handpiece)" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
+    ],
+    mechanism: "Secret RF uses dual precise RF technology 2 MHz that minimises epidermis damage and provides synergistic effect. Precise needles ensure smooth, firm and strong surface while RF energy (at depth 0.5–3.5 mm) induces sub-dermal thermal coagulation in deep dermal layers, which activates fibroblasts and forms new collagen. This process supports superficial and deep skin layer remodeling and its regeneration with minimal downtime. The technology is suitable for all skin types. Minimal discomfort and precise thermolysis — precise needles ensure even energy guidance and targeted heating without damage to surrounding tissue.",
+    references: [
+      "Kim JE et al. (2017). Microneedle RF for acne scar treatment: a split-face study. Dermatol Surg.",
+      "Alexiades M et al. (2014). Randomized controlled trial of fractional RF microneedling. Dermatol Surg.",
+    ],
+  },
+  "secret-duo": {
+    name: "SECRET DUO",
+    subtitle: "Er-Glass 1540nm + Microneedle RF + Cannula RF",
+    tag: "Dual Fractional",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2da528414_Screenshot2026-04-05at92317.png",
+    overview: "Secret DUO combines two advanced non-ablative technologies in one device. Microneedle RF technology allows precise coagulation, protein denaturation and deep layer heating — with minimal revalidation time and fast regeneration. Erbium Glass Laser 1540 nm provides fractional non-ablative rejuvenation of skin and improves skin structure, scars and collagen stimulation.",
+    modalities: [
+      "1540nm Erbium Glass Laser — non-ablative fractional photothermolysis",
+      "Microneedle RF — bipolar fractional RF, 0.5–3.5 mm depth",
+      "MTR-AC-C25 — 25-needle semi-isolated cartridge, max 25 W",
+      "MTR-AC-C64 — 64-needle semi-isolated cartridge, max 70 W",
+      "SmartCure (optional) — thermal coagulation technology",
+      "5 scan modes — 1×1 to 10×10, spacing 0.5–2.0 mm",
+    ],
+    indications: [
+      "Microneedle RF: Lifting and skin tightening, fine lines and wrinkles, superficial vascular lesions, acne and post-acne scars, pore reduction, striae, skin rejuvenation, atrophic scars",
+      "1540nm Er:Glass: Non-ablative skin rejuvenation, active acne, atrophic scars, post-injury scars, wrinkle reduction, skin tightening, pore reduction",
+    ],
+    specs: [
+      { label: "Laser Wavelength", value: "1540 nm Erbium Glass" },
+      { label: "RF Technology", value: "Bipolar Microneedle 2 MHz" },
+      { label: "Scan Sizes", value: "1×1 to 10×10 mm" },
+      { label: "Needle Depth", value: "0.5 – 3.5 mm" },
+      { label: "MTR-AC-C25", value: "25 needles, 10×10 mm, max 25 W" },
+      { label: "MTR-AC-C64", value: "64 needles, 17.5×17.5 mm, max 70 W" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
+    ],
+    mechanism: "The 1540nm laser scanning handpiece provides individualised energy according to skin type and condition. The non-ablative fractional laser beam is transferred to the dermis in the form of multiple columns and targeted primarily at water content in the dermal layer. This stimulates collagen heating and remodeling of dermis, causing any ablative effect on the epidermis to be avoided. Compared to ablative lasers it provides faster skin regeneration and fewer side effects after treatment. The combination of both technologies provides extraordinarily effective yet gentle skin rejuvenation with minimal downtime.",
+    references: [
+      "Hruza G et al. (2009). Fractional photothermolysis and RF combination. Lasers Surg Med.",
+      "Kim JE et al. (2017). Microneedle RF for acne scar treatment: a split-face study. Dermatol Surg.",
+    ],
+  },
+  "ultraformer-iii": {
+    name: "ULTRAFORMER III",
+    subtitle: "Macro & Micro Focused Ultrasound",
+    tag: "HIFU",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5adbe59fe_Screenshot2026-04-05at92328.png",
+    overview: "HIFU (High-Intensity Focused Ultrasound) device uses precision pulse modes that apply thermal energy to precisely defined skin depths. It is designed to achieve non-invasive lifting and body contouring with optimal results.",
+    modalities: [
+      "Macro Focused Ultrasound — higher density energy, deeper penetration",
+      "Micro Focused Ultrasound — highly concentrated ultrasonic beams precisely to defined depths",
+      "7 cartridges for face and body",
+      "Multifunctional cartridges with different depths",
+      "Fast and precise cartridge transducers",
+    ],
+    indications: [
+      "Non-invasive face lifting", "Non-invasive tightening of face", "Body lifting",
+      "Wrinkle reduction around eyes", "Reduction of under-eye bags", "Nasolabial folds",
+      "Fat reduction in cheek area", "Chin tightening", "Body posture modelling",
+      "Breast lifting", "Buttock lifting",
+    ],
+    specs: [
+      { label: "Technology", value: "Macro & Micro Focused HIFU" },
+      { label: "Cartridges", value: "7 for face and body" },
+      { label: "Depths", value: "1.5 mm / 3.0 mm / 2 mm / 4.5 mm" },
+      { label: "Frequencies", value: "10 MHz / 7 MHz / 5.5 MHz / 4 MHz" },
+      { label: "Deep Cartridges", value: "6.0 / 9.0 / 13.0 mm at 2 MHz" },
+      { label: "Transducer Speed", value: "2.5× faster than standard" },
+      { label: "Certification", value: "CE Mark" },
+    ],
+    mechanism: "HIFU technology transfers ultrasound energy evenly to various skin layers without damaging its surface. Ultraformer III focuses energy on forming tiny coagulation points where it maintains stable temperature 65–75°C. This thermal energy activates formation of new collagen, ensures skin tightening and supports forming of facial and body contours. Collagen renewal in the face triggered by HIFU technology took place by heating dermal and surface aponeurotic layers (SMAS). These layers pass through several phases — blood coagulation (haemostasis), skin contraction and gradual formation of new collagen.",
+    references: [
+      "Suh DH et al. (2015). Intense focused ultrasound tightening in Asian skin. J Cosmet Laser Ther.",
+      "Fabi SG (2015). Noninvasive skin tightening: focus on new ultrasound techniques. Clin Cosmet Investig Dermatol.",
+    ],
+  },
+  "pento": {
+    name: "PENTO",
+    subtitle: "755nm Alexandrite + 1064nm Nd:YAG Laser",
+    tag: "Dual Wavelength Laser",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dd1036589_Screenshot2026-04-05at92342.png",
+    overview: "Pento is a highly effective system for permanent epilation and treatment of vascular lesions. It delivers higher energy levels at short pulse times and at various spot diameters, thus ensuring energy transfer to deep skin layers and increasing treatment efficacy.",
+    modalities: [
+      "755nm Alexandrite Laser — 3ms, 50 J at 2 Hz for epilation",
+      "1064nm Nd:YAG Laser — 3ms, 60 J at 2 Hz for vascular and deep targets",
+      "31-gram Rod — most powerful and stable Alexandrite and Nd:YAG laser generation",
+      "Spot diameter up to 24 mm — circular mode",
+      "GCD (Gas Cooling Device) — cryogenic cooling system",
+      "Various pulse intervals: 250 µs – 300 ms",
+    ],
+    indications: [
+      "Epilation", "Melasma", "Pigmented lesions", "Skin toning", "Skin tightening",
+      "Wrinkle reduction", "Vascular lesions", "Sting treatment", "Seborrhoeic keratosis",
+      "Fine hair epilation",
+    ],
+    specs: [
+      { label: "Wavelengths", value: "755 nm Alexandrite + 1064 nm Nd:YAG" },
+      { label: "Rod Weight", value: "31 grams" },
+      { label: "Alexandrite Output", value: "3ms, 50 J @ 2 Hz" },
+      { label: "Nd:YAG Output", value: "3ms, 60 J @ 2 Hz" },
+      { label: "Short Pulse", value: "250 µs, 4.5 J @ 10 Hz" },
+      { label: "Spot Size", value: "Up to 24 mm diameter" },
+      { label: "Cooling", value: "GCD — Gas Cooling Device" },
+      { label: "Certification", value: "CE Mark, FDA Approved" },
+    ],
+    mechanism: "Optimised output for high-speed laser emission ensures stable output energy. In circular mode it provides spot diameter up to 24 mm and various pulse widths. It combines performance, comfort and safety and provides broad possibilities for treatment of various lesion types. The 31-gram Rod is used for generating the most powerful and most stable Alexandrite and Nd:YAG laser. It is a highly quality component used in the system. The short pulse of 3 ms transfers energy of 50 J, the device works at a speed of approximately 2 Hz. At a short pulse of 250 µs it achieves energy 4.5 J and works at speed 10 Hz. Short exposure with high energy minimises thermal effects on skin and ensures fast, effective and complete treatment results.",
+    references: [
+      "Goldberg DJ (2010). Lasers and Light Sources for the Removal of Unwanted Hair. Dermatol Clin.",
+      "Altshuler GB et al. (2001). Extended theory of selective photothermolysis. Lasers Surg Med.",
+    ],
+  },
+  "ncore": {
+    name: "N.CORE 3D",
+    subtitle: "Triple Wavelength Diode Laser",
+    tag: "Diode Laser",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/48a634f51_Screenshot2026-04-05at92406.png",
+    overview: "Simultaneously emits laser energy at wavelengths 755 nm, 808 nm and 1064 nm to three different skin depths, thereby providing greater efficacy and enabling faster and more effective epilation. The device is designed to achieve the most effective results and uses the newest and most modern technology.",
+    modalities: [
+      "755 nm Alexandrite — superficial hair follicles",
+      "808 nm Diode — mid-depth dermal targeting",
+      "1064 nm Nd:YAG — deep subcutaneous follicles",
+      "Simultaneous diode laser emission — 3D Epilace",
+      "Dual mode — Intensive and Dynamic",
+      "Sapphire cooling applicator — 11×24 mm contact area",
+    ],
+    indications: [
+      "Epilation (all skin types, year-round)", "Skin tightening",
+      "3D Core Lifting — collagen stimulation at 38–40°C",
+    ],
+    specs: [
+      { label: "Wavelengths", value: "755 nm + 808 nm + 1064 nm (simultaneous)" },
+      { label: "Max Power", value: "1400 W" },
+      { label: "Frequency", value: "20 Hz" },
+      { label: "Treatment Area", value: "11 × 24 mm" },
+      { label: "Contact Temperature", value: "5°C / 0°C / -5°C (selectable)" },
+      { label: "Cooling", value: "Stable sapphire contact cooling" },
+      { label: "Certification", value: "CE Mark" },
+    ],
+    mechanism: "The stable sapphire contact cooling system ensures that epidermal tissue is not damaged. This system during thermal energy transfer minimises the risk of undesirable effects, such as burns, and provides a safe treatment course. Three different wavelengths act stably and in a controlled manner in different skin depths — 755 nm for superficial, 808 nm for medium and 1064 nm for deep follicles. The wide, permanently cold handpiece ensures comfortable application. Intensive mode delivers strong energy to deeper skin layers without waiting and at high speed. Dynamic mode transfers RF energy evenly and provides gentle and stable cut.",
+    references: [
+      "Altshuler GB et al. (2001). Extended theory of selective photothermolysis. Lasers Surg Med.",
+      "Dierickx CC (2006). The role of deep heating for noninvasive skin rejuvenation. Lasers Surg Med.",
+    ],
+  },
+  "aquapure-ii": {
+    name: "AQUAPURE II",
+    subtitle: "Deep Skin Care System",
+    tag: "Hydradermabrasion",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2030d9b21_Screenshot2026-04-05at92417.png",
+    overview: "AQUAPURE II is a multifunctional device for comprehensive skin care of face and body, combining wet and dry exfoliation, micro-focused microneedling and LED therapy — all in one innovative system.",
+    modalities: [
+      "Step 1 — Diamond Peeling: removes dead skin cells, improves tone and texture",
+      "Step 2 — AD-Peel: cleans pores and delivers hydration to deep skin layers",
+      "Step 3 — MF Microneedling: delivers nutrients via microscopic channels, increases elasticity",
+      "Step 4 — LightPure LED: 625nm (anti-aging), 520nm (hydration), 465nm (antibacterial)",
+      "Solutions: S1 PEEL+, S2 SEBO+, S3 REJUVE+, Cleansys cleaning agent",
+    ],
+    indications: [
+      "Peeling", "Skin nutrition", "Skin cleansing", "Skin calming and hydration",
+      "Bacterial skin cleansing", "Wrinkles", "Oily/problematic skin",
+      "Fine acne marks", "Striae", "Dull skin",
+    ],
+    specs: [
+      { label: "Treatment Steps", value: "4 (Diamond Peeling, AD-Peel, MF Microneedling, LightPure LED)" },
+      { label: "LED Wavelengths", value: "625 nm / 520 nm / 465 nm" },
+      { label: "Solutions", value: "S1 PEEL+, S2 SEBO+, S3 REJUVE+, Cleansys" },
+      { label: "MF Needling", value: "Micro-focused microneedle delivery" },
+      { label: "AD Peeling", value: "Aqua + Diamond dermabrasion" },
+      { label: "Certification", value: "CE Mark" },
+    ],
+    mechanism: "AQUAPURE II is equipped with advanced handpieces that allow penetration of regenerative and antioxidant substances to deep skin layers of epidermis. Thanks to this the device improves skin hydration, its elasticity and supports the collagen regeneration process. AD Peel technology removes dead skin cells and deeply cleans pores, thereby maximising dermabrasion effects. Small MF needles penetrate into the epidermis and target delivery of active substances that support hydration and collagen regeneration. MF microneedling is ideal for treatment of acne scars, wrinkles, striae and enlarged pores. The LED LightPure therapy combines three types of light with various wavelengths acting on various epidermis layers — providing antibacterial and anti-inflammatory effects as well as activating tightening processes in the skin.",
+    references: [
+      "Gold MH et al. (2020). Hydradermabrasion: an innovative approach to skin rejuvenation. J Clin Aesthet Dermatol.",
+      "Ryu HS et al. (2018). Efficacy of electroporation-assisted drug delivery in skin lightening. Dermatol Surg.",
+    ],
+  },
+  "clatuu-alpha": {
+    name: "CLATUU ALPHA",
+    subtitle: "Cryolipolysis",
+    tag: "Fat Freezing",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ec1c2c778_Screenshot2026-04-05at92429.png",
+    overview: "Clatuu Alpha is a fat reduction and body shaping device that is trusted worldwide. It uses cryolipolysis technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it.",
+    modalities: [
+      "ARC-T — chin and other small body areas",
+      "WING Max — upper and lower abdominal area (large)",
+      "WING — upper and lower abdominal area, flanks and other large areas",
+      "WING Plus — underarm, hips, knees and other small areas",
+      "FLAT Mini — underarm, hips, knees and other small local areas",
+      "FLAT — abdomen and inner thighs",
+      "360° Cooling — even cooling energy distribution across entire applicator",
+    ],
+    indications: [
+      "Subcutaneous fat reduction — abdomen", "Flank and love handle reduction",
+      "Inner thigh contouring", "Submental fat", "Arm fat reduction",
+      "Post-weight-loss body refinement", "Body contouring",
+    ],
+    specs: [
+      { label: "Technology", value: "Cryolipolysis — controlled fat freezing" },
+      { label: "Cooling", value: "360° panel cooling system" },
+      { label: "Vacuum Strength", value: "20% stronger than standard systems" },
+      { label: "Simultaneous Treatment", value: "Dual-area in 40 minutes" },
+      { label: "Applicators", value: "ARC-T, WING Max, WING, WING Plus, FLAT Mini, FLAT" },
+      { label: "Treatment Time", value: "From 40 minutes per area" },
+      { label: "Certification", value: "CE Mark" },
+    ],
+    mechanism: "Clatuu Alpha uses controlled fat freezing technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it. The cooling causes damage to the structure of fat cells and their subsequent disintegration. The damaged fat cells are subsequently eliminated from the body by natural processes, which leads to visible reduction of volume and improvement of contours of the treated area. The improved 360° cooling system of Clatuu Alpha ensures even distribution of cooling energy across the entire length of the applicator, enabling faster achievement of target temperature and increasing efficacy by up to 18%.",
     references: [
       "Jewell ML et al. (2011). Clinical application of HIFU for non-invasive body sculpting. Aesthet Surg J.",
-      "Fatemi A (2009). High-intensity focused ultrasound effectively reduces adipose tissue. Semin Cutan Med Surg.",
-      "Gadsden E et al. (2011). Combined HIFU and cryolipolysis for body contouring. Lasers Surg Med.",
+      "Dierickx CC et al. (2013). Safety, tolerance, and patient satisfaction with noninvasive cryolipolysis. Dermatol Surg.",
     ],
   },
 };
@@ -207,7 +470,7 @@ export default function DeviceDetail() {
               </p>
               <Button
                 size="lg"
-                onClick={() => document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={() => document.getElementById("cta-contact")?.scrollIntoView({ behavior: "smooth" })}
                 className="mt-8 bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-12"
               >
                 Request Clinical Information
@@ -224,7 +487,7 @@ export default function DeviceDetail() {
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-full rounded-t-3xl shadow-2xl"
+                className="w-full rounded-t-3xl shadow-2xl object-cover object-left-top max-h-[420px]"
               />
             </motion.div>
           </div>
@@ -236,10 +499,9 @@ export default function DeviceDetail() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-12">
 
-            {/* Left: Mechanism + Indications */}
+            {/* Left: Mechanism + Modalities + Indications + References */}
             <div className="lg:col-span-2 space-y-14">
 
-              {/* Mechanism */}
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
                   Mechanism of Action
@@ -249,7 +511,6 @@ export default function DeviceDetail() {
                 </p>
               </motion.div>
 
-              {/* Modalities */}
               {device.modalities && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                   <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
@@ -266,7 +527,6 @@ export default function DeviceDetail() {
                 </motion.div>
               )}
 
-              {/* Indications */}
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
                   Clinical Indications
@@ -281,7 +541,6 @@ export default function DeviceDetail() {
                 </div>
               </motion.div>
 
-              {/* References */}
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
                   Selected Clinical References
@@ -326,7 +585,7 @@ export default function DeviceDetail() {
       </section>
 
       {/* CTA */}
-      <section id="cta" className="py-16 bg-secondary/50">
+      <section id="cta-contact" className="py-16 bg-secondary/50">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="font-display text-2xl font-bold text-foreground mb-3">
             Interested in {device.name} for Your Practice?
@@ -339,7 +598,7 @@ export default function DeviceDetail() {
             className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-full px-12 h-14"
             onClick={() => window.location.href = "mailto:sales@hangocare.eu"}
           >
-            Request a Clinical Demo
+            Contact Us
           </Button>
         </div>
       </section>
