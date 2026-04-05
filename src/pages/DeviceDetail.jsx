@@ -358,7 +358,7 @@ const deviceData = {
       {
         title: "Microneedle RF Handpiece — MTR Cartridges",
         description: "Advanced bipolar microneedle RF technology delivers precisely controlled RF energy to selectively set depths (0.5 mm to 3.5 mm) via highest-quality medical needles to enhance efficacy of photo-rejuvenation and scar treatment on face and body.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/30cf73143_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6566dc347_generated_image.png",
         specs: [
           { label: "MTR-AC-C25", value: "25-needle semi-isolated cartridge · 10×10 mm area · max 25 W · thermal effect decreasing from deeper layers toward surface" },
           { label: "MTR-AC-C64", value: "64-needle semi-isolated cartridge · 17.5×17.5 mm area · max 70 W · high thermal effect in deep skin layers" },
@@ -368,7 +368,7 @@ const deviceData = {
       {
         title: "SmartCure — Thermal Coagulation Technology (optional)",
         description: "SmartCure — intelligent electroporation pen that in combination with a single electrolysis needle and various Nokor needles enables use of various thermocoagulation techniques for a broad spectrum of treatments including fine capillaries, acne, wrinkles and scars.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/87946ea9c_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/8c692ee70_generated_image.png",
         specs: [
           { label: "K3i", value: "Isolated electrolysis needle (0.075 mm) with K3i technology — transfers heat only to the target vessel without damaging epidermis or surrounding tissue, enabling precise treatment of fine capillaries" },
           { label: "AC-01", value: "Isolated single-use needle — gently penetrates skin, stimulates collagen formation and remodelling, reducing wrinkles and improving skin texture" },
@@ -378,7 +378,7 @@ const deviceData = {
       {
         title: "Mono-Polar RF — Non-Invasive RF Technology",
         description: "Mono-Polar RF is a non-invasive therapeutic mode utilising 2 MHz RF energy. Used for treatment of wrinkles around the eye area and on the forehead, or to support absorption of products into the skin — for example during application of mesotherapy or PRP.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/87946ea9c_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d3f41e48f_generated_image.png",
         specs: [
           { label: "Frequency", value: "2 MHz monopolar RF" },
           { label: "Indications", value: "Periorbital wrinkles, forehead lines, product absorption support (mesotherapy, PRP)" },
