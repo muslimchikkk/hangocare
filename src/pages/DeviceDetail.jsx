@@ -76,22 +76,22 @@ const deviceData = {
       {
         title: "Wide Range of MMFU Modes",
         description: "Normal mode, Micro-pulse mode, Circular mode, Micro-circular mode",
-        detail: null,
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
       },
       {
         title: "Ultra-Booster Handpiece",
         description: "Transducer with optimised, reduced construction for maximum energy delivery precision.",
-        detail: null,
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e09db1435_generated_image.png",
       },
       {
         title: "Cartridge Options for Various Treatment Depths",
         description: "3 handpieces and 10 interchangeable cartridges for tailored depth targeting.",
-        detail: null,
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/154379072_generated_image.png",
       },
       {
         title: "Short Treatment Time",
         description: "Up to 2.5× faster speed. No delay between pulses for smooth and faster treatment.",
-        detail: null,
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/da970045c_generated_image.png",
       },
     ],
     clinicalTerms: [
@@ -547,12 +547,19 @@ export default function DeviceDetail() {
                   </h2>
                   <div className="grid sm:grid-cols-2 gap-5 mb-8">
                     {device.clinicalFeatures.map((f, i) => (
-                      <div key={i} className="bg-secondary/60 rounded-2xl p-5 border border-border/40">
-                        <div className="flex items-center gap-3 mb-2">
-                          <span className="w-7 h-7 rounded-full bg-primary/15 text-primary font-display font-bold text-xs flex items-center justify-center shrink-0">{i + 1}</span>
-                          <p className="font-display text-sm font-bold text-foreground">{f.title}</p>
+                      <div key={i} className="bg-secondary/60 rounded-2xl overflow-hidden border border-border/40 flex flex-col">
+                        {f.image && (
+                          <div className="bg-white h-40 flex items-center justify-center p-4">
+                            <img src={f.image} alt={f.title} className="h-full w-full object-contain" />
+                          </div>
+                        )}
+                        <div className="p-5">
+                          <div className="flex items-center gap-3 mb-2">
+                            <span className="w-7 h-7 rounded-full bg-primary/15 text-primary font-display font-bold text-xs flex items-center justify-center shrink-0">{i + 1}</span>
+                            <p className="font-display text-sm font-bold text-foreground">{f.title}</p>
+                          </div>
+                          <p className="font-body text-sm text-muted-foreground leading-relaxed pl-10">{f.description}</p>
                         </div>
-                        <p className="font-body text-sm text-muted-foreground leading-relaxed pl-10">{f.description}</p>
                       </div>
                     ))}
                   </div>
