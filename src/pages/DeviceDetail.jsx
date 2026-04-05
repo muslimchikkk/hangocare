@@ -137,6 +137,23 @@ const deviceData = {
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "The powerful fractional CO² laser scanner with 30 W output provides, thanks to short impulse, a uniform and high-quality laser beam. Its ablative-thermal effect supports epidermis regeneration and dermis regeneration. Optimal beam spot of 100 micrometres minimises healing time and risk of post-inflammatory hyperpigmentation (PIH). The microneedle RF module transfers bipolar RF energy via ultra-fine medical steel needles, increasing the efficacy of photo-rejuvenation and scar treatment on face and body. The combination of these two technologies provides an extraordinarily effective yet gentle skin rejuvenation with minimal downtime.",
+    clinicalFeatures: [
+      {
+        title: "CO² Fractional Laser Scanner",
+        description: "30 W output with short impulse delivers a uniform, high-quality beam. Ablative-thermal effect supports epidermis and dermis regeneration. Optimal 100 µm beam spot minimises healing time and PIH risk.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/88250c8a0_generated_image.png",
+      },
+      {
+        title: "6 Scanning Modes",
+        description: "Scan size: 1×1 to 20×20 mm. Point distance: 0.1 to 2.0 mm. Modes: Circle, Square, Semi-circle, Ellipse, Rectangle, Triangle.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/465ff3cea_generated_image.png",
+      },
+      {
+        title: "I-Stack Function",
+        description: "Enables deeper fractional ablation at lower energy, minimising the risk of damage to surrounding tissue.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6ca44bc78_generated_image.png",
+      },
+    ],
     references: [
       "Alexiades-Armenakas M et al. (2008). Fractional laser skin resurfacing. J Drugs Dermatol.",
       "Hruza G et al. (2009). Fractional photothermolysis and RF combination. Lasers Surg Med.",
