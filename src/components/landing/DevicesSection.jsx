@@ -50,7 +50,7 @@ const devices = [
     category: "Q-Switched Nd:YAG Laser",
     tag: "Laser / Pigment",
     color: "bg-sky-50 border-sky-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/497700046_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6cd1132b3_generated_image.png",
     shortDesc: "New generation Q-switched Nd:YAG laser with 1064 nm and 532 nm wavelengths for tattoo removal, pigmentation and skin rejuvenation.",
     highlights: ["1064 nm / 532 nm", "Zoom-MLA & DOE", "FDA Approved"],
   },
