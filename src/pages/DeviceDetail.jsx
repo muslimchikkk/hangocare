@@ -487,7 +487,7 @@ export default function DeviceDetail() {
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-full rounded-t-3xl shadow-2xl object-cover object-left-top max-h-[420px]"
+                className="w-full rounded-t-3xl shadow-2xl object-contain max-h-[420px]"
               />
             </motion.div>
           </div>
