@@ -624,11 +624,13 @@ export default function DeviceDetail() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="relative"
             >
-              <img
-                src={device.image}
-                alt={device.name}
-                className="w-full rounded-t-3xl object-contain max-h-[420px]"
-              />
+              <div className="w-full rounded-t-3xl overflow-hidden flex items-end justify-center max-h-[420px]" style={{ backgroundColor: "rgb(220, 233, 242)" }}>
+                <img
+                  src={device.image}
+                  alt={device.name}
+                  className="w-full object-contain max-h-[420px]"
+                />
+              </div>
             </motion.div>
           </div>
         </div>
