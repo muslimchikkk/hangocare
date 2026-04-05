@@ -72,6 +72,34 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "MMFU technology through micro pulse technology makes TCP 25× finer, transfers additional energy to the treatment area and enables intensive treatment. The Ultra-Booster applicator encompasses the most modern MMFU energy generation technology. The Ultraformer MPT can perform both point and bidirectional linear point pulses, which shortens treatment time and at the same time maximises its quality. Converters are 2.5× faster than standard and eliminate return time — ensuring maximum patient comfort and optimal clinical results.",
+    clinicalFeatures: [
+      {
+        title: "Wide Range of MMFU Modes",
+        description: "Normal mode, Micro-pulse mode, Circular mode, Micro-circular mode",
+        detail: null,
+      },
+      {
+        title: "Ultra-Booster Handpiece",
+        description: "Transducer with optimised, reduced construction for maximum energy delivery precision.",
+        detail: null,
+      },
+      {
+        title: "Cartridge Options for Various Treatment Depths",
+        description: "3 handpieces and 10 interchangeable cartridges for tailored depth targeting.",
+        detail: null,
+      },
+      {
+        title: "Short Treatment Time",
+        description: "Up to 2.5× faster speed. No delay between pulses for smooth and faster treatment.",
+        detail: null,
+      },
+    ],
+    clinicalTerms: [
+      { abbr: "TCP", def: "Thermal Coagulation Point" },
+      { abbr: "MMFU", def: "Macro & Micro Focused Ultrasound Technology" },
+      { abbr: "MP", def: "Micro-pulse mode" },
+      { abbr: "Normal", def: "Point mode" },
+    ],
     references: [
       "Suh DH et al. (2015). Intense focused ultrasound tightening in Asian skin. J Cosmet Laser Ther.",
       "Fabi SG (2015). Noninvasive skin tightening: focus on new ultrasound techniques. Clin Cosmet Investig Dermatol.",
@@ -511,6 +539,37 @@ export default function DeviceDetail() {
                   {device.mechanism}
                 </p>
               </motion.div>
+
+              {device.clinicalFeatures && (
+                <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+                  <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
+                    Key Technology Features
+                  </h2>
+                  <div className="grid sm:grid-cols-2 gap-5 mb-8">
+                    {device.clinicalFeatures.map((f, i) => (
+                      <div key={i} className="bg-secondary/60 rounded-2xl p-5 border border-border/40">
+                        <div className="flex items-center gap-3 mb-2">
+                          <span className="w-7 h-7 rounded-full bg-primary/15 text-primary font-display font-bold text-xs flex items-center justify-center shrink-0">{i + 1}</span>
+                          <p className="font-display text-sm font-bold text-foreground">{f.title}</p>
+                        </div>
+                        <p className="font-body text-sm text-muted-foreground leading-relaxed pl-10">{f.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                  {device.clinicalTerms && (
+                    <div className="bg-primary/5 border border-primary/20 rounded-2xl p-5">
+                      <p className="font-body text-xs font-semibold text-primary uppercase tracking-widest mb-3">Terminology</p>
+                      <div className="grid sm:grid-cols-2 gap-2">
+                        {device.clinicalTerms.map((t) => (
+                          <div key={t.abbr} className="font-body text-sm text-foreground/80">
+                            <span className="font-semibold text-foreground">{t.abbr}</span>: {t.def}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </motion.div>
+              )}
 
               {device.clinicalGraphics && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
