@@ -11,7 +11,7 @@ const deviceData = {
     name: "VELOCE 4800",
     subtitle: "Broadband Light Technology",
     tag: "IPL / Broadband Light",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ee2a0f49f_ChatGPTImageApr6202609_02_24PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf26ed841_Screenshot2026-04-05at93758.png",
     overview: "VELOCE 4800 uses dual xenon lamp broadband light technology to reach deep skin layers at low energy. Thanks to various filters with different wavelengths, this technology is effectively used for a wide range of skin problems. The system emits intensive and precisely targeted light pulses, making treatment faster, safer and more effective.",
     modalities: [
       "IPDL (Intense Pulse Dual Light) — broadband light up to 1400 nm",

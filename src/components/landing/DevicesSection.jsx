@@ -10,7 +10,7 @@ const devices = [
     category: "Broadband Light Technology",
     tag: "IPL / Broadband Light",
     color: "bg-sky-50 border-sky-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ee2a0f49f_ChatGPTImageApr6202609_02_24PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf26ed841_Screenshot2026-04-05at93758.png",
     shortDesc: "Dual xenon lamp broadband light system penetrating deep skin layers at low energy, effective for a wide range of skin conditions.",
     highlights: ["IPDL Technology", "Dual Xenon", "Multi-filter"],
   },
