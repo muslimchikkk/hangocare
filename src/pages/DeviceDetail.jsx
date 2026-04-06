@@ -604,7 +604,7 @@ const deviceData = {
     name: "AQUAPURE II",
     subtitle: "Deep Skin Care System",
     tag: "Hydradermabrasion",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9aebc867e_generated_image.png",
     overview: "AQUAPURE II is a multifunctional device for comprehensive skin care of face and body, combining wet and dry exfoliation, micro-focused microneedling and LED therapy — all in one innovative system.",
     modalities: [
       "Step 1 — Diamond Peeling: removes dead skin cells, improves tone and texture",
@@ -627,6 +627,33 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "AQUAPURE II is equipped with advanced handpieces that allow penetration of regenerative and antioxidant substances to deep skin layers of epidermis. Thanks to this the device improves skin hydration, its elasticity and supports the collagen regeneration process. AD Peel technology removes dead skin cells and deeply cleans pores, thereby maximising dermabrasion effects. Small MF needles penetrate into the epidermis and target delivery of active substances that support hydration and collagen regeneration. MF microneedling is ideal for treatment of acne scars, wrinkles, striae and enlarged pores. The LED LightPure therapy combines three types of light with various wavelengths acting on various epidermis layers — providing antibacterial and anti-inflammatory effects as well as activating tightening processes in the skin.",
+    clinicalFeatures: [
+      {
+        title: "AD (Aqua+Diamond) Peeling — Metoda dermabraze",
+        description: "Technologie AD Peel odstraňuje odumřelé kožní buňky a hloubkově čistí póry, čímž maximalizuje účinky mikrodermabraze.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/602e31fc1_generated_image.png",
+      },
+      {
+        title: "MF (mikrofokusovaná) metoda microneedlingu",
+        description: "Malé jehličky pronikají do epidermis a cíleně přenášejí aktivní látky, které podporují hydrataci a obnovu kolagenu. MF microneedling je ideální pro ošetření jizev po akné, vrásek, strií a rozšířených pórů.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/15baac00d_generated_image.png",
+      },
+      {
+        title: "LightPure LED Terapie — Jemná a šetrná metoda",
+        description: "Kombinuje tři typy světla s různými vlnovými délkami: 625nm (aktivace buněk, zpevnění pleti, anti-aging), 520nm (rovnováha hydratace a kožního mazu), 465nm (antibakteriální, protizánětlivý účinek).",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ccc1969ac_generated_image.png",
+      },
+      {
+        title: "Roztoky — S1 PEEL+, S2 SEBO+, S3 REJUVE+, Cleansys",
+        description: "S1 PEEL+: odstraňuje odumřelé kožní buňky, exfoliace. S2 SEBO+: odstraňuje přebytečný maz, černé tečky, hydratace. S3 REJUVE+: antioxidanty, vyživuje a zvlhčuje. Cleansys: čisticí roztok pro přístroj.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1958fb30a_generated_image.png",
+      },
+      {
+        title: "4-krokový protokol ošetření",
+        description: "Krok 01: Diamantový Peeling — zlepšuje tón a strukturu pleti. Krok 02: AD-Peel — čistí póry, dodává hydrataci. Krok 03: MF Mikrojehličky — zvyšuje elasticitu, restrukturalizace epidermis. Krok 04: LightPure — zlepšuje krevní oběh, vyrovnává tón pleti.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/27fc03da3_generated_image.png",
+      },
+    ],
     references: [
       "Gold MH et al. (2020). Hydradermabrasion: an innovative approach to skin rejuvenation. J Clin Aesthet Dermatol.",
       "Ryu HS et al. (2018). Efficacy of electroporation-assisted drug delivery in skin lightening. Dermatol Surg.",
