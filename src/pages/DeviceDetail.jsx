@@ -554,7 +554,7 @@ const deviceData = {
     name: "N.CORE 3D",
     subtitle: "Triple Wavelength Diode Laser",
     tag: "Diode Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6a19139ec_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4eb96cc02_generated_image.png",
     overview: "Simultaneously emits laser energy at wavelengths 755 nm, 808 nm and 1064 nm to three different skin depths, thereby providing greater efficacy and enabling faster and more effective epilation. The device is designed to achieve the most effective results and uses the newest and most modern technology.",
     modalities: [
       "755 nm Alexandrite — superficial hair follicles",
@@ -578,6 +578,23 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "The stable sapphire contact cooling system ensures that epidermal tissue is not damaged. This system during thermal energy transfer minimises the risk of undesirable effects, such as burns, and provides a safe treatment course. Three different wavelengths act stably and in a controlled manner in different skin depths — 755 nm for superficial, 808 nm for medium and 1064 nm for deep follicles. The wide, permanently cold handpiece ensures comfortable application. Intensive mode delivers strong energy to deeper skin layers without waiting and at high speed. Dynamic mode transfers RF energy evenly and provides gentle and stable cut.",
+    clinicalFeatures: [
+      {
+        title: "3D Epilace — Tři vlnové délky",
+        description: "Tři různé vlnové délky působí stabilně a kontrolovaně v různých hloubkách pokožky. 755nm (Alexandrite) pro povrchové folikuly, 808nm (Diode) pro střední dermis, 1064nm (Nd:YAG) pro hluboké folikuly. Široká a trvale chladná hlavice zajišťuje komfortní použití.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3b3e0221b_generated_image.png",
+      },
+      {
+        title: "Dvojitý režim — Intensive & Dynamic",
+        description: "Intensive Mode dodává silnou energii do hlubších vrstev pokožky bez čekání a s vysokou rychlostí. Dynamic Mode přenáší energii rovnoměrně a poskytuje jemný a stabilní ohřev. Kombinací obou režimů lze dosáhnout účinného a bezpečného synergetického efektu bez nepohodlí.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6ddfd3fb2_generated_image.png",
+      },
+      {
+        title: "Ošetřovací plocha — Safírový chladicí aplikátor",
+        description: "Široká ošetřovací plocha 11×24 mm zajišťuje rychlý a efektivní přenos energie. Stabilní safírový chladicí systém chrání pokožku a minimalizuje riziko poškození tkáně. Teplota kontaktu: 5°C | 0°C | -5°C. Dva různé režimy přenosu energie: spoušť a pedál.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f087799eb_generated_image.png",
+      },
+    ],
     references: [
       "Altshuler GB et al. (2001). Extended theory of selective photothermolysis. Lasers Surg Med.",
       "Dierickx CC (2006). The role of deep heating for noninvasive skin rejuvenation. Lasers Surg Med.",
