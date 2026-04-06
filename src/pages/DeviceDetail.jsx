@@ -497,7 +497,7 @@ const deviceData = {
     name: "PENTO",
     subtitle: "755nm Alexandrite + 1064nm Nd:YAG Laser",
     tag: "Dual Wavelength Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/41a13b890_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/99fd00419_generated_image.png",
     overview: "Pento is a highly effective system for permanent epilation and treatment of vascular lesions. It delivers higher energy levels at short pulse times and at various spot diameters, thus ensuring energy transfer to deep skin layers and increasing treatment efficacy.",
     modalities: [
       "755nm Alexandrite Laser — 3ms, 50 J at 2 Hz for epilation",
@@ -523,6 +523,28 @@ const deviceData = {
       { label: "Certification", value: "CE Mark, FDA Approved" },
     ],
     mechanism: "Optimised output for high-speed laser emission ensures stable output energy. In circular mode it provides spot diameter up to 24 mm and various pulse widths. It combines performance, comfort and safety and provides broad possibilities for treatment of various lesion types. The 31-gram Rod is used for generating the most powerful and most stable Alexandrite and Nd:YAG laser. It is a highly quality component used in the system. The short pulse of 3 ms transfers energy of 50 J, the device works at a speed of approximately 2 Hz. At a short pulse of 250 µs it achieves energy 4.5 J and works at speed 10 Hz. Short exposure with high energy minimises thermal effects on skin and ensures fast, effective and complete treatment results.",
+    clinicalFeatures: [
+      {
+        title: "Ideální konstrukce vysokonapěťového zdroje energie",
+        description: "Vysoce stabilní energie – pokles napětí pod 22 %. Vysoký energetický výstup: Alexandrite 3ms, 50J@2Hz · Nd:YAG 3ms, 60J@2Hz. Maximální bezpečnost, bez nutnosti rekonvalescence, automatická kalibrace, rychlé ošetření.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1d6cb3e35_generated_image.png",
+      },
+      {
+        title: "Duální systém vlnových délek",
+        description: "Optimalizovaný výkon pro vysokorychlostní laserovou oscilaci zajišťuje vysokou stabilitu výstupního výkonu. Díky nízké chybovosti a kulovitému paprsku o průměru až 24 mm nabízí různé šířky pulzů.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5a67e61c6_generated_image.png",
+      },
+      {
+        title: "Odolná konstrukce — 31g Rod",
+        description: "Technologie přímé rezonance poskytuje stabilní a přesnou energii v integrované komoře Rod, která je navržena jako celek. Zajišťuje bezpečné a vysoce účinné ošetření i po dlouhodobém používání.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/858431b54_generated_image.png",
+      },
+      {
+        title: "Vlastnosti — GCD Chladicí systém",
+        description: "Různé intervaly pulzů: 250 µs – 300 ms · Snadné použití díky dotykovému displeji · Rychlý start systému · GCD (Gas Cooling Device) – systém kryogenního chlazení · Volitelné ofukování studeným vzduchem.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e042642a4_generated_image.png",
+      },
+    ],
     references: [
       "Goldberg DJ (2010). Lasers and Light Sources for the Removal of Unwanted Hair. Dermatol Clin.",
       "Altshuler GB et al. (2001). Extended theory of selective photothermolysis. Lasers Surg Med.",
