@@ -89,14 +89,14 @@ export default function HeroSection() {
             </h1>
 
             <p className="mt-6 text-base lg:text-lg font-body font-light text-foreground/60 leading-relaxed max-w-lg">
-              A portfolio of four clinically validated, CE-certified aesthetic platforms — covering skin rejuvenation, fractional resurfacing, RF lifting, and HIFU body contouring. Backed by peer-reviewed evidence and designed for dermatologists and aesthetic physicians.
+              A portfolio of twelve clinically validated, CE-certified aesthetic platforms — covering laser epilation, skin rejuvenation, fractional resurfacing, RF lifting, cryolipolysis, and HIFU body contouring. Backed by peer-reviewed evidence and designed for dermatologists and aesthetic physicians.
             </p>
 
             {/* Clinical stats */}
             <div className="mt-8 grid grid-cols-3 gap-4 border-t border-foreground/10 pt-8">
               {[
-                { value: "8-in-1", label: "Treatment Modalities" },
-                { value: "CE", label: "Certified Device" },
+                { value: "12", label: "Clinical Platforms" },
+                { value: "CE", label: "Certified Devices" },
                 { value: "0", label: "Downtime Required" },
               ].map((stat) => (
                 <div key={stat.label}>
@@ -128,10 +128,10 @@ export default function HeroSection() {
             {/* Modality tags */}
             <div className="mt-10 flex flex-wrap gap-4">
               {[
-                { icon: Droplets, label: "AQUAPEEL" },
-                { icon: Sparkles, label: "ELECTROPORATION" },
-                { icon: Sun, label: "MICRO-CURRENT" },
-                { icon: Activity, label: "RF ENERGY" },
+                { icon: Droplets, label: "LASER EPILATION" },
+                { icon: Sparkles, label: "HIFU / MMFU" },
+                { icon: Sun, label: "FRACTIONAL RF" },
+                { icon: Activity, label: "CRYOLIPOLYSIS" },
               ].map(({ icon: IconComp, label }) => (
                 <div key={label} className="flex items-center gap-2 text-xs font-body text-foreground/50 border border-foreground/15 bg-white/50 rounded-sm px-3 py-1.5">
                   <IconComp className="w-3.5 h-3.5 text-primary" />
@@ -190,7 +190,7 @@ export default function HeroSection() {
                 className="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-sm p-3 border border-primary/20 flex items-center gap-3"
               >
                 <div className="w-12 h-12 rounded-sm bg-primary/15 border border-primary/30 flex items-center justify-center shrink-0">
-                  <span className="font-display text-lg font-bold text-primary leading-none text-center">4<br /><span className="text-[10px] font-body font-normal text-foreground/50">Devices</span></span>
+                  <span className="font-display text-lg font-bold text-primary leading-none text-center">12<br /><span className="text-[10px] font-body font-normal text-foreground/50">Devices</span></span>
                 </div>
                 <div>
                   <p className="text-[10px] font-body text-foreground/40 uppercase tracking-widest">by Cluederm</p>
