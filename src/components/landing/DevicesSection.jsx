@@ -140,11 +140,11 @@ export default function DevicesSection() {
             Clinical Device Portfolio
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Evidence-Based{" "}
-            <span className="italic text-primary">Technology</span>
+            Elevate Your Clinic with{" "}
+            <span className="italic text-primary">Premium Technology</span>
           </h2>
           <p className="mt-4 text-lg font-body font-light text-muted-foreground">
-            Twelve distinct clinical platforms — each engineered for specific dermatological and body contouring indications. Select a device to access full scientific specifications, mechanisms, and clinical references.
+            Twelve industry-leading platforms — trusted by aesthetic clinics across Europe. Explore each device and <button onClick={() => document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" })} className="text-primary font-medium underline underline-offset-2 hover:text-primary/80 transition-colors">contact us</button> to find the right solution for your practice.
           </p>
         </motion.div>
 
