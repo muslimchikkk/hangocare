@@ -775,6 +775,7 @@ export default function DeviceDetail() {
                 size="lg"
                 onClick={() => document.getElementById("cta-contact")?.scrollIntoView({ behavior: "smooth" })}
                 className="mt-8 bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-12"
+                onClick={() => window.location.href = "/#cta"}
               >
                 Request Clinical Information
                 <ChevronRight className="w-4 h-4 ml-1" />
@@ -952,7 +953,7 @@ export default function DeviceDetail() {
                 <div className="mt-8">
                   <Button
                     className="w-full bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm"
-                    onClick={() => window.location.href = "mailto:sales@hangocare.eu"}
+                    onClick={() => window.location.href = "/#cta"}
                   >
                     Request Full Datasheet
                   </Button>
@@ -975,7 +976,7 @@ export default function DeviceDetail() {
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-full px-12 h-14"
-            onClick={() => window.location.href = "mailto:sales@hangocare.eu"}
+            onClick={() => window.location.href = "/#cta"}
           >
             Contact Us
           </Button>
