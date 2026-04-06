@@ -663,7 +663,7 @@ const deviceData = {
     name: "CLATUU ALPHA",
     subtitle: "Cryolipolysis",
     tag: "Fat Freezing",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1393ca4bc_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b972f406f_generated_image.png",
     overview: "Clatuu Alpha is a fat reduction and body shaping device that is trusted worldwide. It uses cryolipolysis technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it.",
     modalities: [
       "ARC-T — chin and other small body areas",
@@ -689,6 +689,33 @@ const deviceData = {
       { label: "Certification", value: "CE Mark" },
     ],
     mechanism: "Clatuu Alpha uses controlled fat freezing technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it. The cooling causes damage to the structure of fat cells and their subsequent disintegration. The damaged fat cells are subsequently eliminated from the body by natural processes, which leads to visible reduction of volume and improvement of contours of the treated area. The improved 360° cooling system of Clatuu Alpha ensures even distribution of cooling energy across the entire length of the applicator, enabling faster achievement of target temperature and increasing efficacy by up to 18%.",
+    clinicalFeatures: [
+      {
+        title: "Kompletní sada aplikátorů — Možnost ošetření dvou oblastí současně",
+        description: "Clatuu Alpha je vybaven širokou škálou nástavců: WING, WING Plus, WING Max, FLAT, FLAT Mini, ARC-T. Umožňují snadnější a efektivnější ošetření i v náročných oblastech. Dvě oblasti současně za 40 minut.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/64f2b231c_generated_image.png",
+      },
+      {
+        title: "Nastavitelná úroveň vakua a chlazení — 20% silnější vakuum",
+        description: "Clatuu Alpha disponuje o 20 % silnějším vakuem a umožňuje uživateli bezpečně upravovat jak úroveň sání, tak i intenzitu chlazení. Tím lze ošetření plně přizpůsobit potřebám pacienta.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/df733f202_generated_image.png",
+      },
+      {
+        title: "Aplikátory WING, WING Plus, WING Max, FLAT — Ošetřované oblasti",
+        description: "WING: velké oblasti (břicho, boky). WING Plus: menší oblasti (podpaží, kolena). WING Max: velké oblasti (horní a dolní břicho). FLAT: menší lokální oblasti. Každý aplikátor přizpůsoben specifické anatomické oblasti.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0ce057cce_generated_image.png",
+      },
+      {
+        title: "Technologie 360° chlazení — Klinicky ověřená efektivita",
+        description: "Vylepšený systém 360° chlazení zajišťuje rovnoměrné rozložení chladicí energie po celé délce aplikátoru. FLIR termální zobrazení potvrzuje rovnoměrné chlazení — rychlejší dosažení cílové teploty, efektivita až o 18 % vyšší.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfbe4ea15_generated_image.png",
+      },
+      {
+        title: "Klinické ošetření — Rychlá výměna hlavice",
+        description: "Díky jednoduchému systému 'stiskni a uvolni' umožňuje Clatuu Alpha snadnou výměnu chladicích aplikátorů bez odpojování kabelů. Dvě ramena umožňují simultánní ošetření dvou oblastí za 40 minut.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e2d68ea67_generated_image.png",
+      },
+    ],
     references: [
       "Jewell ML et al. (2011). Clinical application of HIFU for non-invasive body sculpting. Aesthet Surg J.",
       "Dierickx CC et al. (2013). Safety, tolerance, and patient satisfaction with noninvasive cryolipolysis. Dermatol Surg.",
