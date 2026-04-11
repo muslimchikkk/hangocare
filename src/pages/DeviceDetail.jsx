@@ -243,7 +243,7 @@ const deviceData = {
       {
         title: "Hidden Edge Tip — Side-Effect Suppression",
         description: "Unlike flat-surface competitors that concentrate energy at edges causing overheating, Volnewmer's inward-curving edges reduce overheating and minimise side effects. The oval contact design ensures uniform thermal energy distribution in the dermis.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0f3ea8a20_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6d76897f4_Screenshot2026-04-11at211939.png",
       },
       {
         title: "4 Cartridge Options",
