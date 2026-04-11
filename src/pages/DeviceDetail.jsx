@@ -728,7 +728,7 @@ const deviceData = {
       {
         title: "Klinické ošetření — Rychlá výměna hlavice",
         description: "Díky jednoduchému systému 'stiskni a uvolni' umožňuje Clatuu Alpha snadnou výměnu chladicích aplikátorů bez odpojování kabelů. Dvě ramena umožňují simultánní ošetření dvou oblastí za 40 minut.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e2d68ea67_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9ef3c4c16_Screenshot2026-04-11at221923.png",
       },
     ],
     references: [
