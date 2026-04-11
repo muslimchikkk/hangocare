@@ -800,7 +800,7 @@ export default function DeviceDetail() {
       </section>
 
       {/* Main content */}
-      <section className="py-20 bg-background">
+      <section className="bg-[hsl(var(--card))] py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-12">
 
