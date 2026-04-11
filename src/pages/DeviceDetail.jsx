@@ -951,12 +951,12 @@ export default function DeviceDetail() {
                   )}
                 </div>
                 <div className="mt-8">
-                  <Button
-                    className="w-full bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm"
-                    onClick={() => window.location.href = "/#cta"}>
-                    
-                    Request Full Datasheet
-                  </Button>
+                  
+
+
+
+
+                  
                 </div>
               </div>
             </motion.div>
