@@ -552,7 +552,7 @@ const deviceData = {
       {
         title: "Odolná konstrukce — 31g Rod",
         description: "Technologie přímé rezonance poskytuje stabilní a přesnou energii v integrované komoře Rod, která je navržena jako celek. Zajišťuje bezpečné a vysoce účinné ošetření i po dlouhodobém používání.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/858431b54_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c8d41c266_Screenshot2026-04-11at220134.png",
       },
       {
         title: "Vlastnosti — GCD Chladicí systém",
