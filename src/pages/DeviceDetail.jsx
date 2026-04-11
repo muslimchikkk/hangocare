@@ -109,7 +109,7 @@ const deviceData = {
     name: "FRAXIS DUO",
     subtitle: "Fractional CO² Laser + Microneedle RF",
     tag: "Fractional Laser + RF",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b9e61c4f3_ChatGPTImageApr11202611_55_38AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/07ae8c3fd_generated_image.png",
     overview: "Fraxis Duo can be used to treat a wide range of indications using fractional CO² laser, microneedles and optional surgical and gynaecological handpieces. The ideal combination of fractional CO² laser and microneedle RF technology provides a broader spectrum of aesthetic applications for face and body.",
     modalities: [
       "Fractional CO² Laser — 30W output, short impulse for uniform high-quality beam",
