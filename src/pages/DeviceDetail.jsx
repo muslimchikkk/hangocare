@@ -666,7 +666,7 @@ const deviceData = {
       {
         title: "4-krokový protokol ošetření",
         description: "Krok 01: Diamantový Peeling — zlepšuje tón a strukturu pleti. Krok 02: AD-Peel — čistí póry, dodává hydrataci. Krok 03: MF Mikrojehličky — zvyšuje elasticitu, restrukturalizace epidermis. Krok 04: LightPure — zlepšuje krevní oběh, vyrovnává tón pleti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/27fc03da3_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/acda1b1a6_Screenshot2026-04-11at220854.png",
       },
     ],
     references: [
