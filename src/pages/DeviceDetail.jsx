@@ -557,7 +557,7 @@ const deviceData = {
       {
         title: "Vlastnosti — GCD Chladicí systém",
         description: "Různé intervaly pulzů: 250 µs – 300 ms · Snadné použití díky dotykovému displeji · Rychlý start systému · GCD (Gas Cooling Device) – systém kryogenního chlazení · Volitelné ofukování studeným vzduchem.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e042642a4_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/09c8d0e05_Screenshot2026-04-11at220232.png",
       },
     ],
     references: [
