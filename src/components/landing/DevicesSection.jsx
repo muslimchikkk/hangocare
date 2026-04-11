@@ -30,7 +30,7 @@ const devices = [
     category: "Fractional CO² Laser + Microneedle RF",
     tag: "Fractional Laser + RF",
     color: "bg-amber-50 border-amber-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/07ae8c3fd_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png",
     shortDesc: "Ideal combination of fractional CO² laser and microneedle RF for a wide spectrum of aesthetic and gynaecological applications.",
     highlights: ["CO² Laser", "Microneedle RF", "FDA Approved"],
   },
