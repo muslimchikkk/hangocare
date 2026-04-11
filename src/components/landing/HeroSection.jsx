@@ -23,36 +23,36 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: 'linear-gradient(160deg, #e8eeec 0%, #d6e5e2 60%, #c8ddd9 100%)' }}>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-background">
 
       {/* Subtle grid overlay */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.045]"
+        className="absolute inset-0 pointer-events-none opacity-[0.03]"
         style={{
           backgroundImage: `
-            linear-gradient(rgb(116,62,0) 1px, transparent 1px),
-            linear-gradient(90deg, rgb(116,62,0) 1px, transparent 1px)
+            linear-gradient(hsl(175,35%,30%) 1px, transparent 1px),
+            linear-gradient(90deg, hsl(175,35%,30%) 1px, transparent 1px)
           `,
           backgroundSize: "60px 60px",
         }}
       />
 
       {/* Radial glow centers */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full blur-[120px] pointer-events-none" style={{ backgroundColor: 'rgba(116,62,0,0.08)' }} />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full blur-[100px] pointer-events-none" style={{ backgroundColor: 'rgba(116,62,0,0.06)' }} />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full blur-[120px] pointer-events-none bg-primary/10" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full blur-[100px] pointer-events-none bg-primary/8" />
 
       {/* Animated data nodes */}
       {DATA_NODES.map((n, i) => (
         <motion.div
           key={i}
           style={{ position: "absolute", left: n.x, top: n.y }}
-          animate={{ opacity: [0.15, 0.7, 0.15], scale: [1, 1.6, 1] }}
+          animate={{ opacity: [0.15, 0.5, 0.15], scale: [1, 1.6, 1] }}
           transition={{ duration: n.duration, repeat: Infinity, ease: "easeInOut", delay: n.delay }}
           className="pointer-events-none"
         >
           <div
             style={{ width: n.size, height: n.size }}
-            className="rounded-full" style={{ backgroundColor: 'rgb(116,62,0)' }}
+            className="rounded-full bg-primary/50"
           />
         </motion.div>
       ))}
@@ -71,21 +71,20 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm text-xs font-body font-semibold uppercase tracking-widest mb-6 border"
-              style={{ backgroundColor: 'rgba(116,62,0,0.1)', color: 'rgb(116,62,0)', borderColor: 'rgba(116,62,0,0.25)' }}
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm text-xs font-body font-semibold uppercase tracking-widest mb-6 border border-primary/30 bg-primary/10 text-primary"
             >
               <ShieldCheck className="w-3.5 h-3.5" />
               Medical-Grade Aesthetic Technology
             </motion.div>
 
             <div className="mb-4">
-              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none tracking-tight" style={{ color: 'rgb(116, 62, 0)' }}>HanG.O</span>
-              <span className="font-grotesk text-4xl sm:text-5xl lg:text-6xl font-semibold ml-3 leading-none" style={{ color: 'rgb(116, 62, 0)' }}>Care</span>
+              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none tracking-tight text-primary">HanG.O</span>
+              <span className="font-grotesk text-4xl sm:text-5xl lg:text-6xl font-semibold ml-3 leading-none text-primary">Care</span>
             </div>
 
             <h1 className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-foreground/90">
               Clinical-Grade{" "}
-              <span style={{ color: 'rgb(116,62,0)' }}>Aesthetic Devices</span>{" "}
+              <span className="text-primary">Aesthetic Devices</span>{" "}
               for Medical Professionals
             </h1>
 
@@ -101,7 +100,7 @@ export default function HeroSection() {
                 { value: "0", label: "Downtime Required" },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <p className="font-display text-2xl font-bold" style={{ color: 'rgb(116,62,0)' }}>{stat.value}</p>
+                  <p className="font-display text-2xl font-bold text-primary">{stat.value}</p>
                   <p className="text-xs font-body text-foreground/50 mt-0.5 leading-tight">{stat.label}</p>
                 </div>
               ))}
@@ -111,8 +110,7 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 onClick={() => document.getElementById("devices")?.scrollIntoView({ behavior: "smooth" })}
-                style={{ backgroundColor: 'rgb(116,62,0)' }}
-                className="hover:opacity-90 text-white font-body font-semibold rounded-sm px-8 h-14 text-base"
+                className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-14 text-base"
               >
                 View Device Portfolio
                 <ArrowRight className="w-4 h-4 ml-2" />
@@ -121,7 +119,7 @@ export default function HeroSection() {
                 size="lg"
                 variant="outline"
                 onClick={scrollToCta}
-                className="font-body font-medium rounded-sm px-8 h-14 text-base bg-transparent" style={{ borderColor: 'rgba(116,62,0,0.3)', color: 'rgb(116,62,0)' }}
+                className="font-body font-medium rounded-sm px-8 h-14 text-base bg-transparent border-primary/40 text-primary"
               >
                 Contact Us
               </Button>
@@ -135,8 +133,8 @@ export default function HeroSection() {
                 { icon: Sun, label: "FRACTIONAL RF" },
                 { icon: Activity, label: "CRYOLIPOLYSIS" },
               ].map(({ icon: IconComp, label }) => (
-                <div key={label} className="flex items-center gap-2 text-xs font-body rounded-sm px-3 py-1.5" style={{ color: 'rgba(116,62,0,0.7)', border: '1px solid rgba(116,62,0,0.2)', backgroundColor: 'rgba(255,255,255,0.6)' }}>
-                  <IconComp className="w-3.5 h-3.5" style={{ color: 'rgb(116,62,0)' }} />
+                <div key={label} className="flex items-center gap-2 text-xs font-body rounded-sm px-3 py-1.5 text-primary/80 border border-primary/20 bg-white/60">
+                  <IconComp className="w-3.5 h-3.5 text-primary" />
                   {label}
                 </div>
               ))}
@@ -152,7 +150,7 @@ export default function HeroSection() {
           >
             <div className="relative w-full max-w-lg">
               {/* Border frame accent */}
-              <div className="absolute -inset-[1px] rounded-lg pointer-events-none z-10" style={{ background: 'linear-gradient(to bottom right, rgba(116,62,0,0.35), transparent, rgba(116,62,0,0.15))' }} />
+              <div className="absolute -inset-[1px] rounded-lg pointer-events-none z-10" style={{ background: 'linear-gradient(to bottom right, hsl(175,35%,30%,0.35), transparent, hsl(175,35%,30%,0.15))' }} />
 
               {/* Corner markers */}
               {[
@@ -163,8 +161,8 @@ export default function HeroSection() {
               ].map((cls, i) => (
                 <div
                   key={i}
-                  className={`absolute w-6 h-6 z-20 ${cls}`}
-                  style={{ margin: "-1px", borderColor: 'rgba(116,62,0,0.55)' }}
+                  className={`absolute w-6 h-6 z-20 border-primary/60 ${cls}`}
+                  style={{ margin: "-1px" }}
                 />
               ))}
 
@@ -172,7 +170,7 @@ export default function HeroSection() {
               <motion.div
                 animate={{ opacity: [0.3, 0.55, 0.3] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute inset-0 rounded-lg blur-xl scale-105" style={{ background: 'linear-gradient(to bottom right, rgba(116,62,0,0.12), transparent)' }}
+                className="absolute inset-0 rounded-lg blur-xl scale-105 bg-primary/10"
               />
 
               <motion.img
@@ -189,15 +187,15 @@ export default function HeroSection() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 0.5 }}
-                className="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-sm p-3 flex items-center gap-3" style={{ borderColor: 'rgba(116,62,0,0.2)', border: '1px solid rgba(116,62,0,0.2)' }}
+                className="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-sm p-3 flex items-center gap-3 border border-primary/20"
               >
-                <div className="w-12 h-12 rounded-sm flex items-center justify-center shrink-0" style={{ backgroundColor: 'rgba(116,62,0,0.12)', border: '1px solid rgba(116,62,0,0.25)' }}>
-                  <span className="font-display text-lg font-bold leading-none text-center" style={{ color: 'rgb(116,62,0)' }}>12<br /><span className="text-[10px] font-body font-normal text-foreground/50">Devices</span></span>
+                <div className="w-12 h-12 rounded-sm flex items-center justify-center shrink-0 bg-primary/10 border border-primary/25">
+                  <span className="font-display text-lg font-bold leading-none text-center text-primary">12<br /><span className="text-[10px] font-body font-normal text-foreground/50">Devices</span></span>
                 </div>
                 <div>
                   <p className="text-[10px] font-body text-foreground/40 uppercase tracking-widest">by Cluederm</p>
-                  <p className="text-sm font-display font-bold text-foreground">Complete Clinical <span style={{ color: 'rgb(116,62,0)' }}>Platform</span></p>
-                  <p className="text-[10px] font-body uppercase tracking-wider" style={{ color: 'rgb(116,62,0)' }}>Full Aesthetic Portfolio</p>
+                  <p className="text-sm font-display font-bold text-foreground">Complete Clinical <span className="text-primary">Platform</span></p>
+                  <p className="text-[10px] font-body uppercase tracking-wider text-primary">Full Aesthetic Portfolio</p>
                 </div>
               </motion.div>
             </div>
