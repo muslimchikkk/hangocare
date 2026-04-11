@@ -494,7 +494,7 @@ const deviceData = {
       {
         title: "Mikro Fokus",
         description: "Cartridge s vysoce koncentrovanými ultrazukovými paprsky přenášeji energii přesně a cílené do definované hloubky ošetřované oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/94aa8db69_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0eb2e724f_Screenshot2026-04-11at215333.png",
       },
       {
         title: "Makro Fokus",
