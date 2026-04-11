@@ -174,7 +174,7 @@ export default function HeroSection() {
 
               <motion.img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/f59deb284_Designer__1_.png"
 
-              alt="HanG.O Care — clinical skin treatment results" className="relative w-full rounded-lg shadow-2xl scale-400"
+              alt="HanG.O Care — clinical skin treatment results" className="relative w-full rounded-lg shadow-2xl scale-[5]"
 
               loading="eager"
               animate={{ y: [0, -6, 0] }}
