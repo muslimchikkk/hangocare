@@ -15,8 +15,8 @@ export default function SocialProofBar() {
     <section
       className="py-8"
       style={{
-        backgroundColor: "hsl(199, 80%, 22%)",
-        boxShadow: "0 8px 32px rgba(0,80,120,0.35), 0 -4px 16px rgba(0,80,120,0.18)",
+        backgroundColor: "hsl(175, 28%, 28%)",
+        boxShadow: "0 8px 32px rgba(30,80,70,0.3), 0 -4px 16px rgba(30,80,70,0.15)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
