@@ -248,7 +248,7 @@ const deviceData = {
       {
         title: "4 Cartridge Options",
         description: "I TIP 0.25 (eye area) · F TIP 3.0 (face) · V TIP 4.0 (face & body) · S TIP 16.0 (body). Each cartridge type is designed to enable personalised treatment of the face and body according to individual needs.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5f3fa9a2b_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b7b7b421b_Screenshot2026-04-11at212214.png",
       },
       {
         title: "RF Thermal Energy Transfer to Dermal Layer",
