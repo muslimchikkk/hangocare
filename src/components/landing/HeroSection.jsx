@@ -23,7 +23,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ backgroundColor: '#eaf0ee' }}>
+    <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: 'linear-gradient(160deg, #e8eeec 0%, #d6e5e2 60%, #c8ddd9 100%)' }}>
 
       {/* Subtle grid overlay */}
       <div
