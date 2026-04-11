@@ -3,10 +3,8 @@ module.exports = {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   safelist: [
-    "bg-sky-50", "bg-sky-100", "text-sky-500", "border-sky-200",
-    "bg-cyan-50", "bg-cyan-100", "text-cyan-500", "border-cyan-200",
-    "bg-blue-50", "bg-blue-100", "text-blue-500", "border-blue-200",
-    "bg-teal-50", "bg-teal-100", "text-teal-400", "border-teal-200",
+    "bg-amber-50", "border-amber-200",
+    "bg-stone-50", "border-stone-200",
   ],
   theme: {
   	extend: {
