@@ -747,7 +747,7 @@ export default function DeviceDetail() {
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-[hsl(var(--muted))] pt-24 pb-0 border-b border-border/20">
+      <section className="bg-[hsl(var(--sidebar-background))] pt-24 pb-0 border-b border-border/20">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-12 pb-0">
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-body text-primary hover:text-primary/80 mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4" />
