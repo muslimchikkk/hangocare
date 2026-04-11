@@ -312,7 +312,7 @@ const deviceData = {
       {
         title: "Zoom-Collimation Handpiece",
         description: "Handpiece with adjustable intervals of 1 mm and precise pulses with focus in the range of 2–10 mm. Suitable for epidermal pigmentation, tattoo removal, hair removal, carbon peeling, lentigo, and freckles.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b3f926bac_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/09eba5776_Screenshot2026-04-11at213912.png",
         specs: [
           { label: "Focus Range", value: "2–10 mm" },
           { label: "Interval", value: "Adjustable in 1 mm steps" },
