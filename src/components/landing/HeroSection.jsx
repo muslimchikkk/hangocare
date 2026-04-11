@@ -23,7 +23,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-[hsl(210,40%,96%)] via-[hsl(199,50%,92%)] to-[hsl(210,35%,88%)]">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
 
       {/* Subtle grid overlay */}
       <div
@@ -38,8 +38,8 @@ export default function HeroSection() {
       />
 
       {/* Radial glow centers */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/20 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary/15 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary/8 rounded-full blur-[100px] pointer-events-none" />
 
       {/* Animated data nodes */}
       {DATA_NODES.map((n, i) => (
