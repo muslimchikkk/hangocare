@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ShoppingBag } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -13,11 +12,18 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const links = ["Devices", "Solutions", "Results"];
+  const links = [
+    { label: "Devices", id: "devices" },
+    { label: "FAQ", id: "faq" },
+    { label: "Contact Us", id: "cta" },
+  ];
 
   const scrollTo = (id) => {
-    const sectionId = id === "Devices" ? "devices" : id.toLowerCase();
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
+    if (window.location.pathname !== "/") {
+      window.location.href = `/#${id}`;
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    }
     setMobileOpen(false);
   };
 
@@ -33,31 +39,29 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="flex items-center gap-2 select-none">
+        <div className="flex items-center h-16 lg:h-20">
+          <a href="/" className="flex items-center gap-2 select-none">
             <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/6929e9011_ChatGPTImageApr11202611_18_33AM.png" alt="HanG.O Care" className="h-9 w-auto" />
           </a>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 ml-auto">
             {links.map((link) => (
               <button
-                key={link}
-                onClick={() => scrollTo(link)}
+                key={link.label}
+                onClick={() => scrollTo(link.id)}
                 className="text-sm font-body font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
-                {link}
+                {link.label}
               </button>
             ))}
           </div>
 
-          <div className="flex items-center gap-3">
-            <button
-              className="md:hidden text-foreground"
-              onClick={() => setMobileOpen(!mobileOpen)}
-            >
-              {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
+          <button
+            className="md:hidden ml-auto text-foreground"
+            onClick={() => setMobileOpen(!mobileOpen)}
+          >
+            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
       </div>
 
@@ -72,22 +76,13 @@ export default function Navbar() {
             <div className="px-6 py-4 space-y-3">
               {links.map((link) => (
                 <button
-                  key={link}
-                  onClick={() => scrollTo(link)}
+                  key={link.label}
+                  onClick={() => scrollTo(link.id)}
                   className="block w-full text-left py-2 text-base font-body font-medium text-foreground"
                 >
-                  {link}
+                  {link.label}
                 </button>
               ))}
-              <Button
-                onClick={() => {
-                  if (window.location.pathname !== "/") { window.location.href = "/#cta"; }
-                  else scrollTo("cta");
-                }}
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-body rounded-full mt-2"
-              >
-                Request a Demo
-              </Button>
             </div>
           </motion.div>
         )}
