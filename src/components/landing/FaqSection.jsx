@@ -40,7 +40,7 @@ const faqs = [
 
 export default function FaqSection() {
   return (
-    <section id="faq" className="py-24 lg:py-32 bg-white">
+    <section id="faq" className="py-24 lg:py-32" style={{ backgroundColor: 'hsl(170, 20%, 96%)' }}>
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ export default function FaqSection() {
               <AccordionItem
                 key={i}
                 value={`item-${i}`}
-                className="bg-card border border-border/60 rounded-xl px-6 data-[state=open]:shadow-md transition-shadow"
+                className="bg-white border border-border/60 rounded-xl px-6 data-[state=open]:shadow-md transition-shadow"
               >
                 <AccordionTrigger className="font-body font-semibold text-foreground text-left py-5 hover:no-underline">
                   {faq.q}
