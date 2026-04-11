@@ -302,7 +302,7 @@ const deviceData = {
       {
         title: "DOE Handpiece 5×5",
         description: "5×5 DOE handpiece allows treatment with minimal skin damage and creates 48 microbeams in an area of 5×5 mm². Ideal for skin rejuvenation, pore treatment, skin firming, superficial wrinkles, and melasma.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c62f251d6_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c69ef2a64_Screenshot2026-04-11at213705.png",
         specs: [
           { label: "Grid", value: "5×5 mm², 48 microbeams" },
           { label: "Lens Type", value: "DOE Lens — uniform energy distribution" },
