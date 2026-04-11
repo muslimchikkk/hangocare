@@ -78,8 +78,8 @@ export default function HeroSection() {
             </motion.div>
 
             <div className="mb-4">
-              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-foreground leading-none tracking-tight">HanG.O</span>
-              <span className="font-grotesk text-4xl sm:text-5xl lg:text-6xl font-semibold text-primary ml-3 leading-none">Care</span>
+              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none tracking-tight" style={{ color: 'rgb(116, 62, 0)' }}>HanG.O</span>
+              <span className="font-grotesk text-4xl sm:text-5xl lg:text-6xl font-semibold ml-3 leading-none" style={{ color: 'rgb(116, 62, 0)' }}>Care</span>
             </div>
 
             <h1 className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-foreground/90">
