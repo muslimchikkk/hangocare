@@ -373,7 +373,7 @@ const deviceData = {
       {
         title: "Microneedle RF Handpiece — MTR Cartridges",
         description: "Advanced bipolar microneedle RF technology delivers precisely controlled RF energy to selectively set depths (0.5 mm to 3.5 mm) via highest-quality medical needles to enhance efficacy of photo-rejuvenation and scar treatment on face and body.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6566dc347_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/32acb55d5_Screenshot2026-04-11at214710.png",
         specs: [
           { label: "MTR-AC-C25", value: "25-needle semi-isolated cartridge · 10×10 mm area · max 25 W · thermal effect decreasing from deeper layers toward surface" },
           { label: "MTR-AC-C64", value: "64-needle semi-isolated cartridge · 17.5×17.5 mm area · max 70 W · high thermal effect in deep skin layers" },
@@ -438,7 +438,7 @@ const deviceData = {
       {
         title: "Microneedle RF Handpiece — MTR Cartridges",
         description: "Advanced bipolar microneedle RF technology delivers precisely controlled RF energy to selectively set depths (0.5 mm to 3.5 mm) via highest-quality medical needles to enhance efficacy of photo-rejuvenation and scar treatment on face and body.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e8adb83c0_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/32acb55d5_Screenshot2026-04-11at214710.png",
         specs: [
           { label: "MTR-AC-C25", value: "25-needle semi-isolated cartridge · 10×10 mm area · max 25 W · thermal effect decreasing from deeper layers toward surface" },
           { label: "MTR-AC-C64", value: "64-needle semi-isolated cartridge · 17.5×17.5 mm area · max 70 W · high thermal effect in deep skin layers" },
