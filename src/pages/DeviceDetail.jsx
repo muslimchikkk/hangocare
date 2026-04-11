@@ -708,7 +708,7 @@ const deviceData = {
       {
         title: "Kompletní sada aplikátorů — Možnost ošetření dvou oblastí současně",
         description: "Clatuu Alpha je vybaven širokou škálou nástavců: WING, WING Plus, WING Max, FLAT, FLAT Mini, ARC-T. Umožňují snadnější a efektivnější ošetření i v náročných oblastech. Dvě oblasti současně za 40 minut.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/64f2b231c_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1fe6bf6fb_Screenshot2026-04-11at221356.png",
       },
       {
         title: "Nastavitelná úroveň vakua a chlazení — 20% silnější vakuum",
