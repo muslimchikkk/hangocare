@@ -718,7 +718,7 @@ const deviceData = {
       {
         title: "Aplikátory WING, WING Plus, WING Max, FLAT — Ošetřované oblasti",
         description: "WING: velké oblasti (břicho, boky). WING Plus: menší oblasti (podpaží, kolena). WING Max: velké oblasti (horní a dolní břicho). FLAT: menší lokální oblasti. Každý aplikátor přizpůsoben specifické anatomické oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0ce057cce_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/17fe2e1f1_Screenshot2026-04-11at221815.png",
       },
       {
         title: "Technologie 360° chlazení — Klinicky ověřená efektivita",
