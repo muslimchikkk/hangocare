@@ -49,7 +49,7 @@ export default function Navbar() {
               <button
                 key={link.label}
                 onClick={() => scrollTo(link.id)}
-                className="text-sm font-body font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-body font-medium text-primary hover:text-primary/80 transition-colors"
               >
                 {link.label}
               </button>
@@ -78,7 +78,7 @@ export default function Navbar() {
                 <button
                   key={link.label}
                   onClick={() => scrollTo(link.id)}
-                  className="block w-full text-left py-2 text-base font-body font-medium text-foreground"
+                  className="block w-full text-left py-2 text-base font-body font-medium text-primary"
                 >
                   {link.label}
                 </button>
