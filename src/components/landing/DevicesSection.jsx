@@ -40,7 +40,7 @@ const devices = [
     category: "Face Reformer — Monopolar RF",
     tag: "RF Lifting",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/032b93b67_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4e3af0373_volnewmer_cut05_.png",
     shortDesc: "Non-invasive monopolar RF device for skin tightening and lifting, featuring oval surface technology and continuous cooling system.",
     highlights: ["Monopolar RF", "Hidden Edge Tip", "FDA Approved"],
   },
