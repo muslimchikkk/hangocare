@@ -723,7 +723,7 @@ const deviceData = {
       {
         title: "Technologie 360° chlazení — Klinicky ověřená efektivita",
         description: "Vylepšený systém 360° chlazení zajišťuje rovnoměrné rozložení chladicí energie po celé délce aplikátoru. FLIR termální zobrazení potvrzuje rovnoměrné chlazení — rychlejší dosažení cílové teploty, efektivita až o 18 % vyšší.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfbe4ea15_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b8cae12c5_Screenshot2026-04-11at221618.png",
       },
       {
         title: "Klinické ošetření — Rychlá výměna hlavice",
