@@ -51,17 +51,6 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <Button
-              size="sm"
-              onClick={() => {
-                if (window.location.pathname !== "/") { window.location.href = "/#cta"; }
-                else scrollTo("cta");
-              }}
-              className="hidden md:inline-flex bg-primary hover:bg-primary/90 text-primary-foreground font-body font-medium rounded-full px-6"
-            >
-              <ShoppingBag className="w-4 h-4 mr-2" />
-              Request a Demo
-            </Button>
             <button
               className="md:hidden text-foreground"
               onClick={() => setMobileOpen(!mobileOpen)}
