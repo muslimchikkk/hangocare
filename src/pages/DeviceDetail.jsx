@@ -542,7 +542,7 @@ const deviceData = {
       {
         title: "Ideální konstrukce vysokonapěťového zdroje energie",
         description: "Vysoce stabilní energie – pokles napětí pod 22 %. Vysoký energetický výstup: Alexandrite 3ms, 50J@2Hz · Nd:YAG 3ms, 60J@2Hz. Maximální bezpečnost, bez nutnosti rekonvalescence, automatická kalibrace, rychlé ošetření.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1d6cb3e35_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d71714e17_Screenshot2026-04-11at215933.png",
       },
       {
         title: "Duální systém vlnových délek",
