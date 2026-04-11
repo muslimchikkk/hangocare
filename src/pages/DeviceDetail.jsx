@@ -747,7 +747,7 @@ export default function DeviceDetail() {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-24 pb-0 bg-white border-b border-border/20">
+      <section className="pt-24 pb-0 border-b border-border/20" style={{ backgroundColor: 'rgb(234 240 239 / 50%)' }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-12 pb-0">
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-body text-primary hover:text-primary/80 mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4" />
