@@ -74,6 +74,21 @@ const deviceData = {
     mechanism: "MMFU technology through micro pulse technology makes TCP 25× finer, transfers additional energy to the treatment area and enables intensive treatment. The Ultra-Booster applicator encompasses the most modern MMFU energy generation technology. The Ultraformer MPT can perform both point and bidirectional linear point pulses, which shortens treatment time and at the same time maximises its quality. Converters are 2.5× faster than standard and eliminate return time — ensuring maximum patient comfort and optimal clinical results.",
     clinicalFeatures: [
       {
+        title: "Neinvazivní lifting obličeje",
+        description: "Technologie HIFU stimuluje obnovu kolagenu v dermální vrstvě a v SMAS. Tyto vrstvy procházejí některika fázemi – srážením krve, stažením tkáně a novou tvorbou kolagenu s pevnější strukturou. Výsledkem je redukce vrásek a zlepnění ohablé pokožky.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
+      },
+      {
+        title: "Nejmodernější režimy pulzů",
+        description: "Ultraformer MPT dokáže provádět jak bodové, tak obousměrné lineární bodové pulzy. Díky tomu zkracuje dobu ošetření a zároveň maximalizuje jeho kvalitu.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
+      },
+      {
+        title: "Krátká doba ošetření",
+        description: "Převodníky jsou 2.5x rychlejší než běžné a eliminují dobu návratu. To zajišťuje maximální pohodlí při ošetření a optimální klinické výsledky.",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
+      },
+      {
         title: "Wide Range of MMFU Modes",
         description: "Normal mode, Micro-pulse mode, Circular mode, Micro-circular mode",
         image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
