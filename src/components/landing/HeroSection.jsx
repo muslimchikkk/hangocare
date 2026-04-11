@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun, ShieldCheck, Activity } from "lucide-react";
 
-const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/55c097447_generated_image.png";
+const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/7fbd129b0_generated_image.png";
 
 // Subtle animated data-point nodes for a clinical/technical feel
 const DATA_NODES = [
