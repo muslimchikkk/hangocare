@@ -322,7 +322,7 @@ const deviceData = {
       {
         title: "Zoom-MLA Handpiece",
         description: "Collimated micro-light array arrangement produces 85 stable point impulses. Intensity adjusts from deep dermis (L15) to middle dermis (L25) to surface dermis (L35), minimising thermal effect on skin.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3a10b7c1_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9eef4a0ac_Untitleddesign.png",
         specs: [
           { label: "L15", value: "Deep dermis" },
           { label: "L25", value: "Middle dermis" },
