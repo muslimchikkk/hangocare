@@ -499,7 +499,7 @@ const deviceData = {
       {
         title: "Makro Fokus",
         description: "Cartridge s nižší frekvencí, ale vyšší hustotou energie, umožňují hlubší průnik a působení v cílové oblasti.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/94aa8db69_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/c8ac20ebb_Screenshot2026-04-11at215455.png",
       },
     ],
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f626e7a13_generated_image.png",
