@@ -788,7 +788,7 @@ export default function DeviceDetail() {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="relative h-[420px] flex items-end justify-center">
               
-              <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png"
+              <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/62aec25f2_ChatGPTImageApr6202609_02_24PM.png"
 
               alt={device.name} className="max-h-[420px] w-full object-contain object-bottom"
 
