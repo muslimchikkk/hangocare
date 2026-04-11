@@ -651,7 +651,7 @@ const deviceData = {
       {
         title: "MF (mikrofokusovaná) metoda microneedlingu",
         description: "Malé jehličky pronikají do epidermis a cíleně přenášejí aktivní látky, které podporují hydrataci a obnovu kolagenu. MF microneedling je ideální pro ošetření jizev po akné, vrásek, strií a rozšířených pórů.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/15baac00d_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a5945574b_Screenshot2026-04-11at220728.png",
       },
       {
         title: "LightPure LED Terapie — Jemná a šetrná metoda",
