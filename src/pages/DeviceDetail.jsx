@@ -597,7 +597,7 @@ const deviceData = {
       {
         title: "3D Epilace — Tři vlnové délky",
         description: "Tři různé vlnové délky působí stabilně a kontrolovaně v různých hloubkách pokožky. 755nm (Alexandrite) pro povrchové folikuly, 808nm (Diode) pro střední dermis, 1064nm (Nd:YAG) pro hluboké folikuly. Široká a trvale chladná hlavice zajišťuje komfortní použití.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3b3e0221b_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ff71cefe9_Screenshot2026-04-11at220347.png",
       },
       {
         title: "Dvojitý režim — Intensive & Dynamic",
