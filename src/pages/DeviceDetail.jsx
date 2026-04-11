@@ -253,7 +253,7 @@ const deviceData = {
       {
         title: "RF Thermal Energy Transfer to Dermal Layer",
         description: "Maintains low pain levels even at high energies. Provides uniform RF energy distribution on the surface, eliminating negative effects on the epidermis. FLIR thermal imaging confirms consistent and expanding heat zones over 15–60 second treatment intervals.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b672e3000_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b59529e97_Screenshot2026-04-11at212423.png",
       },
     ],
     references: [
