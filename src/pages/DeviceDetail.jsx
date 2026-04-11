@@ -238,7 +238,7 @@ const deviceData = {
       {
         title: "Long Pass Radiofrequency — Oval Surface",
         description: "Volnewmer uses monopolar RF energy targeting collagen-rich layers for controlled, safe deep penetration. The oval applicator surface ensures even thermal energy distribution across the dermis — balancing skin tone, tightening, improving elasticity and volumetric lifting.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/682d339c7_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9915b4042_Screenshot2026-04-11at213442.png",
       },
       {
         title: "Hidden Edge Tip — Side-Effect Suppression",
