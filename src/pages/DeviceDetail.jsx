@@ -646,7 +646,7 @@ const deviceData = {
       {
         title: "AD (Aqua+Diamond) Peeling — Metoda dermabraze",
         description: "Technologie AD Peel odstraňuje odumřelé kožní buňky a hloubkově čistí póry, čímž maximalizuje účinky mikrodermabraze.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/602e31fc1_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ce76e233d_Screenshot2026-04-11at220629.png",
       },
       {
         title: "MF (mikrofokusovaná) metoda microneedlingu",
