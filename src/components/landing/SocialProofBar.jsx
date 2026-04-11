@@ -3,38 +3,38 @@ import { motion } from "framer-motion";
 import { Award, ShieldCheck, Microscope, Activity, FlaskConical } from "lucide-react";
 
 const badges = [
-  { icon: Award, label: "By Cluederm" },
-  { icon: ShieldCheck, label: "CE Certified" },
-  { icon: Microscope, label: "Clinically Validated" },
-  { icon: Activity, label: "Non-Invasive Protocol" },
-  { icon: FlaskConical, label: "Evidence-Based" },
-];
+{ icon: Award, label: "By Cluederm" },
+{ icon: ShieldCheck, label: "CE Certified" },
+{ icon: Microscope, label: "Clinically Validated" },
+{ icon: Activity, label: "Non-Invasive Protocol" },
+{ icon: FlaskConical, label: "Evidence-Based" }];
+
 
 export default function SocialProofBar() {
   return (
-    <section
-      className="py-8"
-      style={{
-        backgroundColor: "hsl(32, 100%, 20%)",
-        boxShadow: "0 8px 32px rgba(100,50,0,0.3), 0 -4px 16px rgba(100,50,0,0.15)",
-      }}
-    >
+    <section className="bg-[hsl(var(--card))] py-8"
+
+    style={{
+      backgroundColor: "hsl(199, 80%, 22%)",
+      boxShadow: "0 8px 32px rgba(0,80,120,0.35), 0 -4px 16px rgba(0,80,120,0.18)"
+    }}>
+      
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="flex flex-wrap justify-center items-center gap-8 lg:gap-14"
-        >
-          {badges.map(({ icon: Icon, label }, i) => (
-            <motion.div
-              key={label}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
-              className="flex items-center gap-3 group"
-            >
+          className="flex flex-wrap justify-center items-center gap-8 lg:gap-14">
+          
+          {badges.map(({ icon: Icon, label }, i) =>
+          <motion.div
+            key={label}
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: i * 0.08 }}
+            className="flex items-center gap-3 group">
+            
               <div className="w-9 h-9 rounded-full bg-white/15 flex items-center justify-center group-hover:bg-white/25 transition-colors">
                 <Icon className="w-4 h-4 text-white" />
               </div>
@@ -42,9 +42,9 @@ export default function SocialProofBar() {
                 {label}
               </span>
             </motion.div>
-          ))}
+          )}
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
