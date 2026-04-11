@@ -21,7 +21,7 @@ export default function CtaSection() {
   };
 
   return (
-    <section id="cta" className="py-24 lg:py-32 bg-background relative overflow-hidden">
+    <section id="cta" className="py-24 lg:py-32 bg-white relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative max-w-2xl mx-auto px-6 lg:px-8">

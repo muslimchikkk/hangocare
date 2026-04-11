@@ -128,7 +128,7 @@ const devices = [
 
 export default function DevicesSection() {
   return (
-    <section id="devices" className="py-24 lg:py-32 bg-secondary/50">
+    <section id="devices" className="py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -159,7 +159,7 @@ export default function DevicesSection() {
             >
               <Link
                 to={`/devices/${d.id}`}
-                className={`group flex flex-col h-full border rounded-2xl overflow-hidden hover:shadow-lg hover:border-primary/40 transition-all duration-300 cursor-pointer ${d.color}`}
+                className={`group flex flex-col h-full border rounded-2xl overflow-hidden hover:shadow-lg hover:border-primary/40 transition-all duration-300 cursor-pointer bg-white border-border/40`}
               >
                 {/* Device image */}
                 <div className="w-full h-44 bg-white overflow-hidden flex items-center justify-center">

@@ -40,7 +40,7 @@ const faqs = [
 
 export default function FaqSection() {
   return (
-    <section id="faq" className="py-24 lg:py-32 bg-secondary/50">
+    <section id="faq" className="py-24 lg:py-32 bg-white">
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
