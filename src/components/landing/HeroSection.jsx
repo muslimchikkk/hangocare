@@ -77,9 +77,8 @@ export default function HeroSection() {
               Medical-Grade Aesthetic Technology
             </motion.div>
 
-            <div className="mb-4">
-              <span className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-none tracking-tight text-primary">HanG.O</span>
-              <span className="font-grotesk text-4xl sm:text-5xl lg:text-6xl font-semibold ml-3 leading-none text-primary">Care</span>
+            <div className="mb-6">
+              <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/6929e9011_ChatGPTImageApr11202611_18_33AM.png" alt="HanG.O Care" className="h-20 sm:h-24 lg:h-28 w-auto" />
             </div>
 
             <h1 className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-foreground/90">

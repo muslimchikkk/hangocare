@@ -34,9 +34,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <a href="#" className="flex items-center gap-1 select-none">
-            <span className="font-display text-xl lg:text-2xl font-bold tracking-tight text-foreground">HanG.O</span>
-            <span className="font-grotesk text-xl lg:text-2xl font-semibold text-primary ml-1 tracking-wide">Care</span>
+          <a href="#" className="flex items-center gap-2 select-none">
+            <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/6929e9011_ChatGPTImageApr11202611_18_33AM.png" alt="HanG.O Care" className="h-9 w-auto" />
           </a>
 
           <div className="hidden md:flex items-center gap-8">

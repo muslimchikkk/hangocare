@@ -19,9 +19,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-baseline gap-1 mb-1">
-              <span className="font-display text-xl font-bold text-background">HanG.O</span>
-              <span className="font-grotesk text-xl font-semibold text-primary ml-1 tracking-wide">Care</span>
+            <div className="mb-3">
+              <img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/6929e9011_ChatGPTImageApr11202611_18_33AM.png" alt="HanG.O Care" className="h-10 w-auto brightness-0 invert" />
             </div>
             <p className="font-body text-xs text-background/50 mb-4">by Cluederm · Beauty Solution</p>
             <p className="font-body text-sm leading-relaxed">
