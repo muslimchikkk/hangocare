@@ -713,7 +713,7 @@ const deviceData = {
       {
         title: "Nastavitelná úroveň vakua a chlazení — 20% silnější vakuum",
         description: "Clatuu Alpha disponuje o 20 % silnějším vakuem a umožňuje uživateli bezpečně upravovat jak úroveň sání, tak i intenzitu chlazení. Tím lze ošetření plně přizpůsobit potřebám pacienta.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/df733f202_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d624f40c8_Screenshot2026-04-11at221731.png",
       },
       {
         title: "Aplikátory WING, WING Plus, WING Max, FLAT — Ošetřované oblasti",
