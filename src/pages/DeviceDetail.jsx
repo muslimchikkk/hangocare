@@ -547,7 +547,7 @@ const deviceData = {
       {
         title: "Duální systém vlnových délek",
         description: "Optimalizovaný výkon pro vysokorychlostní laserovou oscilaci zajišťuje vysokou stabilitu výstupního výkonu. Díky nízké chybovosti a kulovitému paprsku o průměru až 24 mm nabízí různé šířky pulzů.",
-        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5a67e61c6_generated_image.png",
+        image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/afb2d1686_Screenshot2026-04-11at220027.png",
       },
       {
         title: "Odolná konstrukce — 31g Rod",
