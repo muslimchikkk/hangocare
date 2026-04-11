@@ -342,7 +342,7 @@ const deviceData = {
     tag: "Fractional RF",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bd6ce15dd_generated_image.png",
     overview: "Secret RF is a high-performance device that transfers precisely controlled RF energy to the correct skin depth with minimal downtime. Thanks to non-insulated needles it stimulates both surface and deep skin layers and at the same time enables extensive remodelling in deeper dermis. Does not cause epidermal burns — acts only through thermal effect.",
-    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/88e17d298_generated_image.png",
+    clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/66b738edd_Screenshot2026-04-11at214958.png",
     modalities: [
       "Fractional RF — 2 MHz bipolar precise RF technology",
       "MTR-AC-C25 — 25-needle semi-isolated cartridge, max 25 W",
