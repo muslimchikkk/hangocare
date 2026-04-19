@@ -569,7 +569,7 @@ const deviceData = {
     name: "N.CORE 3D",
     subtitle: "Triple Wavelength Diode Laser",
     tag: "Diode Laser",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4eb96cc02_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/8e08eccb5_ChatGPTImageApr19202611_00_19AM.png",
     overview: "Simultaneously emits laser energy at wavelengths 755 nm, 808 nm and 1064 nm to three different skin depths, thereby providing greater efficacy and enabling faster and more effective epilation. The device is designed to achieve the most effective results and uses the newest and most modern technology.",
     modalities: [
       "755 nm Alexandrite — superficial hair follicles",

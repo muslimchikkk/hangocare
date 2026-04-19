@@ -100,7 +100,7 @@ const devices = [
     category: "Diode Laser — Three Wavelengths",
     tag: "Diode Laser",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6a19139ec_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/8e08eccb5_ChatGPTImageApr19202611_00_19AM.png",
     shortDesc: "Simultaneous emission of 755 nm, 808 nm and 1064 nm diode laser energy to three different skin depths for effective year-round epilation.",
     highlights: ["755 / 808 / 1064nm", "1400W", "3D Lifting"],
   },
