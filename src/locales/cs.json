@@ -22,6 +22,13 @@
     "badge_platform": "Kompletní klinická platforma",
     "badge_full": "Kompletní estetické portfolio"
   },
+  "social_proof": {
+    "by_cluederm": "Od Cluederm",
+    "ce_certified": "CE Certifikováno",
+    "clinically_validated": "Klinicky ověřeno",
+    "non_invasive": "Neinvazivní protokol",
+    "evidence_based": "Podloženo důkazy"
+  },
   "devices_section": {
     "label": "Portfolio klinických přístrojů",
     "heading": "Povyšte svoji kliniku na",
@@ -30,6 +37,44 @@
     "description_link": "kontaktujte nás",
     "description_end": "pro nalezení správného řešení pro vaši praxi.",
     "view_details": "Zobrazit klinické detaily"
+  },
+  "devices": {
+    "veloce-4800": {
+      "shortDesc": "Širokopásmový světelný systém s duální xenonovou lampou pronikající hluboko do pokožky při nízké energii, účinný pro širokou škálu kožních stavů."
+    },
+    "ultraformer-mpt": {
+      "shortDesc": "Platforma MMFU nové generace s mikro a makro fokusovaným ultrazvukem, 3 handpiecemi a 10 vyměnitelnými kartridžemi pro obličej a tělo."
+    },
+    "fraxis-duo": {
+      "shortDesc": "Ideální kombinace frakčního CO² laseru a mikrojehličkového RF pro široké spektrum estetických a gynekologických aplikací."
+    },
+    "volnewmer": {
+      "shortDesc": "Neinvazivní monopolární RF přístroj pro zpevnění a lifting pleti s technologií oválného povrchu a kontinuálním chladicím systémem."
+    },
+    "curas": {
+      "shortDesc": "Q-switched Nd:YAG laser nové generace s vlnovými délkami 1064 nm a 532 nm pro odstranění tetování, pigmentaci a omlazení pleti."
+    },
+    "secret-rf": {
+      "shortDesc": "Pokročilá bipolární mikrojehličková RF technologie dodávající přesně řízenou RF energii do cílených dermálních hloubek od 0,5 do 3,5 mm."
+    },
+    "secret-duo": {
+      "shortDesc": "Kombinuje 1540nm erbium glass laser s mikrojehličkovým RF v jednom přístroji pro synergický neablativní resurfacing a remodelaci pleti."
+    },
+    "ultraformer-iii": {
+      "shortDesc": "HIFU přístroj s přesnými pulzními módy aplikující tepelnou energii do přesně definovaných hloubek pro neinvazivní lifting a konturování těla."
+    },
+    "pento": {
+      "shortDesc": "Výkonný laserový systém s duální vlnovou délkou pro permanentní odstranění chloupků a léčbu cévních lézí při vysoké rychlosti."
+    },
+    "ncore": {
+      "shortDesc": "Simultánní emise diodové laserové energie 755 nm, 808 nm a 1064 nm do tří různých hloubek pokožky pro účinnou celoroční epilaci."
+    },
+    "aquapure-ii": {
+      "shortDesc": "Multifunkční přístroj kombinující mokrou a suchou exfoliaci, mikrofokusovaný microneedling a LED terapii pro komplexní péči o pleť."
+    },
+    "clatuu-alpha": {
+      "shortDesc": "Pokročilý kryolipolýzový systém s 360° chladicími aplikátory navržený pro redukci tuku a konturování těla s o 20 % silnějším vakuem."
+    }
   },
   "faq": {
     "label": "FAQ",

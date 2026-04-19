@@ -1,16 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Award, ShieldCheck, Microscope, Activity, FlaskConical } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
-const badges = [
-  { icon: Award, label: "By Cluederm" },
-  { icon: ShieldCheck, label: "CE Certified" },
-  { icon: Microscope, label: "Clinically Validated" },
-  { icon: Activity, label: "Non-Invasive Protocol" },
-  { icon: FlaskConical, label: "Evidence-Based" },
+const badgeKeys = [
+  { icon: Award, key: "social_proof.by_cluederm" },
+  { icon: ShieldCheck, key: "social_proof.ce_certified" },
+  { icon: Microscope, key: "social_proof.clinically_validated" },
+  { icon: Activity, key: "social_proof.non_invasive" },
+  { icon: FlaskConical, key: "social_proof.evidence_based" },
 ];
 
 export default function SocialProofBar() {
+  const { t } = useTranslation();
   return (
     <section
       className="py-8 bg-primary"
@@ -22,9 +24,9 @@ export default function SocialProofBar() {
           viewport={{ once: true }}
           className="flex flex-wrap justify-center items-center gap-8 lg:gap-14"
         >
-          {badges.map(({ icon: Icon, label }, i) => (
+          {badgeKeys.map(({ icon: Icon, key }, i) => (
             <motion.div
-              key={label}
+              key={key}
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -35,7 +37,7 @@ export default function SocialProofBar() {
                 <Icon className="w-4 h-4 text-white" />
               </div>
               <span className="font-body text-base font-semibold text-white/90 tracking-wide">
-                {label}
+                {t(key)}
               </span>
             </motion.div>
           ))}

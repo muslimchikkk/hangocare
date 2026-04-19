@@ -12,7 +12,6 @@ const devices = [
     tag: "IPL / Broadband Light",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/62aec25f2_ChatGPTImageApr6202609_02_24PM.png",
-    shortDesc: "Dual xenon lamp broadband light system penetrating deep skin layers at low energy, effective for a wide range of skin conditions.",
     highlights: ["IPDL Technology", "Dual Xenon", "Multi-filter"],
   },
   {
@@ -22,7 +21,6 @@ const devices = [
     tag: "MMFU / HIFU",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4ba7dd4bc_generated_image.png",
-    shortDesc: "Next-generation MMFU platform with micro and macro focused ultrasound, 3 handpieces and 10 interchangeable cartridges for face and body.",
     highlights: ["MMFU", "Ultra-Booster", "10 cartridges"],
   },
   {
@@ -32,7 +30,6 @@ const devices = [
     tag: "Fractional Laser + RF",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png",
-    shortDesc: "Ideal combination of fractional CO² laser and microneedle RF for a wide spectrum of aesthetic and gynaecological applications.",
     highlights: ["CO² Laser", "Microneedle RF", "FDA Approved"],
   },
   {
@@ -42,7 +39,6 @@ const devices = [
     tag: "RF Lifting",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4e3af0373_volnewmer_cut05_.png",
-    shortDesc: "Non-invasive monopolar RF device for skin tightening and lifting, featuring oval surface technology and continuous cooling system.",
     highlights: ["Monopolar RF", "Hidden Edge Tip", "FDA Approved"],
   },
   {
@@ -52,7 +48,6 @@ const devices = [
     tag: "Laser / Pigment",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/441ea4734_Gemini_Generated_Image_ficyxzficyxzficy.png",
-    shortDesc: "New generation Q-switched Nd:YAG laser with 1064 nm and 532 nm wavelengths for tattoo removal, pigmentation and skin rejuvenation.",
     highlights: ["1064 nm / 532 nm", "Zoom-MLA & DOE", "FDA Approved"],
   },
   {
@@ -62,7 +57,6 @@ const devices = [
     tag: "Fractional RF",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dcac82341_ChatGPTImageApr19202611_05_55AM.png",
-    shortDesc: "Advanced bipolar microneedle RF technology delivering precisely controlled RF energy to targeted dermal depths from 0.5 to 3.5 mm.",
     highlights: ["2 MHz RF", "0.5–3.5 mm depth", "FDA Approved"],
   },
   {
@@ -72,7 +66,6 @@ const devices = [
     tag: "Dual Fractional",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png",
-    shortDesc: "Combines 1540nm Erbium Glass laser with microneedle RF in one device for synergistic non-ablative skin resurfacing and remodeling.",
     highlights: ["1540nm Er:Glass", "Microneedle RF", "FDA Approved"],
   },
   {
@@ -82,7 +75,6 @@ const devices = [
     tag: "HIFU",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3774e8b6f_generated_image.png",
-    shortDesc: "HIFU device with precision pulse modes applying thermal energy to precise skin depths for non-invasive lifting and body contouring.",
     highlights: ["Micro & Macro HIFU", "7 cartridges", "Face & Body"],
   },
   {
@@ -92,7 +84,6 @@ const devices = [
     tag: "Dual Wavelength Laser",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/41a13b890_generated_image.png",
-    shortDesc: "High-performance dual-wavelength laser system for permanent hair removal and treatment of vascular lesions at high speed.",
     highlights: ["755nm + 1064nm", "31g Rod", "FDA Approved"],
   },
   {
@@ -102,7 +93,6 @@ const devices = [
     tag: "Diode Laser",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/8e08eccb5_ChatGPTImageApr19202611_00_19AM.png",
-    shortDesc: "Simultaneous emission of 755 nm, 808 nm and 1064 nm diode laser energy to three different skin depths for effective year-round epilation.",
     highlights: ["755 / 808 / 1064nm", "1400W", "3D Lifting"],
   },
   {
@@ -112,7 +102,6 @@ const devices = [
     tag: "Hydradermabrasion",
     color: "bg-amber-50 border-amber-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png",
-    shortDesc: "Multifunctional device combining wet and dry exfoliation, micro-focused microneedling and LED therapy for comprehensive skin care.",
     highlights: ["AD Peeling", "MF Microneedling", "LightPure LED"],
   },
   {
@@ -122,7 +111,6 @@ const devices = [
     tag: "Fat Freezing",
     color: "bg-stone-50 border-stone-200",
     image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png",
-    shortDesc: "Advanced cryolipolysis system with 360° cooling applicators designed for fat reduction and body contouring with 20% stronger vacuum.",
     highlights: ["360° Cooling", "20% Stronger Vacuum", "Dual-area treat."],
   },
 ];
@@ -182,7 +170,7 @@ export default function DevicesSection() {
                     {d.category}
                   </p>
                   <p className="text-sm font-body text-muted-foreground leading-relaxed flex-1">
-                    {d.shortDesc}
+                    {t(`devices.${d.id}.shortDesc`)}
                   </p>
 
                   <div className="mt-4 flex flex-wrap gap-1.5">

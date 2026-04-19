@@ -22,6 +22,13 @@
     "badge_platform": "Complete Clinical Platform",
     "badge_full": "Full Aesthetic Portfolio"
   },
+  "social_proof": {
+    "by_cluederm": "By Cluederm",
+    "ce_certified": "CE Certified",
+    "clinically_validated": "Clinically Validated",
+    "non_invasive": "Non-Invasive Protocol",
+    "evidence_based": "Evidence-Based"
+  },
   "devices_section": {
     "label": "Clinical Device Portfolio",
     "heading": "Elevate Your Clinic with",
@@ -30,6 +37,44 @@
     "description_link": "contact us",
     "description_end": "to find the right solution for your practice.",
     "view_details": "View Clinical Details"
+  },
+  "devices": {
+    "veloce-4800": {
+      "shortDesc": "Dual xenon lamp broadband light system penetrating deep skin layers at low energy, effective for a wide range of skin conditions."
+    },
+    "ultraformer-mpt": {
+      "shortDesc": "Next-generation MMFU platform with micro and macro focused ultrasound, 3 handpieces and 10 interchangeable cartridges for face and body."
+    },
+    "fraxis-duo": {
+      "shortDesc": "Ideal combination of fractional CO² laser and microneedle RF for a wide spectrum of aesthetic and gynaecological applications."
+    },
+    "volnewmer": {
+      "shortDesc": "Non-invasive monopolar RF device for skin tightening and lifting, featuring oval surface technology and continuous cooling system."
+    },
+    "curas": {
+      "shortDesc": "New generation Q-switched Nd:YAG laser with 1064 nm and 532 nm wavelengths for tattoo removal, pigmentation and skin rejuvenation."
+    },
+    "secret-rf": {
+      "shortDesc": "Advanced bipolar microneedle RF technology delivering precisely controlled RF energy to targeted dermal depths from 0.5 to 3.5 mm."
+    },
+    "secret-duo": {
+      "shortDesc": "Combines 1540nm Erbium Glass laser with microneedle RF in one device for synergistic non-ablative skin resurfacing and remodeling."
+    },
+    "ultraformer-iii": {
+      "shortDesc": "HIFU device with precision pulse modes applying thermal energy to precise skin depths for non-invasive lifting and body contouring."
+    },
+    "pento": {
+      "shortDesc": "High-performance dual-wavelength laser system for permanent hair removal and treatment of vascular lesions at high speed."
+    },
+    "ncore": {
+      "shortDesc": "Simultaneous emission of 755 nm, 808 nm and 1064 nm diode laser energy to three different skin depths for effective year-round epilation."
+    },
+    "aquapure-ii": {
+      "shortDesc": "Multifunctional device combining wet and dry exfoliation, micro-focused microneedling and LED therapy for comprehensive skin care."
+    },
+    "clatuu-alpha": {
+      "shortDesc": "Advanced cryolipolysis system with 360° cooling applicators designed for fat reduction and body contouring with 20% stronger vacuum."
+    }
   },
   "faq": {
     "label": "FAQ",

@@ -750,8 +750,8 @@ export default function DeviceDetail() {
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <p className="text-muted-foreground mb-4">Device not found.</p>
-            <Link to="/"><Button>Back to Home</Button></Link>
+            <p className="text-muted-foreground mb-4">{t("device_detail.not_found")}</p>
+            <Link to="/"><Button>{t("device_detail.back")}</Button></Link>
           </div>
         </div>
         <Footer />
@@ -768,7 +768,7 @@ export default function DeviceDetail() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-12 pb-0">
           <Link to="/" className="inline-flex items-center gap-2 text-sm font-body text-primary hover:text-primary/80 mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4" />
-            Back to Devices
+            {t("device_detail.back")}
           </Link>
 
           <div className="grid lg:grid-cols-2 gap-16 items-end">
@@ -793,8 +793,8 @@ export default function DeviceDetail() {
                 onClick={() => document.getElementById("cta-contact")?.scrollIntoView({ behavior: "smooth" })}
                 className="mt-8 bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-12"
                 onClick={() => window.location.href = "/#cta"}
-              >
-                Request Clinical Information
+                >
+                {t("device_detail.request_info")}
                 <ChevronRight className="w-4 h-4 ml-1" />
               </Button>
             </motion.div>
@@ -826,7 +826,7 @@ export default function DeviceDetail() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                  Mechanism of Action
+                  {t("device_detail.mechanism")}
                 </h2>
                 <p className="font-body text-base text-muted-foreground leading-relaxed">
                   {device.mechanism}
@@ -836,7 +836,7 @@ export default function DeviceDetail() {
               {device.clinicalFeatures && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                   <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                    Key Technology Features
+                    {t("device_detail.key_features")}
                   </h2>
                   <div className="grid sm:grid-cols-2 gap-5 mb-8">
                     {device.clinicalFeatures.map((f, i) => (
@@ -858,7 +858,7 @@ export default function DeviceDetail() {
                   </div>
                   {device.clinicalTerms && (
                     <div className="bg-primary/5 border border-primary/20 rounded-2xl p-5">
-                      <p className="font-body text-xs font-semibold text-primary uppercase tracking-widest mb-3">Terminology</p>
+                      <p className="font-body text-xs font-semibold text-primary uppercase tracking-widest mb-3">{t("device_detail.terminology")}</p>
                       <div className="grid sm:grid-cols-2 gap-2">
                         {device.clinicalTerms.map((t) => (
                           <div key={t.abbr} className="font-body text-sm text-foreground/80">
@@ -874,7 +874,7 @@ export default function DeviceDetail() {
               {device.handpieces && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                   <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                    Handpiece Options
+                    {t("device_detail.handpieces")}
                   </h2>
                   <div className="space-y-6">
                     {device.handpieces.map((h, i) => (
@@ -908,7 +908,7 @@ export default function DeviceDetail() {
               {device.clinicalGraphics && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                   <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                    Clinical Performance Diagrams
+                    {t("device_detail.clinical_diagrams")}
                   </h2>
                   <div className="rounded-2xl overflow-hidden border border-border/40 bg-white">
                     <img
@@ -923,7 +923,7 @@ export default function DeviceDetail() {
               {device.modalities && (
                 <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                   <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                    Treatment Modalities
+                    {t("device_detail.modalities")}
                   </h2>
                   <ul className="space-y-3">
                     {device.modalities.map((m, i) => (
@@ -938,7 +938,7 @@ export default function DeviceDetail() {
 
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="font-display text-2xl font-bold text-foreground mb-5 pb-3 border-b border-border">
-                  Clinical Indications
+                  {t("device_detail.indications")}
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-3">
                   {device.indications.map((ind, i) => (
@@ -957,7 +957,7 @@ export default function DeviceDetail() {
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <div className="bg-secondary/50 rounded-2xl p-7 border border-border/60 sticky top-24">
                 <h2 className="font-display text-xl font-bold text-foreground mb-5">
-                  Technical Specifications
+                  {t("device_detail.specs")}
                 </h2>
                 <div className="space-y-4">
                   {device.specs.map((s) => (
@@ -972,7 +972,7 @@ export default function DeviceDetail() {
                     className="w-full bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm"
                     onClick={() => window.location.href = "/#cta"}
                   >
-                    Request Full Datasheet
+                    {t("device_detail.request_datasheet")}
                   </Button>
                 </div>
               </div>
@@ -985,17 +985,17 @@ export default function DeviceDetail() {
       <section id="cta-contact" className="py-16 bg-secondary/50">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="font-display text-2xl font-bold text-foreground mb-3">
-            Interested in {device.name} for Your Practice?
+            {t("device_detail.cta_heading", { name: device.name })}
           </h2>
           <p className="font-body text-muted-foreground mb-6">
-            Contact our clinical team for a professional demonstration, full technical documentation, and pricing tailored for your clinic.
+            {t("device_detail.cta_desc")}
           </p>
           <Button
             size="lg"
             className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-full px-12 h-14"
             onClick={() => window.location.href = "/#cta"}
           >
-            Contact Us
+            {t("device_detail.cta_button")}
           </Button>
         </div>
       </section>
