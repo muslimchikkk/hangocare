@@ -40,40 +40,535 @@
   },
   "devices": {
     "veloce-4800": {
-      "shortDesc": "Širokopásmový světelný systém s duální xenonovou lampou pronikající hluboko do pokožky při nízké energii, účinný pro širokou škálu kožních stavů."
+      "name": "VELOCE 4800",
+      "subtitle": "Širokopásmová světelná technologie",
+      "tag": "IPL / Širokopásmové světlo",
+      "shortDesc": "Širokopásmový světelný systém s duální xenonovou lampou pronikající hluboko do pokožky při nízké energii, účinný pro širokou škálu kožních stavů.",
+      "overview": "VELOCE 4800 využívá technologii širokopásmového světla s duální xenonovou lampou k dosažení hlubokých vrstev pokožky při nízké energii. Díky různým filtrům s různými vlnovými délkami je tato technologie účinně využívána pro širokou škálu kožních problémů. Systém emituje intenzivní a přesně cílené světelné pulzy, díky nimž je ošetření rychlejší, bezpečnější a účinnější.",
+      "mechanism": "Technologie IPDL kombinuje intenzivní pulzní světlo s širokopásmovým světlem až do 1400 nm, což z přístroje VELOCE dělá nejlepší volbu pro léčbu širšího spektra kožních problémů ve srovnání se standardními IPL systémy. Technologie duální xenonové lampy zajišťuje stabilní dodávání energie a maximální přesnost. Dokonce i v režimu ultra-rychlého pulzu přístroj poskytuje stabilní laserové paprsky a přesně cílené laserové body — čímž dosahuje maximální efektivity a optimálních výsledků ošetření. Chytrý adaptér a blokátory bodů umožňují přesné ošetření bez poškození okolní tkáně.",
+      "modalities": [
+        "IPDL (Intense Pulse Dual Light) — širokopásmové světlo až do 1400 nm",
+        "Vyměnitelné filtry — široké spektrum vlnových délek",
+        "PW500 — speciální filtr přenášející světlo 500–600 nm pro hemoglobin",
+        "NT800 — hluboko pronikající filtr 800–1400 nm pro hlubší dermální vrstvy",
+        "Efektivní řízení chlazení — safírový aplikátor udržuje pokožku pohodlnou",
+        "Funkce rychlého pulzu — aplikátor 45×15 mm, energie až 1 080 J/s"
+      ],
+      "indications": [
+        "Pigmentové léze", "Lentigo", "Melasma", "Cévní léze", "Teleangiektázie",
+        "Poikiloderma", "Omlazení pleti", "Stahování pórů", "Akné a post-akné",
+        "Aktivní akné", "Rosacea", "Erytém", "Epilace", "Fotodynamická terapie",
+        "Port Wine Stain", "Léčba Demodexu"
+      ],
+      "specs": [
+        { "label": "Technologie", "value": "IPDL — Intense Pulse Dual Light" },
+        { "label": "Světelný zdroj", "value": "Duální xenonová lampa" },
+        { "label": "Rozsah vlnových délek", "value": "500–1400 nm (v závislosti na filtru)" },
+        { "label": "Filtr PW500", "value": "500–600 nm (absorpce hemoglobinu)" },
+        { "label": "Filtr NT800", "value": "800–1400 nm (hluboká dermis)" },
+        { "label": "Velikost aplikátoru", "value": "45 × 15 mm" },
+        { "label": "Max. energie", "value": "1 080 J/s" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ]
     },
     "ultraformer-mpt": {
-      "shortDesc": "Platforma MMFU nové generace s mikro a makro fokusovaným ultrazvukem, 3 handpiecemi a 10 vyměnitelnými kartridžemi pro obličej a tělo."
+      "name": "ULTRAFORMER MPT",
+      "subtitle": "Obousměrná cirkulární a lineární pulzní technologie",
+      "tag": "MMFU / HIFU",
+      "shortDesc": "Platforma MMFU nové generace s mikro a makro fokusovaným ultrazvukem, 3 handpiecemi a 10 vyměnitelnými kartridžemi pro obličej a tělo.",
+      "overview": "Vytvoření správné kvality TCP určuje výkon technologie MMFU. Nový ULTRAFORMER MPT rozkládá proces vytváření TCP na mikrojednotky, čímž zajišťuje vyšší bezpečnost, mimořádnou přesnost a maximální efektivitu technologie MMFU — překračující standardní technologické normy.",
+      "mechanism": "Technologie MMFU prostřednictvím technologie mikropulzů dělá TCP 25× jemnějším, přenáší dodatečnou energii do oblasti ošetření a umožňuje intenzivní léčbu. Aplikátor Ultra-Booster zahrnuje nejmodernější technologii generování energie MMFU. Ultraformer MPT dokáže provádět jak bodové, tak obousměrné lineární bodové pulzy, což zkracuje dobu ošetření a zároveň maximalizuje jeho kvalitu. Převodníky jsou 2,5× rychlejší než standardní a eliminují dobu návratu — zajišťují maximální pohodlí pacienta a optimální klinické výsledky.",
+      "modalities": [
+        "MMFU — makro a mikro fokusovaná ultrazvuková energie",
+        "Obousměrný cirkulární a lineární bodový pulz",
+        "Handpiece Ultra-Booster s optimalizovaným transduktorem",
+        "3 handpiecey a 10 vyměnitelných kartridží",
+        "Normální, mikropulzní, cirkulární, mikrocirkulární režimy"
+      ],
+      "indications": [
+        "Lifting obličeje", "Zpevnění pleti", "Lifting obočí", "Redukce vrásek",
+        "Redukce objemu v oblasti tváří", "Redukce a zpevnění jowlů",
+        "Omlazení oblasti očí", "Nasolabální rýhy"
+      ],
+      "specs": [
+        { "label": "Technologie", "value": "MMFU — Makro a mikro fokusovaný ultrazvuk" },
+        { "label": "Pulzní režimy", "value": "Cirkulární, lineární, bodový, mikrocirkulární" },
+        { "label": "Handpiecey", "value": "3 (vč. Ultra-Boosteru)" },
+        { "label": "Kartridže", "value": "10 vyměnitelných" },
+        { "label": "Rychlost ošetření", "value": "2,5× rychlejší než standard" },
+        { "label": "Oblast aplikace", "value": "Obličej a tělo" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Neinvazivní lifting obličeje", "description": "Technologie HIFU stimuluje obnovu kolagenu v dermální vrstvě a v SMAS. Tyto vrstvy procházejí několika fázemi — srážením krve, stažením tkáně a novou tvorbou kolagenu s pevnější strukturou. Výsledkem je redukce vrásek a zlepšení ochablé pokožky." },
+        { "title": "Nejmodernější režimy pulzů", "description": "Ultraformer MPT dokáže provádět jak bodové, tak obousměrné lineární bodové pulzy. Díky tomu zkracuje dobu ošetření a zároveň maximalizuje jeho kvalitu." },
+        { "title": "Krátká doba ošetření", "description": "Převodníky jsou 2,5× rychlejší než běžné a eliminují dobu návratu. To zajišťuje maximální pohodlí při ošetření a optimální klinické výsledky." },
+        { "title": "Široká škála režimů MMFU", "description": "Normální režim, mikropulzní režim, cirkulární režim, mikrocirkulární režim." },
+        { "title": "Handpiece Ultra-Booster", "description": "Transduktor s optimalizovanou, sníženou konstrukcí pro maximální přesnost dodávání energie." },
+        { "title": "Možnosti kartridží pro různé hloubky ošetření", "description": "3 handpiecey a 10 vyměnitelných kartridží pro přizpůsobené cílení na hloubku." },
+        { "title": "Krátká doba ošetření", "description": "Až 2,5× vyšší rychlost. Žádné zpoždění mezi pulzy pro plynulejší a rychlejší ošetření." }
+      ],
+      "clinicalTerms": [
+        { "abbr": "TCP", "def": "Bod tepelné koagulace" },
+        { "abbr": "MMFU", "def": "Technologie makro a mikro fokusovaného ultrazvuku" },
+        { "abbr": "MP", "def": "Mikropulzní režim" },
+        { "abbr": "Normal", "def": "Bodový režim" }
+      ]
     },
     "fraxis-duo": {
-      "shortDesc": "Ideální kombinace frakčního CO² laseru a mikrojehličkového RF pro široké spektrum estetických a gynekologických aplikací."
+      "name": "FRAXIS DUO",
+      "subtitle": "Frakční CO² laser + mikrojehličkové RF",
+      "tag": "Frakční laser + RF",
+      "shortDesc": "Ideální kombinace frakčního CO² laseru a mikrojehličkového RF pro široké spektrum estetických a gynekologických aplikací.",
+      "overview": "Fraxis Duo lze použít k léčbě široké škály indikací pomocí frakčního CO² laseru, mikrojehliček a volitelných chirurgických a gynekologických handpieců. Ideální kombinace frakčního CO² laseru a technologie mikrojehličkového RF poskytuje širší spektrum estetických aplikací pro obličej a tělo.",
+      "mechanism": "Výkonný frakční CO² laserový skener s výkonem 30 W poskytuje díky krátkému impulzu rovnoměrný a vysoce kvalitní laserový paprsek. Jeho ablativně-tepelný účinek podporuje regeneraci epidermis a dermis. Optimální velikost paprsku 100 mikronů minimalizuje dobu hojení a riziko postinflamatorní hyperpigmentace (PIH). Modul mikrojehličkového RF přenáší bipolární RF energii prostřednictvím ultra-jemných medicínských ocelových jehliček, čímž zvyšuje účinnost fotorejuvenace a ošetření jizev na obličeji a těle. Kombinace těchto dvou technologií poskytuje mimořádně účinné, přesto šetrné omlazení pleti s minimální rekonvalescencí.",
+      "modalities": [
+        "Frakční CO² laser — výkon 30 W, krátký impulz pro rovnoměrný vysoce kvalitní paprsek",
+        "Mikrojehličkové RF — bipolární RF přes vysoce kvalitní medicínské jehly v hloubce 0,5–3,5 mm",
+        "Chirurgický handpiece — velikost bodu 0,2–1,3 mm pro přesné incize",
+        "Gynekologický handpiece (volitelný) — mřížka CO² 8×8 pod úhlem 90° k vaginální stěně",
+        "6 různých skenovacích režimů — tečka, kruh, oválný, čtvercový, trojúhelník, šestiúhelník",
+        "Funkce I-Stack — hlubší frakční ablace při nižší energii"
+      ],
+      "indications": [
+        "Tónování a textura", "Zpevnění pleti", "Jizvy po akné", "Omlazení pleti",
+        "Zpevnění obličeje a krku", "Povrchová pigmentace", "Regenerace pleti",
+        "Jemné vrásky", "Lifting a zpevnění", "Xantelasmata",
+        "Ošetření víček", "Chirurgické řezy", "Vaginální rejuvenace",
+        "Inkontinence moči", "Striae", "Bradavice"
+      ],
+      "specs": [
+        { "label": "Výkon CO² laseru", "value": "30 W" },
+        { "label": "Velikosti skenu", "value": "1×1 až 20×20 mm" },
+        { "label": "Vzdálenost bodů", "value": "0,1 až 2,0 mm" },
+        { "label": "Hloubka jehly (RF)", "value": "0,5 – 3,5 mm" },
+        { "label": "Velikost chirurgického bodu", "value": "0,2 – 1,3 mm" },
+        { "label": "Rozměry přístroje", "value": "340 × 840 mm" },
+        { "label": "Hmotnost", "value": "208 g (handpiece)" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "clinicalFeatures": [
+        { "title": "CO² frakční laserový skener", "description": "Výkon 30 W s krátkým impulzem dodává rovnoměrný, vysoce kvalitní paprsek. Ablativně-tepelný účinek podporuje regeneraci epidermis a dermis. Optimální velikost paprsku 100 µm minimalizuje dobu hojení a riziko PIH." },
+        { "title": "6 skenovacích režimů", "description": "Velikost skenu: 1×1 až 20×20 mm. Vzdálenost bodů: 0,1 až 2,0 mm. Režimy: kruh, čtverec, polooblouk, elipsa, obdélník, trojúhelník." },
+        { "title": "Funkce I-Stack", "description": "Umožňuje hlubší frakční ablaci při nižší energii, čímž minimalizuje riziko poškození okolní tkáně." }
+      ],
+      "handpieces": [
+        {
+          "title": "Mikrojehličkový RF handpiece",
+          "description": "Pokročilá bipolární mikrojehličková RF technologie přenáší RF energii prostřednictvím vysoce kvalitních medicínských jehliček v přesných hloubkách (0,5–3,5 mm), čímž zvyšuje účinnost fotorejuvenace a ošetření jizev na obličeji a těle.",
+          "specs": [
+            { "label": "MTR-AC-C25", "value": "25 semi-izolovaných jehliček · 10×10 mm · max 25 W · tepelný účinek klesající od hlubších k povrchovým vrstvám" },
+            { "label": "MTR-AC-C64", "value": "64 semi-izolovaných jehliček · 17,5×17,5 mm · max 70 W · vysoký tepelný účinek v hlubokých vrstvách pokožky" },
+            { "label": "Rozměry", "value": "140 × Ø40 mm · 205 g" }
+          ]
+        },
+        {
+          "title": "Chirurgický handpiece",
+          "description": "Velikost bodu nastavitelná od 0,2 do 1,3 mm, umožňující rychlé, čisté a přesné incize a koagulaci tkáně pro léčbu povrchových lézí a bradavic.",
+          "specs": [
+            { "label": "Bod 0,2–0,5 mm", "value": "Incizní výkony" },
+            { "label": "Bod 0,7–0,9 mm", "value": "Hluboké peelingové výkony, ablace" },
+            { "label": "Bod 0,9–1,3 mm", "value": "Povrchové peelingové výkony, ablace" }
+          ]
+        },
+        {
+          "title": "Gynekologický handpiece (volitelný)",
+          "description": "Frakční CO² laser pro rychlé, bezpečné a minimálně invazivní gynekologické výkony. Handpiece se 90° odrazem směřuje CO² paprsek (mřížka 8×8) kolmo na vaginální stěnu pro remodelaci kolagenu a přetvoření vaginální tkáně bez poškození okolní tkáně.",
+          "specs": [
+            { "label": "Otočná sonda", "value": "Ručně otočitelná do 8 poloh, umožňuje 360° plné otočení" },
+            { "label": "Unikátní Air-Flow", "value": "Snižuje kouř nad laserovým paprskem, zajišťuje přesnější a bezpečnější aplikaci" },
+            { "label": "i-slide", "value": "Jednorázový měřicí nástavec — sonda se otočí o 90° pro přesné měření hloubky, zabraňuje přilnutí k vnitřní tkáni" }
+          ]
+        }
+      ]
     },
     "volnewmer": {
-      "shortDesc": "Neinvazivní monopolární RF přístroj pro zpevnění a lifting pleti s technologií oválného povrchu a kontinuálním chladicím systémem."
+      "name": "VOLNEWMER",
+      "subtitle": "Face Reformer — Monopolární RF",
+      "tag": "RF Lifting",
+      "shortDesc": "Neinvazivní monopolární RF přístroj pro zpevnění a lifting pleti s technologií oválného povrchu a kontinuálním chladicím systémem.",
+      "overview": "Radiofrekvenční energie stimuluje obnovu kolagenu v dermis prostřednictvím tepelného účinku. Volnewmer je nejneinvazivnější estetický přístroj, který kombinuje lifting a zpevnění pleti a nabízí bezpečné, inovativní a účinné ošetření s maximálním komfortem.",
+      "mechanism": "Volnewmer využívá monopolární RF energii, která cílí na kolagenové vrstvy a umožňuje kontrolované a bezpečné pronikání energie do hlubších vrstev pokožky. Zajišťuje vyrovnání tónu pleti, zpevnění, zlepšení elasticity a volumetrický lifting. Tento tepelný účinek připomíná restrukturalizaci kolagenu stávajícího kolagenu a stimuluje tvorbu nového kolagenu. Volnewmer, navržený pro účinné výsledky ošetření obličeje a těla, zajišťuje stabilní přenos energie a díky kontinuálnímu chladicímu systému poskytuje maximální účinek a zároveň vyšší komfort pacienta. Oválný povrch aplikátoru zajišťuje rovnoměrné rozložení tepelné energie po celém povrchu aplikátoru.",
+      "modalities": [
+        "Monopolární RF — Long Pass radiofrekvenčnost, vysoký a bezpečný rozsah RF",
+        "Oválný povrch — stabilní energie přes aplikátor se zakřiveným povrchem",
+        "Technologie Hidden Edge Tip — potlačení vedlejších účinků",
+        "Systém detekce impedance — monitorování kontaktu v reálném čase",
+        "Kontinuální chladicí systém — zabraňuje popáleninám epidermis",
+        "4 možnosti kartridží — I, F, V, S TIP pro obličej a tělo"
+      ],
+      "indications": [
+        "Zpevnění a lifting pleti", "Modelování obličeje", "Redukce pórů",
+        "Redukce vrásek", "Ošetření povrchu pleti", "Redukce podbradku",
+        "Vyhlazení jemných vrásek"
+      ],
+      "specs": [
+        { "label": "Technologie", "value": "Monopolární Long Pass RF" },
+        { "label": "Kartridže", "value": "I TIP 0,25 / F TIP 3,0 / V TIP 4,0 / S TIP 16,0" },
+        { "label": "Cílové oblasti", "value": "Obličej a tělo" },
+        { "label": "Bezpečnostní funkce", "value": "Detekce impedance v reálném čase, automatické vypnutí energie" },
+        { "label": "Chlazení", "value": "Kontinuální integrované chlazení" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Long Pass radiofrekvenčnost — oválný povrch", "description": "Volnewmer využívá monopolární RF energii cílící na vrstvy bohaté na kolagen pro kontrolované, bezpečné hluboké pronikání. Oválný povrch aplikátoru zajišťuje rovnoměrné rozložení tepelné energie přes dermis — vyrovnává tón pleti, zpevňuje, zlepšuje elasticitu a volumetrický lifting." },
+        { "title": "Hidden Edge Tip — potlačení vedlejších účinků", "description": "Na rozdíl od konkurentů s plochým povrchem, kteří koncentrují energii na okrajích způsobující přehřátí, zakřivené okraje Volnewmeru snižují přehřátí a minimalizují vedlejší účinky. Oválný kontaktní design zajišťuje rovnoměrné rozložení tepelné energie v dermis." },
+        { "title": "4 možnosti kartridží", "description": "I TIP 0,25 (oblast očí) · F TIP 3,0 (obličej) · V TIP 4,0 (obličej a tělo) · S TIP 16,0 (tělo). Každý typ kartridže je navržen tak, aby umožnil personalizované ošetření obličeje a těla podle individuálních potřeb." },
+        { "title": "Přenos tepelné RF energie do dermální vrstvy", "description": "Udržuje nízkou úroveň bolesti i při vysokých energiích. Poskytuje rovnoměrné rozložení RF energie na povrchu, eliminuje negativní účinky na epidermis. Termální zobrazení FLIR potvrzuje konzistentní a rozšiřující se tepelné zóny v průběhu 15–60sekundových intervalů ošetření." }
+      ]
     },
     "curas": {
-      "shortDesc": "Q-switched Nd:YAG laser nové generace s vlnovými délkami 1064 nm a 532 nm pro odstranění tetování, pigmentaci a omlazení pleti."
+      "name": "CURAS",
+      "subtitle": "Q-Switched Nd:YAG laser",
+      "tag": "Laser / Pigment",
+      "shortDesc": "Q-switched Nd:YAG laser nové generace s vlnovými délkami 1064 nm a 532 nm pro odstranění tetování, pigmentaci a omlazení pleti.",
+      "overview": "Nový Curas je laserový systém Q-switched Nd:YAG nové generace, který díky vylepšenému výkonu vlnové délky 532 nm a 1064 nm dokáže přenášet energii stabilně a řízeně od povrchu pokožky do jejích nejhlubších vrstev.",
+      "mechanism": "Přístroj poskytuje vysokou energetickou stabilitu a jako jediná platforma Q-switched Nd:YAG umožňuje odstranění všech pigmentových lézí a barev tetování současně při vlnových délkách 1064/532 nm s energií až 1,3 J. Laser emituje krátké, vysoce výkonné energetické pulzy zaměřené na ošetřovanou oblast. Pomocí Q-switched pulzů zvyšuje účinnost a zároveň minimalizuje nežádoucí účinky, jako je PIH (postinflamatorní hyperpigmentace) nebo přehřátí pokožky. Čočka Zoom-MLA produkuje 85 stabilních bodových impulzů; intenzita může být nastavena od hluboké dermis (L15), střední dermis (L25) až po povrchovou dermis (L35), čímž minimalizuje tepelný účinek na pokožku.",
+      "modalities": [
+        "1064 nm Q-Switched Nd:YAG — cílení na hlubokou tkáň",
+        "532 nm Q-Switched Nd:YAG — povrchová korekce pigmentace",
+        "DOE Handpiece 5×5 — ošetření v mřížce 5×5 mm s 48 mikropaprsky",
+        "Zoom-Collimation Handpiece — nastavitelné intervaly 1 mm, pulzy 2–10 mm",
+        "Zoom-MLA Handpiece — 85 stabilních bodových impulzů, víceúrovňová energie",
+        "Režim A6 / K6 — nové režimy pro pravidelný přenos pulzů během ošetření"
+      ],
+      "indications": [
+        "Odstranění tetování", "Pigmentové léze", "Melasma", "Soft Peeling",
+        "Zahušťování řas", "Plísňové onemocnění nehtů", "Sluneční a stařecké skvrny", "Tonizace pleti",
+        "Léze epidermis", "Dermální léze", "Uhlíkový peeling",
+        "Omlazení pleti", "Beckerův névus", "Odstranění pih"
+      ],
+      "specs": [
+        { "label": "Vlnové délky", "value": "1064 nm / 532 nm" },
+        { "label": "Technologie", "value": "Q-Switched Nd:YAG" },
+        { "label": "Max. energie", "value": "1,3 J" },
+        { "label": "Handpiecey", "value": "DOE 5×5, Zoom-Collimation, Zoom-MLA" },
+        { "label": "Pulzní režim", "value": "A6 / K6" },
+        { "label": "Čočky", "value": "DOE čočka, MLA čočka" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Hloubka průniku duální vlnové délky — 1064 nm vs 532 nm", "description": "1064 nm proniká hluboko do dermis pro hluboké pigmentové léze a tetování. 532 nm (vylepšený režim K6, 30 µs) cílí na povrchovou pigmentaci se 6 energetickými vlnami pro stabilnější a rovnoměrnější ošetření." }
+      ],
+      "handpieces": [
+        {
+          "title": "DOE Handpiece 5×5",
+          "description": "DOE handpiece 5×5 umožňuje ošetření s minimálním poškozením kůže a vytváří 48 mikropaprsků v oblasti 5×5 mm². Ideální pro omlazení pleti, ošetření pórů, zpevnění pleti, povrchové vrásky a melasmu.",
+          "specs": [
+            { "label": "Mřížka", "value": "5×5 mm², 48 mikropaprsků" },
+            { "label": "Typ čočky", "value": "DOE čočka — rovnoměrné rozložení energie" },
+            { "label": "Indikace", "value": "Omlazení pleti, ošetření pórů, zpevnění pleti, povrchové vrásky, melasma" }
+          ]
+        },
+        {
+          "title": "Zoom-Collimation Handpiece",
+          "description": "Handpiece s nastavitelnými intervaly 1 mm a přesnými pulzy s fokusací v rozsahu 2–10 mm. Vhodný pro epidermální pigmentaci, odstranění tetování, epilaci, uhlíkový peeling, lentigo a pihy.",
+          "specs": [
+            { "label": "Rozsah fokusace", "value": "2–10 mm" },
+            { "label": "Interval", "value": "Nastavitelný v krocích po 1 mm" },
+            { "label": "Indikace", "value": "Epidermální pigmentace, odstranění tetování, epilace, uhlíkový peeling, lentigo, pihy" }
+          ]
+        },
+        {
+          "title": "Zoom-MLA Handpiece",
+          "description": "Kolimované uspořádání pole mikropaprsků produkuje 85 stabilních bodových impulzů. Intenzita se přizpůsobuje od hluboké dermis (L15) přes střední dermis (L25) až po povrchovou dermis (L35), čímž minimalizuje tepelný účinek na pokožku.",
+          "specs": [
+            { "label": "L15", "value": "Hluboká dermis" },
+            { "label": "L25", "value": "Střední dermis" },
+            { "label": "L35", "value": "Povrchová dermis" },
+            { "label": "Indikace", "value": "Omlazení pleti, léčba melasmy, zlepšení tónu pleti" }
+          ]
+        }
+      ]
     },
     "secret-rf": {
-      "shortDesc": "Pokročilá bipolární mikrojehličková RF technologie dodávající přesně řízenou RF energii do cílených dermálních hloubek od 0,5 do 3,5 mm."
+      "name": "SECRET RF",
+      "subtitle": "Frakční mikrojehličkové + kanylové RF",
+      "tag": "Frakční RF",
+      "shortDesc": "Pokročilá bipolární mikrojehličková RF technologie dodávající přesně řízenou RF energii do cílených dermálních hloubek od 0,5 do 3,5 mm.",
+      "overview": "Secret RF je vysoce výkonný přístroj, který přenáší přesně řízenou RF energii do správné hloubky pokožky s minimální rekonvalescencí. Díky neisolovaným jehličkám stimuluje jak povrchové, tak hluboké vrstvy pokožky a zároveň umožňuje rozsáhlou remodelaci v hlubší dermis. Nezpůsobuje popáleniny epidermis — působí pouze tepelným efektem.",
+      "mechanism": "Secret RF využívá duální přesnou RF technologii 2 MHz, která minimalizuje poškození epidermis a poskytuje synergický účinek. Přesné jehličky zajišťují hladký, pevný a silný povrch, zatímco RF energie (v hloubce 0,5–3,5 mm) indukuje subdermální tepelnou koagulaci v hlubokých dermálních vrstvách, která aktivuje fibroblasty a tvoří nový kolagen. Tento proces podporuje remodelaci povrchové a hluboké vrstvy pokožky a její regeneraci s minimální rekonvalescencí. Technologie je vhodná pro všechny typy pleti. Minimální nepohodlí a přesná termolýza — přesné jehličky zajišťují rovnoměrné vedení energie a cílené zahřívání bez poškození okolní tkáně.",
+      "modalities": [
+        "Frakční RF — přesná bipolární RF technologie 2 MHz",
+        "MTR-AC-C25 — 25-jehličková semi-izolovaná kartridž, max 25 W",
+        "MTR-AC-C64 — 64-jehličková semi-izolovaná kartridž, max 70 W",
+        "SmartCure (volitelný) — inteligentní elektroporační pero, technologie tepelné koagulace",
+        "Mono-Polar RF — neinvazivní RF 2 MHz pro vrásky, oblast očí a absorpci produktů",
+        "K3i — izolovaná elektrolytická jehla (0,075 mm) pro přesné ošetření kapilár",
+        "AC-01 — jednorázová izolovaná jehla pro remodelaci kolagenu a zlepšení textury",
+        "Kanyla 19G/28G — subdermální dodávání RF pro volumetrické zpevnění a lipolytický účinek"
+      ],
+      "indications": [
+        "Omlazení pleti", "Zpevnění pleti", "Redukce vrásek", "Redukce pórů",
+        "Povrchové cévní léze", "Lifting obličeje", "Akné", "Jizvy po traumatu",
+        "Striae", "Ošetření jemných kapilár", "Periokulární vrásky", "Remodelace kolagenu"
+      ],
+      "specs": [
+        { "label": "RF technologie", "value": "Bipolární frakční 2 MHz" },
+        { "label": "MTR-AC-C25", "value": "25 semi-izolovaných jehliček, 10×10 mm, max 25 W" },
+        { "label": "MTR-AC-C64", "value": "64 semi-izolovaných jehliček, 17,5×17,5 mm, max 70 W" },
+        { "label": "Hloubka jehly", "value": "0,5 – 3,5 mm" },
+        { "label": "Velikost handpieceu", "value": "140 × Ø40 mm" },
+        { "label": "Hmotnost", "value": "205 g (handpiece)" },
+        { "label": "Mono-Polar RF", "value": "2 MHz, neinvazivní, periokulární a čelo" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "handpieces": [
+        {
+          "title": "Mikrojehličkový RF handpiece — kartridže MTR",
+          "description": "Pokročilá bipolární mikrojehličková RF technologie dodává přesně řízenou RF energii do selektivně nastavených hloubek (0,5 mm až 3,5 mm) prostřednictvím nejkvalitnějších medicínských jehliček pro zvýšení účinnosti fotorejuvenace a ošetření jizev na obličeji a těle.",
+          "specs": [
+            { "label": "MTR-AC-C25", "value": "25-jehličková semi-izolovaná kartridž · oblast 10×10 mm · max 25 W · tepelný účinek klesající od hlubších vrstev k povrchu" },
+            { "label": "MTR-AC-C64", "value": "64-jehličková semi-izolovaná kartridž · oblast 17,5×17,5 mm · max 70 W · vysoký tepelný účinek v hlubokých vrstvách pokožky" },
+            { "label": "Rozměry", "value": "140 × Ø40 mm · 205 g" }
+          ]
+        },
+        {
+          "title": "SmartCure — technologie tepelné koagulace (volitelný)",
+          "description": "SmartCure — inteligentní elektroporační pero, které v kombinaci s jednou elektrolytickou jehlou a různými Nokor jehlami umožňuje použití různých technik termokoagulace pro široké spektrum ošetření včetně jemných kapilár, akné, vrásek a jizev.",
+          "specs": [
+            { "label": "K3i", "value": "Izolovaná elektrolytická jehla (0,075 mm) s technologií K3i — přenáší teplo pouze na cílovou cévu bez poškození epidermis nebo okolní tkáně, umožňuje přesné ošetření jemných kapilár" },
+            { "label": "AC-01", "value": "Izolovaná jednorázová jehla — jemně proniká do pokožky, stimuluje tvorbu a remodelaci kolagenu, snižuje vrásky a zlepšuje texturu pleti" },
+            { "label": "Kanyla 19G/28G", "value": "V kombinaci s RF energií na hrotu kanyly — zavedena subdermálně rovnoběžně s epidermis, pohybuje se dopředu a dozadu mezi dermis a podkožními žlázami, poskytuje dlouhotrvající zpevnění a lipolytický účinek" }
+          ]
+        },
+        {
+          "title": "Mono-Polar RF — neinvazivní RF technologie",
+          "description": "Mono-Polar RF je neinvazivní terapeutický režim využívající RF energii 2 MHz. Používá se pro ošetření vrásek v oblasti očí a čela nebo pro podporu absorpce produktů do pokožky — například při aplikaci mezoterapie nebo PRP.",
+          "specs": [
+            { "label": "Frekvence", "value": "2 MHz monopolární RF" },
+            { "label": "Indikace", "value": "Periokulární vrásky, linie čela, podpora absorpce produktů (mezoterapie, PRP)" },
+            { "label": "Režim", "value": "Neinvazivní povrchové ošetření" }
+          ]
+        }
+      ]
     },
     "secret-duo": {
-      "shortDesc": "Kombinuje 1540nm erbium glass laser s mikrojehličkovým RF v jednom přístroji pro synergický neablativní resurfacing a remodelaci pleti."
+      "name": "SECRET DUO",
+      "subtitle": "Er-Glass 1540 nm + mikrojehličkové RF + kanylové RF",
+      "tag": "Duální frakční",
+      "shortDesc": "Kombinuje 1540nm erbium glass laser s mikrojehličkovým RF v jednom přístroji pro synergický neablativní resurfacing a remodelaci pleti.",
+      "overview": "Secret DUO kombinuje dvě pokročilé neablativní technologie v jednom přístroji. Technologie mikrojehličkového RF umožňuje přesnou koagulaci, denaturaci bílkovin a zahřívání hlubokých vrstev — s minimální dobou revalidace a rychlou regenerací. Erbium Glass Laser 1540 nm poskytuje frakční neablativní rejuvenaci pleti a zlepšuje strukturu pleti, jizvy a stimulaci kolagenu.",
+      "mechanism": "Skenovací handpiece 1540nm laseru poskytuje individualizovanou energii podle typu a stavu pleti. Neablativní frakční laserový paprsek je přenášen do dermis ve formě více sloupců a zaměřen především na obsah vody v dermální vrstvě. To stimuluje zahřívání kolagenu a remodelaci dermis, přičemž se zamezuje jakémukoli ablativnímu účinku na epidermis. Ve srovnání s ablativními lasery poskytuje rychlejší regeneraci pokožky a méně vedlejších účinků po ošetření. Kombinace obou technologií poskytuje mimořádně účinné, přesto šetrné omlazení pleti s minimální rekonvalescencí.",
+      "modalities": [
+        "Erbium Glass Laser 1540 nm — neablativní frakční fotothermolýza",
+        "Mikrojehličkové RF — bipolární frakční RF, hloubka 0,5–3,5 mm",
+        "MTR-AC-C25 — 25-jehličková semi-izolovaná kartridž, max 25 W",
+        "MTR-AC-C64 — 64-jehličková semi-izolovaná kartridž, max 70 W",
+        "SmartCure (volitelný) — technologie tepelné koagulace",
+        "5 skenovacích režimů — 1×1 až 10×10, rozestupy 0,5–2,0 mm"
+      ],
+      "indications": [
+        "Mikrojehličkové RF: lifting a zpevnění pleti, jemné linky a vrásky, povrchové cévní léze, jizvy po akné, redukce pórů, striae, omlazení pleti, atrofické jizvy",
+        "1540nm Er:Glass: neablativní omlazení pleti, aktivní akné, atrofické jizvy, jizvy po úrazu, redukce vrásek, zpevnění pleti, redukce pórů"
+      ],
+      "specs": [
+        { "label": "Vlnová délka laseru", "value": "1540 nm Erbium Glass" },
+        { "label": "RF technologie", "value": "Bipolární mikrojehličkové 2 MHz" },
+        { "label": "Velikosti skenu", "value": "1×1 až 10×10 mm" },
+        { "label": "Hloubka jehly", "value": "0,5 – 3,5 mm" },
+        { "label": "MTR-AC-C25", "value": "25 jehliček, 10×10 mm, max 25 W" },
+        { "label": "MTR-AC-C64", "value": "64 jehliček, 17,5×17,5 mm, max 70 W" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "handpieces": [
+        {
+          "title": "Mikrojehličkový RF handpiece — kartridže MTR",
+          "description": "Pokročilá bipolární mikrojehličková RF technologie dodává přesně řízenou RF energii do selektivně nastavených hloubek (0,5 mm až 3,5 mm) prostřednictvím nejkvalitnějších medicínských jehliček pro zvýšení účinnosti fotorejuvenace a ošetření jizev na obličeji a těle.",
+          "specs": [
+            { "label": "MTR-AC-C25", "value": "25-jehličková semi-izolovaná kartridž · oblast 10×10 mm · max 25 W · tepelný účinek klesající od hlubších vrstev k povrchu" },
+            { "label": "MTR-AC-C64", "value": "64-jehličková semi-izolovaná kartridž · oblast 17,5×17,5 mm · max 70 W · vysoký tepelný účinek v hlubokých vrstvách pokožky" },
+            { "label": "Rozměry", "value": "140 × Ø40 mm · 205 g" }
+          ]
+        },
+        {
+          "title": "SmartCure — technologie tepelné koagulace (volitelný)",
+          "description": "SmartCure — inteligentní elektroporační pero, které v kombinaci s jednou elektrolytickou jehlou a různými Nokor jehlami umožňuje použití různých technik termokoagulace pro široké spektrum ošetření včetně jemných kapilár, akné, vrásek a jizev.",
+          "specs": [
+            { "label": "K3i", "value": "Izolovaná elektrolytická jehla (0,075 mm) s technologií K3i — přenáší teplo pouze na cílovou cévu bez poškození epidermis nebo okolní tkáně, umožňuje přesné ošetření jemných kapilár" },
+            { "label": "AC-01", "value": "Izolovaná jednorázová jehla — jemně proniká do pokožky, stimuluje tvorbu a remodelaci kolagenu, snižuje vrásky a zlepšuje texturu pleti" },
+            { "label": "Kanyla 19G/28G", "value": "V kombinaci s RF energií na hrotu kanyly — zavedena subdermálně rovnoběžně s epidermis, pohybuje se dopředu a dozadu mezi dermis a podkožními žlázami, poskytuje dlouhotrvající zpevnění a lipolytický účinek" }
+          ]
+        }
+      ]
     },
     "ultraformer-iii": {
-      "shortDesc": "HIFU přístroj s přesnými pulzními módy aplikující tepelnou energii do přesně definovaných hloubek pro neinvazivní lifting a konturování těla."
+      "name": "ULTRAFORMER III",
+      "subtitle": "Makro a mikro fokusovaný ultrazvuk",
+      "tag": "HIFU",
+      "shortDesc": "HIFU přístroj s přesnými pulzními módy aplikující tepelnou energii do přesně definovaných hloubek pro neinvazivní lifting a konturování těla.",
+      "overview": "Přístroj HIFU (High-Intensity Focused Ultrasound) využívá přesné pulzní módy, které aplikují tepelnou energii do přesně definovaných hloubek pokožky. Je navržen pro dosažení neinvazivního liftingu a konturování těla s optimálními výsledky.",
+      "mechanism": "Obnova kolagenu v ošetřené tkáni spuštěná technologií HIFU probíhá zahřátím dermální a povrchové svalově-aponeurotické vrstvy (SMAS). Tyto vrstvy procházejí nekrózou — srážením krve, kontrakcí ran a postupnou tvorbou nového kolagenu. Tento proces pomáhá redukovat vrásky a zpevnit pokožku, čímž přispívá k mladšímu vzhledu.",
+      "modalities": [
+        "Makro fokusovaný ultrazvuk — vyšší hustota energie, hlubší průnik",
+        "Mikro fokusovaný ultrazvuk — vysoce koncentrované ultrazvukové paprsky přesně do definovaných hloubek",
+        "7 kartridží pro obličej a tělo",
+        "Multifunkční kartridže s různými hloubkami",
+        "Rychlé a přesné transduktory kartridží"
+      ],
+      "indications": [
+        "Neinvazivní lifting obličeje", "Neinvazivní zpevnění obličeje", "Lifting těla",
+        "Redukce vrásek kolem očí", "Redukce vaků pod očima", "Nasolabální rýhy",
+        "Redukce tuku v oblasti tváří", "Zpevnění podbradku", "Modelování postavy",
+        "Lifting prsou", "Lifting hýždí"
+      ],
+      "specs": [
+        { "label": "Technologie", "value": "Makro a mikro fokusované HIFU" },
+        { "label": "Kartridže", "value": "7 pro obličej a tělo" },
+        { "label": "Hloubky", "value": "1,5 mm / 3,0 mm / 2 mm / 4,5 mm" },
+        { "label": "Frekvence", "value": "10 MHz / 7 MHz / 5,5 MHz / 4 MHz" },
+        { "label": "Hluboké kartridže", "value": "6,0 / 9,0 / 13,0 mm při 2 MHz" },
+        { "label": "Rychlost transduktoru", "value": "2,5× rychlejší než standard" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Mikro fokus", "description": "Kartridž s vysoce koncentrovanými ultrazvukovými paprsky přenáší energii přesně a cíleně do definované hloubky ošetřované oblasti." },
+        { "title": "Makro fokus", "description": "Kartridž s nižší frekvencí, ale vyšší hustotou energie, umožňují hlubší průnik a působení v cílové oblasti." }
+      ]
     },
     "pento": {
-      "shortDesc": "Výkonný laserový systém s duální vlnovou délkou pro permanentní odstranění chloupků a léčbu cévních lézí při vysoké rychlosti."
+      "name": "PENTO",
+      "subtitle": "755nm Alexandrite + 1064nm Nd:YAG laser",
+      "tag": "Laser s duální vlnovou délkou",
+      "shortDesc": "Výkonný laserový systém s duální vlnovou délkou pro permanentní odstranění chloupků a léčbu cévních lézí při vysoké rychlosti.",
+      "overview": "Pento je vysoce účinný systém pro permanentní epilaci a léčbu cévních lézí. Dodává vyšší energetické hladiny při krátkých dobách pulzů a při různých průměrech bodu, čímž zajišťuje přenos energie do hlubokých vrstev pokožky a zvyšuje účinnost ošetření.",
+      "mechanism": "Optimalizovaný výstup pro vysokorychlostní laserovou emisi zajišťuje stabilní výstupní energii. V cirkulárním režimu poskytuje průměr bodu až 24 mm a různé šířky pulzů. Kombinuje výkon, komfort a bezpečnost a poskytuje široké možnosti pro léčbu různých typů lézí. 31gramový Rod se používá pro generování nejsilnějšího a nejstabilnějšího laseru Alexandrite a Nd:YAG. Je to vysoce kvalitní součást používaná v systému. Krátký pulz 3 ms přenáší energii 50 J, přístroj pracuje rychlostí přibližně 2 Hz. Při krátkém pulzu 250 µs dosahuje energie 4,5 J a pracuje rychlostí 10 Hz. Krátká expozice s vysokou energií minimalizuje tepelné účinky na pokožku a zajišťuje rychlé, účinné a kompletní výsledky ošetření.",
+      "modalities": [
+        "755nm Alexandrite laser — 3ms, 50 J při 2 Hz pro epilaci",
+        "1064nm Nd:YAG laser — 3ms, 60 J při 2 Hz pro cévní a hluboké cíle",
+        "31gramový Rod — nejsilnější a nejstabilnější generace laseru Alexandrite a Nd:YAG",
+        "Průměr bodu až 24 mm — cirkulární režim",
+        "GCD (Gas Cooling Device) — systém kryogenního chlazení",
+        "Různé intervaly pulzů: 250 µs – 300 ms"
+      ],
+      "indications": [
+        "Epilace", "Melasma", "Pigmentové léze", "Tonizace pleti", "Zpevnění pleti",
+        "Redukce vrásek", "Cévní léze", "Ošetření bodnutí", "Seboroická keratóza",
+        "Epilace jemných chloupků"
+      ],
+      "specs": [
+        { "label": "Vlnové délky", "value": "755 nm Alexandrite + 1064 nm Nd:YAG" },
+        { "label": "Hmotnost Rodu", "value": "31 gramů" },
+        { "label": "Výkon Alexandrite", "value": "3ms, 50 J @ 2 Hz" },
+        { "label": "Výkon Nd:YAG", "value": "3ms, 60 J @ 2 Hz" },
+        { "label": "Krátký pulz", "value": "250 µs, 4,5 J @ 10 Hz" },
+        { "label": "Velikost bodu", "value": "Až 24 mm průměr" },
+        { "label": "Chlazení", "value": "GCD — Gas Cooling Device" },
+        { "label": "Certifikace", "value": "CE Mark, FDA Approved" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Ideální konstrukce vysokonapěťového zdroje energie", "description": "Vysoce stabilní energie – pokles napětí pod 22 %. Vysoký energetický výstup: Alexandrite 3ms, 50J@2Hz · Nd:YAG 3ms, 60J@2Hz. Maximální bezpečnost, bez nutnosti rekonvalescence, automatická kalibrace, rychlé ošetření." },
+        { "title": "Duální systém vlnových délek", "description": "Optimalizovaný výkon pro vysokorychlostní laserovou oscilaci zajišťuje vysokou stabilitu výstupního výkonu. Díky nízké chybovosti a kulovitému paprsku o průměru až 24 mm nabízí různé šířky pulzů." },
+        { "title": "Odolná konstrukce — 31g Rod", "description": "Technologie přímé rezonance poskytuje stabilní a přesnou energii v integrované komoře Rod, která je navržena jako celek. Zajišťuje bezpečné a vysoce účinné ošetření i po dlouhodobém používání." },
+        { "title": "Vlastnosti — GCD chladicí systém", "description": "Různé intervaly pulzů: 250 µs – 300 ms · Snadné použití díky dotykovému displeji · Rychlý start systému · GCD (Gas Cooling Device) – systém kryogenního chlazení · Volitelné ofukování studeným vzduchem." }
+      ]
     },
     "ncore": {
-      "shortDesc": "Simultánní emise diodové laserové energie 755 nm, 808 nm a 1064 nm do tří různých hloubek pokožky pro účinnou celoroční epilaci."
+      "name": "N.CORE 3D",
+      "subtitle": "Trojitý vlnový diodový laser",
+      "tag": "Diodový laser",
+      "shortDesc": "Simultánní emise diodové laserové energie 755 nm, 808 nm a 1064 nm do tří různých hloubek pokožky pro účinnou celoroční epilaci.",
+      "overview": "Simultánně emituje laserovou energii na vlnových délkách 755 nm, 808 nm a 1064 nm do tří různých hloubek pokožky, čímž poskytuje větší účinnost a umožňuje rychlejší a efektivnější epilaci. Přístroj je navržen pro dosažení nejúčinnějších výsledků a využívá nejnovější a nejmodernější technologie.",
+      "mechanism": "Stabilní safírový kontaktní chladicí systém zajišťuje, že tkáň epidermis není poškozena. Tento systém během přenosu tepelné energie minimalizuje riziko nežádoucích účinků, jako jsou popáleniny, a poskytuje bezpečný průběh ošetření. Tři různé vlnové délky působí stabilně a řízeně v různých hloubkách pokožky — 755 nm pro povrchové, 808 nm pro střední a 1064 nm pro hluboké folikuly. Široká, trvale chladná hlavice zajišťuje pohodlnou aplikaci. Intensive Mode dodává silnou energii do hlubších vrstev pokožky bez čekání a s vysokou rychlostí. Dynamic Mode přenáší energii rovnoměrně a poskytuje jemný a stabilní ohřev.",
+      "modalities": [
+        "755 nm Alexandrite — povrchové vlasové folikuly",
+        "808 nm Dioda — cílení na střední dermis",
+        "1064 nm Nd:YAG — hluboké podkožní folikuly",
+        "Simultánní emise diodového laseru — 3D Epilace",
+        "Duální režim — Intenzivní a Dynamický",
+        "Safírový chladicí aplikátor — kontaktní plocha 11×24 mm"
+      ],
+      "indications": [
+        "Epilace (všechny typy pleti, celoročně)", "Zpevnění pleti",
+        "3D Core Lifting — stimulace kolagenu při 38–40 °C"
+      ],
+      "specs": [
+        { "label": "Vlnové délky", "value": "755 nm + 808 nm + 1064 nm (simultánně)" },
+        { "label": "Max. výkon", "value": "1400 W" },
+        { "label": "Frekvence", "value": "20 Hz" },
+        { "label": "Ošetřovací plocha", "value": "11 × 24 mm" },
+        { "label": "Kontaktní teplota", "value": "5 °C / 0 °C / -5 °C (volitelné)" },
+        { "label": "Chlazení", "value": "Stabilní safírové kontaktní chlazení" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ],
+      "clinicalFeatures": [
+        { "title": "3D Epilace — Tři vlnové délky", "description": "Tři různé vlnové délky působí stabilně a kontrolovaně v různých hloubkách pokožky. 755nm (Alexandrite) pro povrchové folikuly, 808nm (Dioda) pro střední dermis, 1064nm (Nd:YAG) pro hluboké folikuly. Široká a trvale chladná hlavice zajišťuje komfortní použití." },
+        { "title": "Dvojitý režim — Intensive a Dynamic", "description": "Intensive Mode dodává silnou energii do hlubších vrstev pokožky bez čekání a s vysokou rychlostí. Dynamic Mode přenáší energii rovnoměrně a poskytuje jemný a stabilní ohřev. Kombinací obou režimů lze dosáhnout účinného a bezpečného synergického efektu bez nepohodlí." },
+        { "title": "Ošetřovací plocha — Safírový chladicí aplikátor", "description": "Široká ošetřovací plocha 11×24 mm zajišťuje rychlý a efektivní přenos energie. Stabilní safírový chladicí systém chrání pokožku a minimalizuje riziko poškození tkáně. Teplota kontaktu: 5 °C | 0 °C | -5 °C. Dva různé režimy přenosu energie: spoušť a pedál." }
+      ]
     },
     "aquapure-ii": {
-      "shortDesc": "Multifunkční přístroj kombinující mokrou a suchou exfoliaci, mikrofokusovaný microneedling a LED terapii pro komplexní péči o pleť."
+      "name": "AQUAPURE II",
+      "subtitle": "Systém hluboké péče o pleť",
+      "tag": "Hydradermabrasion",
+      "shortDesc": "Multifunkční přístroj kombinující mokrou a suchou exfoliaci, mikrofokusovaný microneedling a LED terapii pro komplexní péči o pleť.",
+      "overview": "AQUAPURE II je multifunkční přístroj pro komplexní péči o pleť obličeje a těla, kombinující mokrou a suchou exfoliaci, mikrofokusovaný microneedling a LED terapii — vše v jednom inovativním systému.",
+      "mechanism": "AQUAPURE II je vybaven pokročilými handpiecemi, které umožňují pronikání regeneračních a antioxidačních látek do hlubokých vrstev epidermis. Díky tomu přístroj zlepšuje hydrataci pokožky, její elasticitu a podporuje proces regenerace kolagenu. Technologie AD Peel odstraňuje odumřelé kožní buňky a hloubkově čistí póry, čímž maximalizuje účinky mikrodermabraze. Malé MF jehličky pronikají do epidermis a cíleně přenášejí aktivní látky, které podporují hydrataci a regeneraci kolagenu. MF microneedling je ideální pro ošetření jizev po akné, vrásek, strií a rozšířených pórů. Terapie LED LightPure kombinuje tři typy světla s různými vlnovými délkami působícími na různé vrstvy epidermis — poskytuje antibakteriální a protizánětlivé účinky a aktivuje zpevňující procesy v pokožce.",
+      "modalities": [
+        "Krok 1 — Diamantový peeling: odstraňuje odumřelé kožní buňky, zlepšuje tón a texturu",
+        "Krok 2 — AD-Peel: čistí póry a dodává hydrataci do hlubokých vrstev pokožky",
+        "Krok 3 — MF Microneedling: dodává živiny přes mikroskopické kanálky, zvyšuje elasticitu",
+        "Krok 4 — LightPure LED: 625nm (anti-aging), 520nm (hydratace), 465nm (antibakteriální)",
+        "Roztoky: S1 PEEL+, S2 SEBO+, S3 REJUVE+, čisticí prostředek Cleansys"
+      ],
+      "indications": [
+        "Peeling", "Výživa pleti", "Čištění pleti", "Uklidnění a hydratace pleti",
+        "Bakteriální čištění pleti", "Vrásky", "Mastná/problematická pleť",
+        "Jemné stopy po akné", "Striae", "Nudná pleť"
+      ],
+      "specs": [
+        { "label": "Kroky ošetření", "value": "4 (Diamantový peeling, AD-Peel, MF Microneedling, LightPure LED)" },
+        { "label": "Vlnové délky LED", "value": "625 nm / 520 nm / 465 nm" },
+        { "label": "Roztoky", "value": "S1 PEEL+, S2 SEBO+, S3 REJUVE+, Cleansys" },
+        { "label": "MF Needling", "value": "Mikrofokusované dodávání mikrojehliček" },
+        { "label": "AD Peeling", "value": "Aqua + Diamantová dermabrase" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ],
+      "clinicalFeatures": [
+        { "title": "AD (Aqua+Diamond) Peeling — metoda dermabraze", "description": "Technologie AD Peel odstraňuje odumřelé kožní buňky a hloubkově čistí póry, čímž maximalizuje účinky mikrodermabraze." },
+        { "title": "MF (mikrofokusovaná) metoda microneedlingu", "description": "Malé jehličky pronikají do epidermis a cíleně přenášejí aktivní látky, které podporují hydrataci a obnovu kolagenu. MF microneedling je ideální pro ošetření jizev po akné, vrásek, strií a rozšířených pórů." },
+        { "title": "LightPure LED terapie — jemná a šetrná metoda", "description": "Kombinuje tři typy světla s různými vlnovými délkami: 625nm (aktivace buněk, zpevnění pleti, anti-aging), 520nm (rovnováha hydratace a kožního mazu), 465nm (antibakteriální, protizánětlivý účinek)." },
+        { "title": "Roztoky — S1 PEEL+, S2 SEBO+, S3 REJUVE+, Cleansys", "description": "S1 PEEL+: odstraňuje odumřelé kožní buňky, exfoliace. S2 SEBO+: odstraňuje přebytečný maz, černé tečky, hydratace. S3 REJUVE+: antioxidanty, vyživuje a zvlhčuje. Cleansys: čisticí roztok pro přístroj." },
+        { "title": "4-krokový protokol ošetření", "description": "Krok 01: Diamantový peeling — zlepšuje tón a strukturu pleti. Krok 02: AD-Peel — čistí póry, dodává hydrataci. Krok 03: MF Mikrojehličky — zvyšuje elasticitu, restrukturalizace epidermis. Krok 04: LightPure — zlepšuje krevní oběh, vyrovnává tón pleti." }
+      ]
     },
     "clatuu-alpha": {
-      "shortDesc": "Pokročilý kryolipolýzový systém s 360° chladicími aplikátory navržený pro redukci tuku a konturování těla s o 20 % silnějším vakuem."
+      "name": "CLATUU ALPHA",
+      "subtitle": "Kryolipolýza",
+      "tag": "Zmrazení tuku",
+      "shortDesc": "Pokročilý kryolipolýzový systém s 360° chladicími aplikátory navržený pro redukci tuku a konturování těla s o 20 % silnějším vakuem.",
+      "overview": "Clatuu Alpha je přístroj pro redukci tuku a tvarování těla, jemuž důvěřují po celém světě. Využívá technologii kryolipolýzy pracující s unikátními chladicími aplikátory přizpůsobenými jednotlivým oblastem těla. Tyto aplikátory jsou přiloženy na oblast a při vyšší úrovni vakua vtahují tukovou tkáň do aplikátoru a postupně ji zmrazují.",
+      "mechanism": "Clatuu Alpha využívá technologii řízeného zmrazování tuku pracující s unikátními chladicími aplikátory přizpůsobenými jednotlivým oblastem těla. Tyto aplikátory jsou přiloženy na oblast a při vyšší úrovni vakua vtahují tukovou tkáň do aplikátoru a postupně ji zmrazují. Chlazení způsobuje poškození struktury tukových buněk a jejich následný rozpad. Poškozené tukové buňky jsou následně eliminovány z těla přirozenými procesy, což vede k viditelnému snížení objemu a zlepšení kontur ošetřované oblasti. Vylepšený systém 360° chlazení přístroje Clatuu Alpha zajišťuje rovnoměrné rozložení chladicí energie po celé délce aplikátoru, umožňuje rychlejší dosažení cílové teploty a zvyšuje účinnost až o 18 %.",
+      "modalities": [
+        "ARC-T — podbradek a další malé oblasti těla",
+        "WING Max — horní a dolní oblast břicha (velká)",
+        "WING — horní a dolní oblast břicha, boky a další velké oblasti",
+        "WING Plus — podpaží, boky, kolena a další malé oblasti",
+        "FLAT Mini — podpaží, boky, kolena a další malé lokální oblasti",
+        "FLAT — břicho a vnitřní stehna",
+        "360° chlazení — rovnoměrné rozložení chladicí energie po celém aplikátoru"
+      ],
+      "indications": [
+        "Redukce podkožního tuku — břicho", "Redukce boků a mileneckých uší",
+        "Konturování vnitřních stehen", "Submentální tuk", "Redukce tuku na pažích",
+        "Tvarování těla po úbytku váhy", "Konturování těla"
+      ],
+      "specs": [
+        { "label": "Technologie", "value": "Kryolipolýza — řízené zmrazování tuku" },
+        { "label": "Chlazení", "value": "360° panelový chladicí systém" },
+        { "label": "Síla vakua", "value": "O 20 % silnější než standardní systémy" },
+        { "label": "Simultánní ošetření", "value": "Dvě oblasti za 40 minut" },
+        { "label": "Aplikátory", "value": "ARC-T, WING Max, WING, WING Plus, FLAT Mini, FLAT" },
+        { "label": "Doba ošetření", "value": "Od 40 minut na oblast" },
+        { "label": "Certifikace", "value": "CE Mark" }
+      ],
+      "clinicalFeatures": [
+        { "title": "Kompletní sada aplikátorů — možnost ošetření dvou oblastí současně", "description": "Clatuu Alpha je vybaven širokou škálou nástavců: WING, WING Plus, WING Max, FLAT, FLAT Mini, ARC-T. Umožňují snadnější a efektivnější ošetření i v náročných oblastech. Dvě oblasti současně za 40 minut." },
+        { "title": "Nastavitelná úroveň vakua a chlazení — 20% silnější vakuum", "description": "Clatuu Alpha disponuje o 20 % silnějším vakuem a umožňuje uživateli bezpečně upravovat jak úroveň sání, tak i intenzitu chlazení. Tím lze ošetření plně přizpůsobit potřebám pacienta." },
+        { "title": "Aplikátory WING, WING Plus, WING Max, FLAT — ošetřované oblasti", "description": "WING: velké oblasti (břicho, boky). WING Plus: menší oblasti (podpaží, kolena). WING Max: velké oblasti (horní a dolní břicho). FLAT: menší lokální oblasti. Každý aplikátor přizpůsoben specifické anatomické oblasti." },
+        { "title": "Technologie 360° chlazení — klinicky ověřená efektivita", "description": "Vylepšený systém 360° chlazení zajišťuje rovnoměrné rozložení chladicí energie po celé délce aplikátoru. FLIR termální zobrazení potvrzuje rovnoměrné chlazení — rychlejší dosažení cílové teploty, efektivita až o 18 % vyšší." },
+        { "title": "Klinické ošetření — rychlá výměna hlavice", "description": "Díky jednoduchému systému 'stiskni a uvolni' umožňuje Clatuu Alpha snadnou výměnu chladicích aplikátorů bez odpojování kabelů. Dvě ramena umožňují simultánní ošetření dvou oblastí za 40 minut." }
+      ]
     }
   },
   "faq": {
