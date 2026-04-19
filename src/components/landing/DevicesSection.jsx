@@ -88,6 +88,7 @@ const devices = [
   },
   {
     id: "ncore",
+    hidden: true,
     name: "N.CORE 3D",
     category: "Diode Laser — Three Wavelengths",
     tag: "Diode Laser",
@@ -139,7 +140,7 @@ export default function DevicesSection() {
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {devices.map((d, i) => (
+          {devices.filter(d => !d.hidden).map((d, i) => (
             <motion.div
               key={d.id}
               initial={{ opacity: 0, y: 30 }}
