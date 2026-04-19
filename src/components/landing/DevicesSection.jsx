@@ -120,7 +120,7 @@ const devices = [
     category: "Cryolipolysis",
     tag: "Fat Freezing",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1393ca4bc_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png",
     shortDesc: "Advanced cryolipolysis system with 360° cooling applicators designed for fat reduction and body contouring with 20% stronger vacuum.",
     highlights: ["360° Cooling", "20% Stronger Vacuum", "Dual-area treat."],
   },

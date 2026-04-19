@@ -678,7 +678,7 @@ const deviceData = {
     name: "CLATUU ALPHA",
     subtitle: "Cryolipolysis",
     tag: "Fat Freezing",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/b972f406f_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png",
     overview: "Clatuu Alpha is a fat reduction and body shaping device that is trusted worldwide. It uses cryolipolysis technology working with unique cooling applicators tailored to individual body areas. These applicators are applied to the area and at a higher vacuum level draw fatty tissue into the applicator and gradually freeze it.",
     modalities: [
       "ARC-T — chin and other small body areas",
