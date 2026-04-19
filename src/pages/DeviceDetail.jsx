@@ -5,6 +5,7 @@ import { ArrowLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "../components/landing/Navbar";
 import Footer from "../components/landing/Footer";
+import { useTranslation } from "react-i18next";
 
 const deviceData = {
   "veloce-4800": {
@@ -739,6 +740,7 @@ const deviceData = {
 };
 
 export default function DeviceDetail() {
+  const { t } = useTranslation();
   const { deviceId } = useParams();
   const device = deviceData[deviceId];
 

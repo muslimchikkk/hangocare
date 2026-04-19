@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun, ShieldCheck, Activity } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/55c097447_generated_image.png";
 
@@ -18,6 +19,7 @@ const DATA_NODES = [
 
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   const scrollToCta = () => {
     document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -74,7 +76,7 @@ export default function HeroSection() {
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm text-xs font-body font-semibold uppercase tracking-widest mb-6 border border-primary/30 bg-primary/10 text-primary">
               
               <ShieldCheck className="w-3.5 h-3.5" />
-              Medical-Grade Aesthetic Technology
+              {t("hero.badge")}
             </motion.div>
 
             <div className="mb-6">
@@ -82,21 +84,19 @@ export default function HeroSection() {
             </div>
 
             <h1 className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold leading-tight text-foreground/90">
-              Clinical-Grade{" "}
-              <span className="text-primary">Aesthetic Devices</span>{" "}
-              for Medical Professionals
+              {t("hero.tagline")}
             </h1>
 
             <p className="mt-6 text-base lg:text-lg font-body font-light text-foreground/60 leading-relaxed max-w-lg">
-              A portfolio of twelve clinically validated, CE-certified aesthetic platforms — covering laser epilation, skin rejuvenation, fractional resurfacing, RF lifting, cryolipolysis, and HIFU body contouring. Backed by peer-reviewed evidence and designed for dermatologists and aesthetic physicians.
+              {t("hero.description")}
             </p>
 
             {/* Clinical stats */}
             <div className="mt-8 grid grid-cols-3 gap-4 border-t border-foreground/10 pt-8">
               {[
-              { value: "12", label: "Clinical Platforms" },
-              { value: "CE", label: "Certified Devices" },
-              { value: "0", label: "Downtime Required" }].
+              { value: "12", label: t("hero.stat_devices") },
+              { value: "CE", label: t("hero.stat_certified") },
+              { value: "0", label: t("hero.stat_downtime") }].
               map((stat) =>
               <div key={stat.label}>
                   <p className="font-display text-2xl font-bold text-primary">{stat.value}</p>
@@ -111,7 +111,7 @@ export default function HeroSection() {
                 onClick={() => document.getElementById("devices")?.scrollIntoView({ behavior: "smooth" })}
                 className="bg-primary hover:bg-primary/90 text-white font-body font-semibold rounded-sm px-8 h-14 text-base">
                 
-                View Device Portfolio
+                {t("hero.cta_portfolio")}
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
               <Button
@@ -120,17 +120,17 @@ export default function HeroSection() {
                 onClick={scrollToCta}
                 className="font-body font-medium rounded-sm px-8 h-14 text-base bg-transparent border-primary/40 text-primary">
                 
-                Contact Us
+                {t("hero.cta_contact")}
               </Button>
             </div>
 
             {/* Modality tags */}
             <div className="mt-10 flex flex-wrap gap-4">
               {[
-              { icon: Droplets, label: "LASER EPILATION" },
-              { icon: Sparkles, label: "HIFU / MMFU" },
-              { icon: Sun, label: "FRACTIONAL RF" },
-              { icon: Activity, label: "CRYOLIPOLYSIS" }].
+              { icon: Droplets, label: t("hero.tag_epilation") },
+              { icon: Sparkles, label: t("hero.tag_hifu") },
+              { icon: Sun, label: t("hero.tag_rf") },
+              { icon: Activity, label: t("hero.tag_cryo") }].
               map(({ icon: IconComp, label }) =>
               <div key={label} className="flex items-center gap-2 text-xs font-body rounded-sm px-3 py-1.5 text-primary/80 border border-primary/20 bg-white/60">
                   <IconComp className="w-3.5 h-3.5 text-primary" />
@@ -189,12 +189,12 @@ export default function HeroSection() {
                 className="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-sm p-3 flex items-center gap-3 border border-primary/20">
                 
                 <div className="w-12 h-12 rounded-sm flex items-center justify-center shrink-0 bg-primary/10 border border-primary/25">
-                  <span className="font-display text-lg font-bold leading-none text-center text-primary">12<br /><span className="text-[10px] font-body font-normal text-foreground/50">Devices</span></span>
+                  <span className="font-display text-lg font-bold leading-none text-center text-primary">12<br /><span className="text-[10px] font-body font-normal text-foreground/50">{t("hero.badge_devices")}</span></span>
                 </div>
                 <div>
-                  <p className="text-[10px] font-body text-foreground/40 uppercase tracking-widest">by Cluederm</p>
-                  <p className="text-sm font-display font-bold text-foreground">Complete Clinical <span className="text-primary">Platform</span></p>
-                  <p className="text-[10px] font-body uppercase tracking-wider text-primary">Full Aesthetic Portfolio</p>
+                  <p className="text-[10px] font-body text-foreground/40 uppercase tracking-widest">{t("hero.badge_by")}</p>
+                  <p className="text-sm font-display font-bold text-foreground">{t("hero.badge_platform")}</p>
+                  <p className="text-[10px] font-body uppercase tracking-wider text-primary">{t("hero.badge_full")}</p>
                 </div>
               </motion.div>
             </div>

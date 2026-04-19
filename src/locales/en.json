@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "devices": "Devices",
+    "faq": "FAQ",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "badge": "Medical-Grade Aesthetic Technology",
+    "tagline": "Clinical-Grade Aesthetic Devices for Medical Professionals",
+    "description": "A portfolio of twelve clinically validated, CE-certified aesthetic platforms — covering laser epilation, skin rejuvenation, fractional resurfacing, RF lifting, cryolipolysis, and HIFU body contouring. Backed by peer-reviewed evidence and designed for dermatologists and aesthetic physicians.",
+    "stat_devices": "Clinical Platforms",
+    "stat_certified": "Certified Devices",
+    "stat_downtime": "Downtime Required",
+    "cta_portfolio": "View Device Portfolio",
+    "cta_contact": "Contact Us",
+    "tag_epilation": "LASER EPILATION",
+    "tag_hifu": "HIFU / MMFU",
+    "tag_rf": "FRACTIONAL RF",
+    "tag_cryo": "CRYOLIPOLYSIS",
+    "badge_devices": "Devices",
+    "badge_by": "by Cluederm",
+    "badge_platform": "Complete Clinical Platform",
+    "badge_full": "Full Aesthetic Portfolio"
+  },
+  "devices_section": {
+    "label": "Clinical Device Portfolio",
+    "heading": "Elevate Your Clinic with",
+    "heading_highlight": "Premium Technology",
+    "description": "Twelve industry-leading platforms — trusted by aesthetic clinics across Europe. Explore each device and",
+    "description_link": "contact us",
+    "description_end": "to find the right solution for your practice.",
+    "view_details": "View Clinical Details"
+  },
+  "faq": {
+    "label": "FAQ",
+    "heading": "Questions?",
+    "heading_highlight": "Answered.",
+    "items": [
+      {
+        "q": "What is the Cluederm device portfolio?",
+        "a": "Cluederm offers four clinical-grade aesthetic devices: AQUAPURE II (multifunctional face & body hydro system), SECRET DUO (fractional laser + RF), VOLNEWMER (monopolar RF lifting), and SCIZER (HIFU body contouring). Each device targets a distinct set of aesthetic concerns, allowing clinics to offer a complete non-invasive treatment menu."
+      },
+      {
+        "q": "What does AQUAPURE II do?",
+        "a": "AQUAPURE II is an 8-in-1 face and body treatment system. It combines AQUAPEEL deep exfoliation and extraction, ELECTROPORATION for transdermal delivery and skin whitening, MICRO-CURRENT facial lifting, and COOLING/HEATING skin relaxation. It delivers immediate visible results from the very first session and is suitable for all skin types."
+      },
+      {
+        "q": "What is SECRET DUO and who is it for?",
+        "a": "SECRET DUO combines two non-ablative fractional technologies: micro-needle RF for deep dermal remodeling and collagen induction, and a 1540nm erbium glass laser for skin resurfacing and pigment correction. Both can be used independently or together for customized treatment protocols with significantly reduced downtime compared to ablative lasers."
+      },
+      {
+        "q": "How does VOLNEWMER tighten the skin?",
+        "a": "VOLNEWMER uses monopolar radiofrequency energy delivered via a curved surface tip to safely heat the deep dermis and stimulate collagen remodeling. Its continuous water cooling system protects the epidermis while delivering high-level RF energy, making it the safest non-invasive option for face and body lifting."
+      },
+      {
+        "q": "What areas can SCIZER treat?",
+        "a": "SCIZER uses powerful HIFU ultrasound energy to permanently destroy subcutaneous fat cells in areas such as the abdomen, lower abdomen, flanks, and love handles. Its Slim D13 handpiece reaches 13mm depth for effective body contouring without surgery, downtime, or discomfort."
+      },
+      {
+        "q": "Are these treatments safe for all skin types?",
+        "a": "Yes. All four Cluederm devices are designed for diverse skin profiles. AQUAPURE II is suitable for sensitive, acne-prone, and aging skin. SECRET DUO's non-ablative approach minimizes risk across skin tones. VOLNEWMER's cooling system ensures epidermal safety, and SCIZER targets fat tissue without affecting the skin surface."
+      },
+      {
+        "q": "How quickly can patients expect results?",
+        "a": "AQUAPURE II delivers immediate visible radiance after the first session. SECRET DUO and VOLNEWMER show progressive improvement over 4–6 sessions as collagen remodeling occurs. SCIZER results typically appear within 8–12 weeks as the body naturally clears destroyed fat cells."
+      }
+    ]
+  },
+  "cta": {
+    "label": "For Clinics & Medical Professionals",
+    "heading": "Contact",
+    "heading_highlight": "Us",
+    "description": "Fill in the form and our clinical team will get back to you shortly.",
+    "field_name": "Full Name",
+    "field_name_placeholder": "Dr. Jane Smith",
+    "field_email": "Email",
+    "field_email_placeholder": "doctor@clinic.com",
+    "field_clinic": "Clinic / Practice",
+    "field_clinic_placeholder": "Aesthetic Clinic Prague",
+    "field_message": "Message",
+    "field_message_placeholder": "Tell us about your practice and which devices you're interested in...",
+    "send": "Send Message",
+    "sending": "Sending…",
+    "thank_you": "Thank you!",
+    "thank_you_desc": "We'll be in touch with you shortly."
+  },
+  "footer": {
+    "tagline": "The Ultimate Face & Body Experience. Non-invasive, multifunctional, immediate results.",
+    "technology": "Technology",
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "telephone": "Telephone",
+    "email": "Email",
+    "address": "Address",
+    "copyright": "© 2026 Cluederm. All Rights Reserved. Export Only.",
+    "tagline_bottom": "Non-Invasive · Evidence-Based · Clinical-Grade"
+  },
+  "device_detail": {
+    "back": "Back to Devices",
+    "request_info": "Request Clinical Information",
+    "mechanism": "Mechanism of Action",
+    "key_features": "Key Technology Features",
+    "terminology": "Terminology",
+    "handpieces": "Handpiece Options",
+    "clinical_diagrams": "Clinical Performance Diagrams",
+    "modalities": "Treatment Modalities",
+    "indications": "Clinical Indications",
+    "specs": "Technical Specifications",
+    "request_datasheet": "Request Full Datasheet",
+    "not_found": "Device not found.",
+    "cta_heading": "Interested in {{name}} for Your Practice?",
+    "cta_desc": "Contact our clinical team for a professional demonstration, full technical documentation, and pricing tailored for your clinic.",
+    "cta_button": "Contact Us"
+  },
+  "lang_switcher": {
+    "cs": "Česky",
+    "en": "English"
+  }
+}

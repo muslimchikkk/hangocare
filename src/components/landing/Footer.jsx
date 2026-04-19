@@ -1,5 +1,6 @@
 import React from "react";
 import { Droplets, Phone, Mail, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const techLinks = [
   { label: "AQUAPURE II", slide: 0 },
@@ -14,6 +15,7 @@ const goToSlide = (slide) => {
 };
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-foreground text-background/70 py-16">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -24,12 +26,12 @@ export default function Footer() {
             </div>
             <p className="font-body text-xs text-background/50 mb-4">by Cluederm · Beauty Solution</p>
             <p className="font-body text-sm leading-relaxed">
-              The Ultimate Face & Body Experience. Non-invasive, multifunctional, immediate results.
+              {t("footer.tagline")}
             </p>
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Technology</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">{t("footer.technology")}</h4>
             <ul className="space-y-2 font-body text-sm">
               {techLinks.map(({ label, slide }) => (
                 <li key={label}>
@@ -42,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Solutions</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">{t("footer.solutions")}</h4>
             <ul className="space-y-2 font-body text-sm">
               <li><a href="#solutions" className="hover:text-background transition-colors">PEEL+</a></li>
               <li><a href="#solutions" className="hover:text-background transition-colors">SEBO+</a></li>
@@ -52,26 +54,26 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">Contact</h4>
+            <h4 className="font-body text-sm font-semibold text-background uppercase tracking-wider mb-4">{t("footer.contact")}</h4>
             <ul className="space-y-3 font-body text-sm">
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <div>
-                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Telephone</span>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">{t("footer.telephone")}</span>
                   <a href="tel:+420222224315" className="hover:text-background transition-colors">+420 222 224 315</a>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <div>
-                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Email</span>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">{t("footer.email")}</span>
                   <a href="mailto:sales@hangocare.eu" className="hover:text-background transition-colors">sales@hangocare.eu</a>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <div>
-                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">Address</span>
+                  <span className="block text-xs text-primary font-semibold uppercase tracking-wider mb-0.5">{t("footer.address")}</span>
                   <span className="text-background/70">HanG.O Care s.r.o.<br />K Hajum 2606/2b<br />15500 Česko</span>
                 </div>
               </li>
@@ -81,11 +83,11 @@ export default function Footer() {
 
         <div className="mt-14 pt-8 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-body text-xs text-background/50">
-            © 2026 Cluederm. All Rights Reserved. Export Only.
+            {t("footer.copyright")}
           </p>
           <div className="flex items-center gap-2 font-body text-xs text-background/50">
             <Droplets className="w-3 h-3 text-primary" />
-            Non-Invasive · Evidence-Based · Clinical-Grade
+            {t("footer.tagline_bottom")}
           </div>
         </div>
       </div>

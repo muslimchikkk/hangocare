@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "devices": "Přístroje",
+    "faq": "FAQ",
+    "contact": "Kontaktujte nás"
+  },
+  "hero": {
+    "badge": "Medicínsky certifikovaná estetická technologie",
+    "tagline": "Klinicky ověřené estetické přístroje pro zdravotnické odborníky",
+    "description": "Portfolio dvanácti klinicky validovaných, CE certifikovaných estetických platforem — zahrnující laserovou epilaci, omlazení pleti, frakční resurfacing, RF lifting, kryolipolýzu a HIFU konturování těla. Podloženo recenzovanými důkazy, navrženo pro dermatology a estetické lékaře.",
+    "stat_devices": "Klinické platformy",
+    "stat_certified": "Certifikované přístroje",
+    "stat_downtime": "Rekonvalescence",
+    "cta_portfolio": "Zobrazit portfolio přístrojů",
+    "cta_contact": "Kontaktujte nás",
+    "tag_epilation": "LASEROVÁ EPILACE",
+    "tag_hifu": "HIFU / MMFU",
+    "tag_rf": "FRAKČNÍ RF",
+    "tag_cryo": "KRYOLIPOLÝZA",
+    "badge_devices": "Přístroje",
+    "badge_by": "od Cluederm",
+    "badge_platform": "Kompletní klinická platforma",
+    "badge_full": "Kompletní estetické portfolio"
+  },
+  "devices_section": {
+    "label": "Portfolio klinických přístrojů",
+    "heading": "Povyšte svoji kliniku na",
+    "heading_highlight": "prémiovou technologii",
+    "description": "Dvanáct předních platforem — důvěřovaných estetickými klinikami po celé Evropě. Prozkoumejte každý přístroj a",
+    "description_link": "kontaktujte nás",
+    "description_end": "pro nalezení správného řešení pro vaši praxi.",
+    "view_details": "Zobrazit klinické detaily"
+  },
+  "faq": {
+    "label": "FAQ",
+    "heading": "Otázky?",
+    "heading_highlight": "Zodpovězeny.",
+    "items": [
+      {
+        "q": "Co je portfolio přístrojů Cluederm?",
+        "a": "Cluederm nabízí čtyři klinicky ověřené estetické přístroje: AQUAPURE II (multifunkční hydro systém pro obličej a tělo), SECRET DUO (frakční laser + RF), VOLNEWMER (monopolární RF lifting) a SCIZER (HIFU konturování těla). Každý přístroj cílí na specifický okruh estetických indikací."
+      },
+      {
+        "q": "Co dělá AQUAPURE II?",
+        "a": "AQUAPURE II je 8-v-1 ošetřovací systém pro obličej a tělo. Kombinuje hlubokou exfoliaci AQUAPEEL, ELEKTROPORACI pro transdermální dodávání látek a zesvětlení pleti, MIKROKURENT pro lifting obličeje a CHLAZENÍ/OHŘEV pro relaxaci pleti. Poskytuje okamžité viditelné výsledky již po prvním ošetření."
+      },
+      {
+        "q": "Co je SECRET DUO a pro koho je určen?",
+        "a": "SECRET DUO kombinuje dvě neablativní frakční technologie: mikrojehličkové RF pro hlubokou dermální remodelaci a indukci kolagenu, a 1540nm erbium glass laser pro resurfacing pleti a korekci pigmentace. Obě technologie lze použít samostatně nebo v kombinaci s výrazně kratší dobou rekonvalescence."
+      },
+      {
+        "q": "Jak VOLNEWMER zpevňuje pleť?",
+        "a": "VOLNEWMER využívá monopolární radiofrekvenční energii přenášenou zakřivenou špičkou k bezpečnému zahřátí hlubokého dermis a stimulaci remodelace kolagenu. Kontinuální chladicí systém chrání epidermis při dodávání vysoké RF energie, čímž se stává nejbezpečnější neinvazivní možností pro lifting obličeje a těla."
+      },
+      {
+        "q": "Jaké oblasti může SCIZER ošetřovat?",
+        "a": "SCIZER využívá výkonnou HIFU ultrazvukovou energii k trvalé destrukci podkožních tukových buněk v oblastech jako je břicho, dolní břicho, boky a milenecké uši. Rukavice Slim D13 dosahuje hloubky 13 mm pro efektivní konturování těla bez operace, rekonvalescence nebo nepohodlí."
+      },
+      {
+        "q": "Jsou tato ošetření bezpečná pro všechny typy pleti?",
+        "a": "Ano. Všechny čtyři přístroje Cluederm jsou navrženy pro různé typy pleti. AQUAPURE II je vhodný pro citlivou, akné náchylnou a stárnoucí pleť. Neablativní přístup SECRET DUO minimalizuje riziko pro různé odstíny pleti. Chladicí systém VOLNEWMERU zajišťuje bezpečnost epidermis a SCIZER cílí na tukovou tkáň bez ovlivnění povrchu kůže."
+      },
+      {
+        "q": "Jak rychle mohou pacienti očekávat výsledky?",
+        "a": "AQUAPURE II přináší okamžitý viditelný lesk po první relaci. SECRET DUO a VOLNEWMER vykazují postupné zlepšení po 4–6 sezeních s probíhající remodelací kolagenu. Výsledky SCIZERU se typicky projeví do 8–12 týdnů, jak tělo přirozeně odstraňuje zničené tukové buňky."
+      }
+    ]
+  },
+  "cta": {
+    "label": "Pro kliniky a zdravotnické odborníky",
+    "heading": "Kontaktujte",
+    "heading_highlight": "nás",
+    "description": "Vyplňte formulář a náš klinický tým vás brzy zkontaktuje.",
+    "field_name": "Celé jméno",
+    "field_name_placeholder": "MUDr. Jana Nováková",
+    "field_email": "E-mail",
+    "field_email_placeholder": "doktor@klinika.cz",
+    "field_clinic": "Klinika / Praxe",
+    "field_clinic_placeholder": "Estetická klinika Praha",
+    "field_message": "Zpráva",
+    "field_message_placeholder": "Napište nám o vaší praxi a přístrojích, o které máte zájem...",
+    "send": "Odeslat zprávu",
+    "sending": "Odesílání…",
+    "thank_you": "Děkujeme!",
+    "thank_you_desc": "Brzy vás kontaktujeme."
+  },
+  "footer": {
+    "tagline": "Ultimátní zážitek pro obličej a tělo. Neinvazivní, multifunkční, okamžité výsledky.",
+    "technology": "Technologie",
+    "solutions": "Řešení",
+    "contact": "Kontakt",
+    "telephone": "Telefon",
+    "email": "E-mail",
+    "address": "Adresa",
+    "copyright": "© 2026 Cluederm. Všechna práva vyhrazena. Pouze pro export.",
+    "tagline_bottom": "Neinvazivní · Podloženo důkazy · Klinická úroveň"
+  },
+  "device_detail": {
+    "back": "Zpět na přístroje",
+    "request_info": "Vyžádat klinické informace",
+    "mechanism": "Mechanismus účinku",
+    "key_features": "Klíčové technologické vlastnosti",
+    "terminology": "Terminologie",
+    "handpieces": "Možnosti handpieců",
+    "clinical_diagrams": "Klinické výkonnostní diagramy",
+    "modalities": "Ošetřovací modality",
+    "indications": "Klinické indikace",
+    "specs": "Technické specifikace",
+    "request_datasheet": "Vyžádat kompletní datasheet",
+    "not_found": "Přístroj nenalezen.",
+    "cta_heading": "Máte zájem o {{name}} pro vaši praxi?",
+    "cta_desc": "Kontaktujte náš klinický tým pro profesionální demonstraci, kompletní technickou dokumentaci a individuální nacenění pro vaši kliniku.",
+    "cta_button": "Kontaktujte nás"
+  },
+  "lang_switcher": {
+    "cs": "Česky",
+    "en": "English"
+  }
+}

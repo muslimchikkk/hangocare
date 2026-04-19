@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const devices = [
   {
@@ -127,6 +128,7 @@ const devices = [
 ];
 
 export default function DevicesSection() {
+  const { t } = useTranslation();
   return (
     <section id="devices" className="py-24 lg:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -137,14 +139,14 @@ export default function DevicesSection() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="text-sm font-body font-semibold text-primary uppercase tracking-widest">
-            Clinical Device Portfolio
+            {t("devices_section.label")}
           </span>
           <h2 className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Elevate Your Clinic with{" "}
-            <span className="italic text-primary">Premium Technology</span>
+            {t("devices_section.heading")}{" "}
+            <span className="italic text-primary">{t("devices_section.heading_highlight")}</span>
           </h2>
           <p className="mt-4 text-lg font-body font-light text-muted-foreground">
-            Twelve industry-leading platforms — trusted by aesthetic clinics across Europe. Explore each device and <button onClick={() => document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" })} className="text-primary font-medium underline underline-offset-2 hover:text-primary/80 transition-colors">contact us</button> to find the right solution for your practice.
+            {t("devices_section.description")} <button onClick={() => document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" })} className="text-primary font-medium underline underline-offset-2 hover:text-primary/80 transition-colors">{t("devices_section.description_link")}</button> {t("devices_section.description_end")}
           </p>
         </motion.div>
 
@@ -195,7 +197,7 @@ export default function DevicesSection() {
                   </div>
 
                   <div className="mt-4 flex items-center gap-1 text-xs font-body font-semibold text-primary group-hover:gap-2 transition-all">
-                    View Clinical Details
+                    {t("devices_section.view_details")}
                     <ArrowRight className="w-3.5 h-3.5" />
                   </div>
                 </div>

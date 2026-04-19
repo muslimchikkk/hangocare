@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Navbar() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -13,9 +16,9 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "Devices", id: "devices" },
-    { label: "FAQ", id: "faq" },
-    { label: "Contact Us", id: "cta" },
+    { label: t("nav.devices"), id: "devices" },
+    { label: t("nav.faq"), id: "faq" },
+    { label: t("nav.contact"), id: "cta" },
   ];
 
   const scrollTo = (id) => {
@@ -54,6 +57,7 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
+            <LanguageSwitcher />
           </div>
 
           <button
