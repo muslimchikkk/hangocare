@@ -74,7 +74,7 @@ const devices = [
     category: "Macro & Micro Focused Ultrasound",
     tag: "HIFU",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3774e8b6f_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2f872d977_ChatGPTImageApr20202611_25_24PM.png",
     highlights: ["Micro & Macro HIFU", "7 cartridges", "Face & Body"],
   },
   {
