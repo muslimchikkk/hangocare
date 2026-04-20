@@ -83,7 +83,7 @@ const devices = [
     category: "755nm Alexandrite + 1064nm Nd:YAG Laser",
     tag: "Dual Wavelength Laser",
     color: "bg-amber-50 border-amber-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/41a13b890_generated_image.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf5734eb9_ChatGPTImageApr20202611_17_01PM.png",
     highlights: ["755nm + 1064nm", "31g Rod", "FDA Approved"],
   },
   {
