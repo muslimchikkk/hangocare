@@ -20,7 +20,7 @@ const devices = [
     category: "Bidirectional Circular & Linear Pulse",
     tag: "MMFU / HIFU",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/e3e25ae32_ChatGPTImageApr20202610_45_12PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/617caf10f_ChatGPTImageApr20202611_12_44PM.png",
     highlights: ["MMFU", "Ultra-Booster", "10 cartridges"],
   },
   {
