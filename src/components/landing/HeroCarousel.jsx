@@ -16,7 +16,7 @@ const devices = [
   { id: "clatuu-alpha", name: "CLATUU ALPHA", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png" },
 ];
 
-const INTERVAL = 3000;
+const INTERVAL = 5000;
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);
@@ -31,7 +31,7 @@ export default function HeroCarousel() {
   const device = devices[current];
 
   return (
-    <div className="relative w-full max-w-lg mx-auto">
+    <div className="relative w-full max-w-xs mx-auto">
       {/* Border frame accent */}
       <div className="absolute -inset-[1px] rounded-lg pointer-events-none z-10" style={{ background: 'linear-gradient(to bottom right, hsl(175,35%,30%,0.35), transparent, hsl(175,35%,30%,0.15))' }} />
 
@@ -48,14 +48,14 @@ export default function HeroCarousel() {
       />
 
       {/* Image area */}
-      <Link to={`/devices/${device.id}`} className="block relative rounded-lg overflow-hidden bg-white/60 aspect-[4/5]">
+      <Link to={`/devices/${device.id}`} className="block relative rounded-lg overflow-hidden bg-transparent aspect-[4/5]">
         <AnimatePresence mode="wait">
           <motion.img
             key={device.id}
             src={device.image}
             alt={device.name}
-            className="absolute inset-0 w-full h-full object-contain p-6"
-            style={{ mixBlendMode: "multiply" }}
+            className="absolute inset-0 w-full h-full object-contain p-4"
+            style={{ mixBlendMode: "multiply", background: "transparent" }}
             initial={{ opacity: 0, scale: 1.04 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.97 }}
