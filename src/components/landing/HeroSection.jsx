@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Droplets, Sparkles, Sun, ShieldCheck, Activity } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import HeroCarousel from "./HeroCarousel";
 
 const HERO_WOMEN = "https://media.base44.com/images/public/69be488f616a63ca33a2e564/55c097447_generated_image.png";
 
@@ -140,64 +141,14 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Image */}
+          {/* Carousel */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-            className="order-1 lg:order-2 flex justify-center relative">
+            className="order-1 lg:order-2 flex justify-center relative pb-10">
             
-            <div className="relative w-full max-w-lg">
-              {/* Border frame accent */}
-              <div className="absolute -inset-[1px] rounded-lg pointer-events-none z-10" style={{ background: 'linear-gradient(to bottom right, hsl(175,35%,30%,0.35), transparent, hsl(175,35%,30%,0.15))' }} />
-
-              {/* Corner markers */}
-              {[
-              "top-0 left-0 border-t-2 border-l-2",
-              "top-0 right-0 border-t-2 border-r-2",
-              "bottom-0 left-0 border-b-2 border-l-2",
-              "bottom-0 right-0 border-b-2 border-r-2"].
-              map((cls, i) =>
-              <div
-                key={i}
-                className={`absolute w-6 h-6 z-20 border-primary/60 ${cls}`}
-                style={{ margin: "-1px" }} />
-
-              )}
-
-              {/* Animated glow */}
-              <motion.div
-                animate={{ opacity: [0.3, 0.55, 0.3] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute inset-0 rounded-lg blur-xl scale-105 bg-primary/10" />
-              
-
-              <motion.img src="https://media.base44.com/images/public/69be488f616a63ca33a2e564/f59deb284_Designer__1_.png"
-
-              alt="HanG.O Care — clinical skin treatment results" className="relative w-full rounded-lg shadow-2xl scale-[5]"
-
-              loading="eager"
-              animate={{ y: [0, -6, 0] }}
-              transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }} />
-              
-
-              {/* Info badge */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1, duration: 0.5 }}
-                className="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-sm p-3 flex items-center gap-3 border border-primary/20">
-                
-                <div className="w-12 h-12 rounded-sm flex items-center justify-center shrink-0 bg-primary/10 border border-primary/25">
-                  <span className="font-display text-lg font-bold leading-none text-center text-primary">12<br /><span className="text-[10px] font-body font-normal text-foreground/50">{t("hero.badge_devices")}</span></span>
-                </div>
-                <div>
-                  <p className="text-[10px] font-body text-foreground/40 uppercase tracking-widest">{t("hero.badge_by")}</p>
-                  <p className="text-sm font-display font-bold text-foreground">{t("hero.badge_platform")}</p>
-                  <p className="text-[10px] font-body uppercase tracking-wider text-primary">{t("hero.badge_full")}</p>
-                </div>
-              </motion.div>
-            </div>
+            <HeroCarousel />
           </motion.div>
         </div>
       </div>
