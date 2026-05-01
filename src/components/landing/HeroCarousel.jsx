@@ -16,7 +16,7 @@ const devices = [
   { id: "clatuu-alpha", name: "CLATUU ALPHA", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png" },
 ];
 
-const INTERVAL = 3000;
+const INTERVAL = 6000;
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);
@@ -48,13 +48,13 @@ export default function HeroCarousel() {
       />
 
       {/* Image area */}
-      <Link to={`/devices/${device.id}`} className="block relative rounded-lg overflow-hidden bg-white/60 aspect-[4/5]">
+      <Link to={`/devices/${device.id}`} className="block relative rounded-lg overflow-hidden aspect-[4/5]">
         <AnimatePresence mode="wait">
           <motion.img
             key={device.id}
             src={device.image}
             alt={device.name}
-            className="absolute inset-0 w-full h-full object-contain p-6"
+            className="absolute inset-0 w-full h-full object-contain p-16"
             style={{ mixBlendMode: "multiply" }}
             initial={{ opacity: 0, scale: 1.04 }}
             animate={{ opacity: 1, scale: 1 }}
