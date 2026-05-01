@@ -11,7 +11,7 @@ const devices = [
     category: "Broadband Light Technology",
     tag: "IPL / Broadband Light",
     color: "bg-amber-50 border-amber-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/62aec25f2_ChatGPTImageApr6202609_02_24PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3ada00301_image.png",
     highlights: ["IPDL Technology", "Dual Xenon", "Multi-filter"],
   },
   {

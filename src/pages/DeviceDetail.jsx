@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 // Non-translatable static data (images, structure)
 const deviceMeta = {
   "veloce-4800": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/7f85ed987_ChatGPTImageApr6202609_02_24PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3ada00301_image.png",
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6cf65161f_Screenshot2026-04-05at100514.png"
   },
   "ultraformer-mpt": {
