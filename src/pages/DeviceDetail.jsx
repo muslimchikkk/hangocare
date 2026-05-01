@@ -59,7 +59,7 @@ const deviceMeta = {
 
   },
   "secret-rf": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dcac82341_ChatGPTImageApr19202611_05_55AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5801e9f55_image.png",
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/66b738edd_Screenshot2026-04-11at214958.png",
     handpieceImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/32acb55d5_Screenshot2026-04-11at214710.png",

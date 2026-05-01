@@ -8,7 +8,7 @@ const devices = [
   { id: "fraxis-duo", name: "FRAXIS DUO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png" },
   { id: "volnewmer", name: "VOLNEWMER", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4e3af0373_volnewmer_cut05_.png" },
   { id: "curas", name: "CURAS", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/441ea4734_Gemini_Generated_Image_ficyxzficyxzficy.png" },
-  { id: "secret-rf", name: "SECRET RF", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dcac82341_ChatGPTImageApr19202611_05_55AM.png" },
+  { id: "secret-rf", name: "SECRET RF", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5801e9f55_image.png" },
   { id: "secret-duo", name: "SECRET DUO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png" },
   { id: "ultraformer-iii", name: "ULTRAFORMER III", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a67c1fb91_image.png" },
   { id: "pento", name: "PENTO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf5734eb9_ChatGPTImageApr20202611_17_01PM.png" },

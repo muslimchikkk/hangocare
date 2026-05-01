@@ -56,7 +56,7 @@ const devices = [
     category: "Fractional Microneedle + Cannula RF",
     tag: "Fractional RF",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dcac82341_ChatGPTImageApr19202611_05_55AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5801e9f55_image.png",
     highlights: ["2 MHz RF", "0.5–3.5 mm depth", "FDA Approved"],
   },
   {
