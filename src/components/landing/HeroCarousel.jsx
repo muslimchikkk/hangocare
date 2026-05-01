@@ -31,7 +31,7 @@ export default function HeroCarousel() {
   const device = devices[current];
 
   return (
-    <div className="relative w-full max-w-xs mx-auto">
+    <div className="relative w-full max-w-sm mx-auto">
       {/* Border frame accent */}
       <div className="absolute -inset-[1px] rounded-lg pointer-events-none z-10" style={{ background: 'linear-gradient(to bottom right, hsl(175,35%,30%,0.35), transparent, hsl(175,35%,30%,0.15))' }} />
 
