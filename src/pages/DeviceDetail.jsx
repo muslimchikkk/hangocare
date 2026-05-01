@@ -75,7 +75,7 @@ const deviceMeta = {
 
   },
   "ultraformer-iii": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/2f872d977_ChatGPTImageApr20202611_25_24PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a67c1fb91_image.png",
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/47265081e_Screenshot2026-04-11at215637.png",
     clinicalFeatureImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0eb2e724f_Screenshot2026-04-11at215333.png",
