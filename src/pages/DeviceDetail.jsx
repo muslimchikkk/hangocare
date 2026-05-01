@@ -14,7 +14,7 @@ const deviceMeta = {
     clinicalGraphics: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/6cf65161f_Screenshot2026-04-05at100514.png"
   },
   "ultraformer-mpt": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/617caf10f_ChatGPTImageApr20202611_12_44PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ae26d0b12_image.png",
     clinicalFeatureImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/dc935eb3d_generated_image.png",
