@@ -102,7 +102,7 @@ const devices = [
     category: "Deep Skin Care System",
     tag: "Hydradermabrasion",
     color: "bg-amber-50 border-amber-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0fbca21db_image.png",
     highlights: ["AD Peeling", "MF Microneedling", "LightPure LED"],
   },
   {

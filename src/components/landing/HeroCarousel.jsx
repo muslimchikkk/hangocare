@@ -12,7 +12,7 @@ const devices = [
   { id: "secret-duo", name: "SECRET DUO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a3e43fdf3_secret_duo_2p.png" },
   { id: "ultraformer-iii", name: "ULTRAFORMER III", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a67c1fb91_image.png" },
   { id: "pento", name: "PENTO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f426ee6bb_image.png" },
-  { id: "aquapure-ii", name: "AQUAPURE II", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/564499f98_AcuaPure_25copy.png" },
+  { id: "aquapure-ii", name: "AQUAPURE II", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/0fbca21db_image.png" },
   { id: "clatuu-alpha", name: "CLATUU ALPHA", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png" },
 ];
 
