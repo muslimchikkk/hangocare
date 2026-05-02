@@ -26,7 +26,7 @@ const deviceMeta = {
 
   },
   "fraxis-duo": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d835ba358_image.png",
     handpieceImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/9189daab1_generated_image.png",
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/a79f03270_generated_image.png",

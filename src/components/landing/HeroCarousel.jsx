@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const devices = [
   { id: "veloce-4800", name: "VELOCE 4800", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/3ada00301_image.png" },
   { id: "ultraformer-mpt", name: "ULTRAFORMER MPT", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/ae26d0b12_image.png" },
-  { id: "fraxis-duo", name: "FRAXIS DUO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/fd362d670_ChatGPTImageApr11202611_58_35AM.png" },
+  { id: "fraxis-duo", name: "FRAXIS DUO", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d835ba358_image.png" },
   { id: "volnewmer", name: "VOLNEWMER", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/4e3af0373_volnewmer_cut05_.png" },
   { id: "curas", name: "CURAS", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/441ea4734_Gemini_Generated_Image_ficyxzficyxzficy.png" },
   { id: "secret-rf", name: "SECRET RF", image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/5801e9f55_image.png" },
