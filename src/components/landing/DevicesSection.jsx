@@ -111,7 +111,7 @@ const devices = [
     category: "Cryolipolysis",
     tag: "Fat Freezing",
     color: "bg-stone-50 border-stone-200",
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f0f7eb3f4_image.png",
     highlights: ["360° Cooling", "20% Stronger Vacuum", "Dual-area treat."],
   },
 ];

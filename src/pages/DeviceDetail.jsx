@@ -110,7 +110,7 @@ const deviceMeta = {
 
   },
   "clatuu-alpha": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/cfa646f7c_ChatGPTImageApr19202611_03_52AM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f0f7eb3f4_image.png",
     clinicalFeatureImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/1fe6bf6fb_Screenshot2026-04-11at221356.png",
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d624f40c8_Screenshot2026-04-11at221731.png",
