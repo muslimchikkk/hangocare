@@ -83,7 +83,7 @@ const deviceMeta = {
 
   },
   "pento": {
-    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/bf5734eb9_ChatGPTImageApr20202611_17_01PM.png",
+    image: "https://media.base44.com/images/public/69be488f616a63ca33a2e564/f426ee6bb_image.png",
     clinicalFeatureImages: [
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/d71714e17_Screenshot2026-04-11at215933.png",
     "https://media.base44.com/images/public/69be488f616a63ca33a2e564/afb2d1686_Screenshot2026-04-11at220027.png",
